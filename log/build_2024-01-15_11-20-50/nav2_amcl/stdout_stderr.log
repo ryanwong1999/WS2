@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target pf_lib[0m
+[ 15%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[ 26%] Built target map_lib
+[ 30%] [32m[1mLinking C shared library libpf_lib.so[0m
+[ 50%] Built target pf_lib
+[ 53%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[ 69%] Built target motions_lib
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:[m[K In static member function ‘[01m[Kstatic double nav2_amcl::LikelihoodFieldModelProb::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:120:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_bearing[m[K’ may be used uninitialized in this function [[01;31m[K-Werror=maybe-uninitialized[m[K]
+  120 |       hit.v[0] = pose.v[0] + obs_range * [01;31m[Kcos(pose.v[2] + obs_bearing)[m[K;
+      |                                          [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:132:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ may be used uninitialized in this function [[01;31m[K-Werror=maybe-uninitialized[m[K]
+  132 |         [01;31m[Kz += self->map_->max_occ_dist[m[K;
+      |         [01;31m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [src/sensors/CMakeFiles/sensors_lib.dir/build.make:102：src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:360：src/sensors/CMakeFiles/sensors_lib.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

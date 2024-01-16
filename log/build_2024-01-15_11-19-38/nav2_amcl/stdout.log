@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target pf_lib[0m
+[ 11%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[ 26%] Built target map_lib
+[ 30%] [32m[1mLinking C shared library libpf_lib.so[0m
+[ 50%] Built target pf_lib
+[35m[1mScanning dependencies of target sensors_lib[0m
+[35m[1mScanning dependencies of target motions_lib[0m
+[ 76%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/differential_motion_model.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/laser.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/motion_model.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/beam_model.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/motion_model/CMakeFiles/motions_lib.dir/omni_motion_model.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[ 80%] Built target motions_lib

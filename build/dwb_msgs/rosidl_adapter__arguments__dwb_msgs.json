@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/kgh/ws2/src/navigation2/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

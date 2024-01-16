@@ -1,0 +1,133 @@
+[35m[1mScanning dependencies of target pf_lib[0m
+[ 11%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[ 26%] Built target map_lib
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_alloc[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  105 |   pf[01;31m[K->[m[Ktotal_w = 1; //wyj 2019-10-19
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_init[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:169:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  169 |   pf[01;31m[K->[m[Ktotal_w = 1; //wyj 2019-10-19
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_init_model[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:215:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  215 |   pf[01;31m[K->[m[Ktotal_w = 1; //wyj 2019-10-19
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_update_converged[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:240:10:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Ktotal[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+  240 |   double [01;31m[Ktotal[m[K;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_update_sensor[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:312:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  312 |   pf[01;31m[K->[m[Ktotal_w = total;  //wyj 2019-10-19
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:338:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kw_diff[m[K’
+  338 |     pf[01;31m[K->[m[Kw_diff = 1.0 - pf->w_fast / pf->w_slow; //wyj added
+      |       [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:339:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kw_diff[m[K’
+  339 |     printf("w_diff = %f, w_fast = %f, w_slow = %f\n", pf[01;31m[K->[m[Kw_diff, pf->w_fast, pf->w_slow);
+      |                                                         [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K At top level:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:353:6:[m[K [01;31m[Kerror: [m[Kconflicting types for ‘[01m[Kpf_update_resample[m[K’
+  353 | void [01;31m[Kpf_update_resample[m[K(pf_t * pf, map_t *map_)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:11[m[K:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/include/nav2_amcl/pf/pf.hpp:162:6:[m[K [01;36m[Knote: [m[Kprevious declaration of ‘[01m[Kpf_update_resample[m[K’ was here
+  162 | void [01;36m[Kpf_update_resample[m[K(pf_t * pf);
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_update_resample[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:425:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klost_w_new[m[K’ undeclared (first use in this function)
+  425 |   [01;31m[Klost_w_new[m[K = pf->lost_w;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:425:3:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:425:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Klost_w[m[K’
+  425 |   lost_w_new = pf[01;31m[K->[m[Klost_w;
+      |                  [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:426:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoor_w_new[m[K’ undeclared (first use in this function)
+  426 |   [01;31m[Kpoor_w_new[m[K = pf->poor_w;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:426:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpoor_w[m[K’
+  426 |   poor_w_new = pf[01;31m[K->[m[Kpoor_w;
+      |                  [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:428:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  428 |   if (pf[01;31m[K->[m[Ktotal_w_max < pf->total_w) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:428:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  428 |   if (pf->total_w_max < pf[01;31m[K->[m[Ktotal_w) {
+      |                           [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:429:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  429 |     pf[01;31m[K->[m[Ktotal_w_max = pf->total_w;
+      |       [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:429:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  429 |     pf->total_w_max = pf[01;31m[K->[m[Ktotal_w;
+      |                         [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:432:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  432 |   if (lost_w_new < 0.6*pf[01;31m[K->[m[Ktotal_w_max && pf->total_w_max > pf->lost_w/0.6) {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:432:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  432 |   if (lost_w_new < 0.6*pf->total_w_max && pf[01;31m[K->[m[Ktotal_w_max > pf->lost_w/0.6) {
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:432:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Klost_w[m[K’
+  432 |   if (lost_w_new < 0.6*pf->total_w_max && pf->total_w_max > pf[01;31m[K->[m[Klost_w/0.6) {
+      |                                                               [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:433:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  433 |     lost_w_new = 0.6*pf[01;31m[K->[m[Ktotal_w_max;
+      |                        [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:436:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  436 |   if (poor_w_new < 0.9*pf[01;31m[K->[m[Ktotal_w_max && pf->total_w_max > pf->poor_w/0.9) {
+      |                          [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:436:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  436 |   if (poor_w_new < 0.9*pf->total_w_max && pf[01;31m[K->[m[Ktotal_w_max > pf->poor_w/0.9) {
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:436:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpoor_w[m[K’
+  436 |   if (poor_w_new < 0.9*pf->total_w_max && pf->total_w_max > pf[01;31m[K->[m[Kpoor_w/0.9) {
+      |                                                               [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:437:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  437 |     poor_w_new = 0.9*pf[01;31m[K->[m[Ktotal_w_max;
+      |                        [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:440:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  440 |   if (pf[01;31m[K->[m[Ktotal_w_max > 1.2*pf->total_w) {
+      |         [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:440:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  440 |   if (pf->total_w_max > 1.2*pf[01;31m[K->[m[Ktotal_w) {
+      |                               [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:441:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w_max[m[K’
+  441 |    pf[01;31m[K->[m[Ktotal_w_max = 0;
+      |      [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:447:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpose_x[m[K’
+  447 |   pf[01;31m[K->[m[Kpose_x = set_a->mean.v[0];
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:448:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpose_y[m[K’
+  448 |   pf[01;31m[K->[m[Kpose_y = set_a->mean.v[1];
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:453:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpoor_m[m[K’
+  453 |     double kkk = pf[01;31m[K->[m[Kpoor_m;
+      |                    [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:454:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  454 |     if (pf[01;31m[K->[m[Ktotal_w < lost_w_new || pf->w_diff > pf->poor_wdiff) {
+      |           [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:454:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kw_diff[m[K’
+  454 |     if (pf->total_w < lost_w_new || pf[01;31m[K->[m[Kw_diff > pf->poor_wdiff) {
+      |                                       [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:454:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Kpoor_wdiff[m[K’
+  454 |     if (pf->total_w < lost_w_new || pf->w_diff > pf[01;31m[K->[m[Kpoor_wdiff) {
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:456:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Klost_m[m[K’
+  456 |       kkk = pf[01;31m[K->[m[Klost_m;
+      |               [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:475:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kpf_t[m[K’ {aka ‘[01m[Kstruct _pf_t[m[K’} has no member named ‘[01m[Ktotal_w[m[K’
+  475 |     if((pf[01;31m[K->[m[Ktotal_w < poor_w_new) && (set_b->sample_count < 500*kk)) {
+      |           [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:506:18:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kvalid_map_xy[m[K’ [[01;31m[K-Werror=implicit-function-declaration[m[K]
+  506 |       int vdxy = [01;31m[Kvalid_map_xy[m[K(map_, rx, ry);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:506:11:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kvdxy[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+  506 |       int [01;31m[Kvdxy[m[K = valid_map_xy(map_, rx, ry);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:487:11:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Ksucc[m[K’ set but not used [[01;31m[K-Werror=unused-but-set-variable[m[K]
+  487 |       int [01;31m[Ksucc[m[K = 0;
+      |           [01;31m[K^~~~[m[K
+cc1: all warnings being treated as errors
+make[2]: *** [src/pf/CMakeFiles/pf_lib.dir/build.make:63：src/pf/CMakeFiles/pf_lib.dir/pf.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:278：src/pf/CMakeFiles/pf_lib.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

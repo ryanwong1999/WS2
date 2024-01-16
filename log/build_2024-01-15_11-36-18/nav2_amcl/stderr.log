@@ -1,0 +1,8 @@
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:[m[K In static member function ‘[01m[Kstatic double nav2_amcl::LikelihoodFieldModelProb::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/sensors/laser/likelihood_field_model_prob.cpp:123:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kobs_bearing[m[K’ may be used uninitialized in this function [[01;31m[K-Werror=maybe-uninitialized[m[K]
+  123 |       hit.v[0] = pose.v[0] + obs_range * [01;31m[Kcos(pose.v[2] + obs_bearing)[m[K;
+      |                                          [01;31m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [src/sensors/CMakeFiles/sensors_lib.dir/build.make:102：src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:360：src/sensors/CMakeFiles/sensors_lib.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

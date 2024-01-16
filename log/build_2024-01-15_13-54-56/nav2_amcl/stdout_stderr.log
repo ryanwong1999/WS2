@@ -1,0 +1,24 @@
+[ 50%] Built target map_lib
+[ 50%] Built target pf_lib
+[ 69%] Built target sensors_lib
+[ 84%] Built target motions_lib
+[35m[1mScanning dependencies of target amcl_core[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:[m[K In member function ‘[01m[Kvoid nav2_amcl::AmclNode::laserReceived(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:643:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+  643 |     double secs = [01;31m[Kros[m[K::Time::now().toSec(); // following 4 lines, wyj 2020-04-14
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:646:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knomotion_en_[m[K’ was not declared in this scope
+  646 |     if (([01;31m[Knomotion_en_[m[K == 1) && (m_force_update == 0) && (xxx % nomotion_time_) == 1) {
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:646:33:[m[K [01;31m[Kerror: [m[K‘[01m[Km_force_update[m[K’ was not declared in this scope; did you mean ‘[01m[Kforce_update_[m[K’?
+  646 |     if ((nomotion_en_ == 1) && ([01;31m[Km_force_update[m[K == 0) && (xxx % nomotion_time_) == 1) {
+      |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kforce_update_[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:646:64:[m[K [01;31m[Kerror: [m[K‘[01m[Knomotion_time_[m[K’ was not declared in this scope
+  646 |   if ((nomotion_en_ == 1) && (m_force_update == 0) && (xxx % [01;31m[Knomotion_time_[m[K) == 1) {
+      |                                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/amcl_core.dir/build.make:63：CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:166：CMakeFiles/amcl_core.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

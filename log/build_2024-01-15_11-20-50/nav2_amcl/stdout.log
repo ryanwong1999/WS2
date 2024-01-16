@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target pf_lib[0m
+[ 15%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[ 26%] Built target map_lib
+[ 30%] [32m[1mLinking C shared library libpf_lib.so[0m
+[ 50%] Built target pf_lib
+[ 53%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[ 69%] Built target motions_lib

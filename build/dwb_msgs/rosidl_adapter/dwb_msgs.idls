@@ -1,0 +1,9 @@
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/kgh/ws2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

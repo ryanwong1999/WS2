@@ -1,0 +1,8 @@
+source;share/yzbot_cartographer/hook/cmake_prefix_path.ps1
+source;share/yzbot_cartographer/hook/cmake_prefix_path.dsv
+source;share/yzbot_cartographer/hook/cmake_prefix_path.sh
+source;share/yzbot_cartographer/local_setup.bash
+source;share/yzbot_cartographer/local_setup.dsv
+source;share/yzbot_cartographer/local_setup.ps1
+source;share/yzbot_cartographer/local_setup.sh
+source;share/yzbot_cartographer/local_setup.zsh

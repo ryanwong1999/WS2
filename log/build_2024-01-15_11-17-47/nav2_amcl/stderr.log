@@ -1,0 +1,11 @@
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_update_resample[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:506:11:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kvdxy[m[K’ [[01;31m[K-Werror=unused-variable[m[K]
+  506 |       int [01;31m[Kvdxy[m[K = valid_map_xy(map_, rx, ry);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:487:11:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Ksucc[m[K’ set but not used [[01;31m[K-Werror=unused-but-set-variable[m[K]
+  487 |       int [01;31m[Ksucc[m[K = 0;
+      |           [01;31m[K^~~~[m[K
+cc1: all warnings being treated as errors
+make[2]: *** [src/pf/CMakeFiles/pf_lib.dir/build.make:63：src/pf/CMakeFiles/pf_lib.dir/pf.c.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:278：src/pf/CMakeFiles/pf_lib.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
