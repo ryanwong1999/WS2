@@ -65,6 +65,8 @@ nav2_amcl/pf/pf_vector.hpp
 /home/kgh/ws2/install/nav2_amcl/include/nav2_amcl/pf/nav2_amcl/pf/pf_vector.hpp
 nav2_amcl/pf/pf_kdtree.hpp
 /home/kgh/ws2/install/nav2_amcl/include/nav2_amcl/pf/nav2_amcl/pf/pf_kdtree.hpp
+nav2_amcl/map/map.hpp
+/home/kgh/ws2/install/nav2_amcl/include/nav2_amcl/pf/nav2_amcl/map/map.hpp
 
 /home/kgh/ws2/install/nav2_amcl/include/nav2_amcl/pf/pf_kdtree.hpp
 rtk.h

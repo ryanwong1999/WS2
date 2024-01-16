@@ -1,8 +1,0 @@
-[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:[m[K In member function ‘[01m[Kvoid nav2_amcl::AmclNode::laserReceived(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
-[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/amcl_node.cpp:646:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_update[m[K’ was not declared in this scope; did you mean ‘[01m[Kforce_update_[m[K’?
-  646 |     if ((nomotion_en_ == 1) && ([01;31m[Kforce_update[m[K == 0) && (nowSec % nomotion_time_) == 1) {
-      |                                 [01;31m[K^~~~~~~~~~~~[m[K
-      |                                 [32m[Kforce_update_[m[K
-make[2]: *** [CMakeFiles/amcl_core.dir/build.make:63：CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:166：CMakeFiles/amcl_core.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

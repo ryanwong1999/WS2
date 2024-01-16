@@ -10,6 +10,8 @@
 stdint.h
 -
 
+/home/kgh/ws2/src/navigation2/nav2_amcl/include/nav2_amcl/pf/eig3.hpp
+
 /home/kgh/ws2/src/navigation2/nav2_amcl/include/nav2_amcl/pf/pf.hpp
 nav2_amcl/pf/pf_vector.hpp
 /home/kgh/ws2/src/navigation2/nav2_amcl/include/nav2_amcl/pf/nav2_amcl/pf/pf_vector.hpp
@@ -32,6 +34,10 @@ stdio.h
 
 /home/kgh/ws2/src/navigation2/nav2_amcl/src/include/portable_utils.h
 stdlib.h
+-
+
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/eig3.c
+math.h
 -
 
 /home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c
@@ -71,4 +77,40 @@ nav2_amcl/pf/pf_pdf.hpp
 /home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_pdf.hpp
 nav2_amcl/pf/pf_kdtree.hpp
 /home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_kdtree.hpp
+
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf_kdtree.c
+assert.h
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+nav2_amcl/pf/pf_vector.hpp
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_vector.hpp
+nav2_amcl/pf/pf_kdtree.hpp
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_kdtree.hpp
+
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf_pdf.c
+assert.h
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+nav2_amcl/pf/pf_pdf.hpp
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_pdf.hpp
+portable_utils.h
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/portable_utils.h
+
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf_vector.c
+math.h
+-
+nav2_amcl/pf/pf_vector.hpp
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/pf_vector.hpp
+nav2_amcl/pf/eig3.hpp
+/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/nav2_amcl/pf/eig3.hpp
 

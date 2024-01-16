@@ -1,0 +1,33 @@
+[1.428s] Invoking command in '/home/kgh/ws2/src/yzbot_controller': PYTHONPATH=/home/kgh/ws2/build/yzbot_controller/prefix_override:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yzbot_controller build --build-base /home/kgh/ws2/build/yzbot_controller/build install --record /home/kgh/ws2/build/yzbot_controller/install.log --install-scripts $base/lib/yzbot_controller --single-version-externally-managed
+[1.612s] running egg_info
+[1.612s] creating ../../build/yzbot_controller/yzbot_controller.egg-info
+[1.612s] writing ../../build/yzbot_controller/yzbot_controller.egg-info/PKG-INFO
+[1.612s] writing dependency_links to ../../build/yzbot_controller/yzbot_controller.egg-info/dependency_links.txt
+[1.613s] writing entry points to ../../build/yzbot_controller/yzbot_controller.egg-info/entry_points.txt
+[1.613s] writing requirements to ../../build/yzbot_controller/yzbot_controller.egg-info/requires.txt
+[1.613s] writing top-level names to ../../build/yzbot_controller/yzbot_controller.egg-info/top_level.txt
+[1.613s] writing manifest file '../../build/yzbot_controller/yzbot_controller.egg-info/SOURCES.txt'
+[1.641s] reading manifest file '../../build/yzbot_controller/yzbot_controller.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../build/yzbot_controller/yzbot_controller.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.642s] running build_py
+[1.642s] creating /home/kgh/ws2/build/yzbot_controller/build
+[1.642s] creating /home/kgh/ws2/build/yzbot_controller/build/lib
+[1.642s] creating /home/kgh/ws2/build/yzbot_controller/build/lib/yzbot_controller
+[1.642s] copying yzbot_controller/__init__.py -> /home/kgh/ws2/build/yzbot_controller/build/lib/yzbot_controller
+[1.642s] running install
+[1.642s] running install_lib
+[1.643s] creating /home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages/yzbot_controller
+[1.644s] copying /home/kgh/ws2/build/yzbot_controller/build/lib/yzbot_controller/__init__.py -> /home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages/yzbot_controller
+[1.644s] byte-compiling /home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages/yzbot_controller/__init__.py to __init__.cpython-38.pyc
+[1.645s] running install_data
+[1.646s] creating /home/kgh/ws2/install/yzbot_controller/share/ament_index
+[1.647s] creating /home/kgh/ws2/install/yzbot_controller/share/ament_index/resource_index
+[1.647s] creating /home/kgh/ws2/install/yzbot_controller/share/ament_index/resource_index/packages
+[1.647s] copying resource/yzbot_controller -> /home/kgh/ws2/install/yzbot_controller/share/ament_index/resource_index/packages
+[1.647s] copying package.xml -> /home/kgh/ws2/install/yzbot_controller/share/yzbot_controller
+[1.647s] running install_egg_info
+[1.648s] Copying ../../build/yzbot_controller/yzbot_controller.egg-info to /home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages/yzbot_controller-0.0.0-py3.8.egg-info
+[1.650s] running install_scripts
+[1.667s] writing list of installed files to '/home/kgh/ws2/build/yzbot_controller/install.log'
+[1.916s] Invoked command in '/home/kgh/ws2/src/yzbot_controller' returned '0': PYTHONPATH=/home/kgh/ws2/build/yzbot_controller/prefix_override:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yzbot_controller build --build-base /home/kgh/ws2/build/yzbot_controller/build install --record /home/kgh/ws2/build/yzbot_controller/install.log --install-scripts $base/lib/yzbot_controller --single-version-externally-managed

@@ -1,5 +1,0 @@
-[ 50%] Built target map_lib
-[ 50%] Built target pf_lib
-[35m[1mScanning dependencies of target sensors_lib[0m
-[ 53%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
-[ 69%] Built target motions_lib

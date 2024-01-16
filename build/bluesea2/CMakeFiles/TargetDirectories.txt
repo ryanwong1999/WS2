@@ -1,0 +1,11 @@
+/home/kgh/ws2/build/bluesea2/CMakeFiles/install/strip.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/install/local.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/edit_cache.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/test.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/bluesea_node_client.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/install.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/list_install_components.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/rebuild_cache.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/bluesea2_uninstall.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/bluesea_node.dir
+/home/kgh/ws2/build/bluesea2/CMakeFiles/uninstall.dir

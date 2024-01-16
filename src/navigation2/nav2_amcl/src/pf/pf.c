@@ -27,7 +27,7 @@ map_t *map_;
 // 参数random_pose_fn是一个函数指针，提供了生成随机样本的函数，amcl中使用的是AmclNode::uniformPoseGenerator，即空白区域均匀撒点。
 // 对于参数random_pose_data，是粒子的样本空间， amcl实际使用的是地图对象，即map_。
 pf_t * pf_alloc(
-  int min_samples, int max_samples, double lost_w,double poor_w,double lost_m,double poor_m,
+  int min_samples, int max_samples, double lost_w, double poor_w, double lost_m, double poor_m,
   double poor_wdiff, double alpha_slow, double alpha_fast,
   pf_init_model_fn_t random_pose_fn, void * random_pose_data)
 {
@@ -471,46 +471,47 @@ void pf_update_resample(pf_t * pf, map_t * map_)
     // 当产生的随机数小于w_diff时，将往set_b中随机注入粒子。
     // 当w_diff<0 或者产生的随机数大于等于w_diff时都不注入粒子，
     // 而是从set_a中挑选粒子放进set_b中。
-    // if (drand48() < w_diff) {
-    //   // pf->random_pose_fn为一个函数指针，其返回一个随机位姿
-    //   // amcl中使用的是AmclNode::uniformPoseGenerator，即空白区域均匀撒点。
-    //   sample_b->pose = (pf->random_pose_fn)(pf->random_pose_data);
-    // } else {
-
-    // updated in 2019-10-19
-    if((pf->total_w < poor_w_new) && (set_b->sample_count < 500*kk)) {
-      double rx, ry, rth, min_x, max_x, min_y, max_y, min_th, max_th;
-      // printf("min and max of map x:%f   y:%f ", map_->size_x * map_->scale, map_->size_y * map_->scale);
-      min_x = set_a->mean.v[0] - 0.8 * kkk;
-      max_x = set_a->mean.v[0] + 0.8 * kkk;
-      min_y = set_a->mean.v[1] - 0.8 * kkk;
-      max_y = set_a->mean.v[1] + 0.8 * kkk;
-      if(min_x < 0) min_x = 0.1;
-      if(max_x > map_->size_x * map_->scale) { max_x = map_->size_x * map_->scale-0.1;}
-      if(min_y < 0) min_y = 0.1;
-	    if(max_y > map_->size_y * map_->scale) { max_y = map_->size_y * map_->scale-0.1;}
-
-      rx = min_x + drand48() * (max_x - min_x);
-      ry = min_y + drand48() * (max_y - min_y);
-
-      // 对set_a->mean.v[2]进行限制和调整。使用了pf->poor_th和kk变量，根据他们的值计算出min_th和max_th的范围
-      // min_th和max_th的范围被限制在了set_a->mean.v[2]值附近0.15的范围内
-      if(set_a->mean.v[2] >= 1.0*M_PI)
-        set_a->mean.v[2] = set_a->mean.v[2] - 2.0*M_PI;
-      if(set_a->mean.v[2] <= -1.0*M_PI)
-        set_a->mean.v[2] = set_a->mean.v[2] + 2.0*M_PI;
-      // 22.06.30 hang
-      // min_th = set_a->mean.v[2] - pf->poor_th*kk;
-      // max_th = set_a->mean.v[2] + pf->poor_th*kk;
-      min_th = set_a->mean.v[2] - 0.15;
-      max_th = set_a->mean.v[2] + 0.15;
-
-      rth = min_th + drand48() * (max_th - min_th);
-
-      sample_b->pose.v[0] = rx;
-      sample_b->pose.v[1] = ry;
-      sample_b->pose.v[2] = rth;   
+    if (drand48() < w_diff) {
+      // pf->random_pose_fn为一个函数指针，其返回一个随机位姿
+      // amcl中使用的是AmclNode::uniformPoseGenerator，即空白区域均匀撒点。
+      sample_b->pose = (pf->random_pose_fn)(pf->random_pose_data);
     } else {
+
+    // // updated in 2019-10-19
+    // if((pf->total_w < poor_w_new) && (set_b->sample_count < 500*kk)) {
+    //   double rx, ry, rth, min_x, max_x, min_y, max_y, min_th, max_th;
+    //   // printf("min and max of map x:%f   y:%f ", map_->size_x * map_->scale, map_->size_y * map_->scale);
+    //   min_x = set_a->mean.v[0] - 0.8 * kkk;
+    //   max_x = set_a->mean.v[0] + 0.8 * kkk;
+    //   min_y = set_a->mean.v[1] - 0.8 * kkk;
+    //   max_y = set_a->mean.v[1] + 0.8 * kkk;
+    //   if(min_x < 0) min_x = 0.1;
+    //   if(max_x > map_->size_x * map_->scale) { max_x = map_->size_x * map_->scale-0.1;}
+    //   if(min_y < 0) min_y = 0.1;
+	  //   if(max_y > map_->size_y * map_->scale) { max_y = map_->size_y * map_->scale-0.1;}
+
+    //   rx = min_x + drand48() * (max_x - min_x);
+    //   ry = min_y + drand48() * (max_y - min_y);
+
+    //   // 对set_a->mean.v[2]进行限制和调整。使用了pf->poor_th和kk变量，根据他们的值计算出min_th和max_th的范围
+    //   // min_th和max_th的范围被限制在了set_a->mean.v[2]值附近0.15的范围内
+    //   if(set_a->mean.v[2] >= 1.0*M_PI)
+    //     set_a->mean.v[2] = set_a->mean.v[2] - 2.0*M_PI;
+    //   if(set_a->mean.v[2] <= -1.0*M_PI)
+    //     set_a->mean.v[2] = set_a->mean.v[2] + 2.0*M_PI;
+    //   // 22.06.30 hang
+    //   // min_th = set_a->mean.v[2] - pf->poor_th*kk;
+    //   // max_th = set_a->mean.v[2] + pf->poor_th*kk;
+    //   min_th = set_a->mean.v[2] - 0.15;
+    //   max_th = set_a->mean.v[2] + 0.15;
+
+    //   rth = min_th + drand48() * (max_th - min_th);
+
+    //   sample_b->pose.v[0] = rx;
+    //   sample_b->pose.v[1] = ry;
+    //   sample_b->pose.v[2] = rth;   
+    // } else {
+      
       // Can't (easily) combine low-variance sampler with KLD adaptive
       // sampling, so we'll take the more traditional route.
       /*

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a5b32/fast && /usr/bin/make -f CMakeFiles/cmTC_a5b32.dir/build.make CMakeFiles/cmTC_a5b32.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b65cc/fast && /usr/bin/make -f CMakeFiles/cmTC_b65cc.dir/build.make CMakeFiles/cmTC_b65cc.dir/build
 make[1]: 进入目录“/home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_a5b32.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a5b32.dir/src.c.o   -c /home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a5b32
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5b32.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_a5b32.dir/src.c.o  -o cmTC_a5b32 
-/usr/bin/ld: CMakeFiles/cmTC_a5b32.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_b65cc.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b65cc.dir/src.c.o   -c /home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b65cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b65cc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_b65cc.dir/src.c.o  -o cmTC_b65cc 
+/usr/bin/ld: CMakeFiles/cmTC_b65cc.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a5b32.dir/build.make:87：cmTC_a5b32] 错误 1
+make[1]: *** [CMakeFiles/cmTC_b65cc.dir/build.make:87：cmTC_b65cc] 错误 1
 make[1]: 离开目录“/home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_a5b32/fast] 错误 2
+make: *** [Makefile:121：cmTC_b65cc/fast] 错误 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cad31/fast && /usr/bin/make -f CMakeFiles/cmTC_cad31.dir/build.make CMakeFiles/cmTC_cad31.dir/build
+Run Build Command(s):/usr/bin/make cmTC_404f9/fast && /usr/bin/make -f CMakeFiles/cmTC_404f9.dir/build.make CMakeFiles/cmTC_404f9.dir/build
 make[1]: 进入目录“/home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cad31.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cad31.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cad31
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cad31.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cad31.dir/CheckFunctionExists.c.o  -o cmTC_cad31  -lpthreads 
+Building C object CMakeFiles/cmTC_404f9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_404f9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_404f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_404f9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_404f9.dir/CheckFunctionExists.c.o  -o cmTC_404f9  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cad31.dir/build.make:87：cmTC_cad31] 错误 1
+make[1]: *** [CMakeFiles/cmTC_404f9.dir/build.make:87：cmTC_404f9] 错误 1
 make[1]: 离开目录“/home/kgh/ws2/build/nav2_rviz_plugins/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_cad31/fast] 错误 2
+make: *** [Makefile:121：cmTC_404f9/fast] 错误 2
 
 
 

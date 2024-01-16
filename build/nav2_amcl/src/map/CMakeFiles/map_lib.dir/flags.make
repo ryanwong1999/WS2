@@ -3,13 +3,13 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC
+C_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Wdeprecated -fPIC
 
 C_DEFINES = -Dmap_lib_EXPORTS
 
 C_INCLUDES = -I/home/kgh/ws2/src/navigation2/nav2_amcl/include 
 
-CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC -std=gnu++14
+CXX_FLAGS = -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -Wdeprecated -fPIC -std=gnu++14
 
 CXX_DEFINES = -Dmap_lib_EXPORTS
 
