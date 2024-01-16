@@ -1,0 +1,63 @@
+[35m[1mScanning dependencies of target pf_lib[0m
+[ 11%] [32mBuilding C object src/pf/CMakeFiles/pf_lib.dir/pf.c.o[0m
+[ 26%] Built target map_lib
+[ 30%] [32m[1mLinking C shared library libpf_lib.so[0m
+[ 50%] Built target pf_lib
+[35m[1mScanning dependencies of target sensors_lib[0m
+[ 53%] [32mBuilding CXX object src/sensors/CMakeFiles/sensors_lib.dir/laser/likelihood_field_model_prob.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmotions_lib.so[0m
+[ 69%] Built target motions_lib
+[ 73%] [32m[1mLinking CXX shared library libsensors_lib.so[0m
+[ 84%] Built target sensors_lib
+[ 88%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[ 92%] Built target amcl_core
+[ 96%] [32m[1mLinking CXX executable amcl[0m
+[100%] Built target amcl
+-- Install configuration: "Release"
+-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/libamcl_core.so
+-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/libamcl_core.so" to ""
+-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/nav2_amcl/amcl
+-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/nav2_amcl/amcl" to ""
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include/
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/motion_model
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/map
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/map/map.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors/laser
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/angleutils.hpp
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/path.sh
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/path.dsv
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.bash
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.sh
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.zsh
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.dsv
+-- Installing: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/package.dsv
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/package.xml
+-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/libpf_lib.so
+-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/lib/libmap_lib.so
+-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/libmotions_lib.so
+-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/libmotions_lib.so" to ""
+-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/libsensors_lib.so
+-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/libsensors_lib.so" to ""

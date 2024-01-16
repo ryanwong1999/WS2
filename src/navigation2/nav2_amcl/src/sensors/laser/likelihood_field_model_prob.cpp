@@ -154,6 +154,7 @@ LikelihoodFieldModelProb::sensorFunction(LaserData * data, pf_sample_set_t * set
 }
 
 
+// 用于根据传感器模型（自己给）和数据来更新粒子滤波器每个粒子（代表一个位姿）的权重，然后返回所有粒子权重的总和。
 bool
 LikelihoodFieldModelProb::sensorUpdate(pf_t * pf, LaserData * data)
 {

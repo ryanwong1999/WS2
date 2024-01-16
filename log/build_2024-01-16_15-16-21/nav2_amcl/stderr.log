@@ -1,0 +1,10 @@
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:[m[K In function ‘[01m[Kpf_update_resample[m[K’:
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:459:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kkkk[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  459 |     double [01;35m[Kkkk[m[K = pf->poor_m;
+      |            [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:458:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kkk[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  458 |     int [01;35m[Kkk[m[K = 1;
+      |         [01;35m[K^~[m[K
+[01m[K/home/kgh/ws2/src/navigation2/nav2_amcl/src/pf/pf.c:359:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmap_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  359 | void pf_update_resample(pf_t * pf, [01;35m[Kmap_t * map_[m[K)
+      |                                    [01;35m[K~~~~~~~~^~~~[m[K

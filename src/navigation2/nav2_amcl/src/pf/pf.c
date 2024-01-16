@@ -471,6 +471,7 @@ void pf_update_resample(pf_t * pf, map_t * map_)
     // 当产生的随机数小于w_diff时，将往set_b中随机注入粒子。
     // 当w_diff<0 或者产生的随机数大于等于w_diff时都不注入粒子，
     // 而是从set_a中挑选粒子放进set_b中。
+
     if (drand48() < w_diff) {
       // pf->random_pose_fn为一个函数指针，其返回一个随机位姿
       // amcl中使用的是AmclNode::uniformPoseGenerator，即空白区域均匀撒点。
@@ -504,7 +505,6 @@ void pf_update_resample(pf_t * pf, map_t * map_)
     //   // max_th = set_a->mean.v[2] + pf->poor_th*kk;
     //   min_th = set_a->mean.v[2] - 0.15;
     //   max_th = set_a->mean.v[2] + 0.15;
-
     //   rth = min_th + drand48() * (max_th - min_th);
 
     //   sample_b->pose.v[0] = rx;

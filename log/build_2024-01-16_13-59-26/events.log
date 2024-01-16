@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000343] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000372] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000392] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000412] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000430] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000449] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000468] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000486] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000505] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000523] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000542] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000560] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000578] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000597] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.000616] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000634] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000652] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000670] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000688] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.000705] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.000723] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000740] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.000758] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.000777] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000796] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.000814] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.000834] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000853] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000871] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.000889] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.000907] (-) JobUnselected: {'identifier': 'yzbot_cartographer'}
+[0.000925] (-) JobUnselected: {'identifier': 'yzbot_controller'}
+[0.000943] (-) JobUnselected: {'identifier': 'yzbot_description'}
+[0.000962] (-) JobUnselected: {'identifier': 'yzbot_nav2'}
+[0.000982] (nav2_amcl) JobQueued: {'identifier': 'nav2_amcl', 'dependencies': OrderedDict([('nav2_common', '/home/kgh/ws2/install/nav2_common'), ('nav2_msgs', '/home/kgh/ws2/install/nav2_msgs'), ('nav2_util', '/home/kgh/ws2/install/nav2_util')])}
+[0.001217] (nav2_amcl) JobStarted: {'identifier': 'nav2_amcl'}
+[0.099767] (-) TimerEvent: {}
+[0.126260] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'cmake'}
+[0.126965] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'build'}
+[0.128600] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/ws2/build/nav2_amcl', '--', '-j16', '-l16'], 'cwd': '/home/kgh/ws2/build/nav2_amcl', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_AGENT_PID', '1410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1110'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:36783'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-yoga:@/tmp/.ICE-unix/1484,unix/kgh-yoga:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'f3dd53015eb0409aaf3ebce46085af6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ceef4164_7bfe_44f7_9487_43665dba2f8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kgh/ws2/build/nav2_amcl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.199398] (nav2_amcl) StdoutLine: {'line': b'[ 50%] Built target map_lib\n'}
+[0.199657] (nav2_amcl) StdoutLine: {'line': b'[ 50%] Built target pf_lib\n'}
+[0.199768] (-) TimerEvent: {}
+[0.222135] (nav2_amcl) StdoutLine: {'line': b'[ 69%] Built target sensors_lib\n'}
+[0.225814] (nav2_amcl) StdoutLine: {'line': b'[ 84%] Built target motions_lib\n'}
+[0.242683] (nav2_amcl) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amcl_core\x1b[0m\n'}
+[0.279380] (nav2_amcl) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o\x1b[0m\n'}
+[0.299932] (-) TimerEvent: {}
+[0.400353] (-) TimerEvent: {}
+[0.500701] (-) TimerEvent: {}
+[0.601036] (-) TimerEvent: {}
+[0.701383] (-) TimerEvent: {}
+[0.801729] (-) TimerEvent: {}
+[0.902088] (-) TimerEvent: {}
+[1.002468] (-) TimerEvent: {}
+[1.102878] (-) TimerEvent: {}
+[1.203355] (-) TimerEvent: {}
+[1.303706] (-) TimerEvent: {}
+[1.404095] (-) TimerEvent: {}
+[1.504447] (-) TimerEvent: {}
+[1.604825] (-) TimerEvent: {}
+[1.705397] (-) TimerEvent: {}
+[1.805722] (-) TimerEvent: {}
+[1.906059] (-) TimerEvent: {}
+[2.006441] (-) TimerEvent: {}
+[2.106790] (-) TimerEvent: {}
+[2.207120] (-) TimerEvent: {}
+[2.307462] (-) TimerEvent: {}
+[2.407868] (-) TimerEvent: {}
+[2.508295] (-) TimerEvent: {}
+[2.608631] (-) TimerEvent: {}
+[2.708957] (-) TimerEvent: {}
+[2.809353] (-) TimerEvent: {}
+[2.909775] (-) TimerEvent: {}
+[3.010120] (-) TimerEvent: {}
+[3.110467] (-) TimerEvent: {}
+[3.210804] (-) TimerEvent: {}
+[3.311148] (-) TimerEvent: {}
+[3.411481] (-) TimerEvent: {}
+[3.512137] (-) TimerEvent: {}
+[3.612471] (-) TimerEvent: {}
+[3.712789] (-) TimerEvent: {}
+[3.813557] (-) TimerEvent: {}
+[3.913896] (-) TimerEvent: {}
+[4.014243] (-) TimerEvent: {}
+[4.114591] (-) TimerEvent: {}
+[4.215274] (-) TimerEvent: {}
+[4.315622] (-) TimerEvent: {}
+[4.416274] (-) TimerEvent: {}
+[4.516628] (-) TimerEvent: {}
+[4.617239] (-) TimerEvent: {}
+[4.717583] (-) TimerEvent: {}
+[4.817937] (-) TimerEvent: {}
+[4.918289] (-) TimerEvent: {}
+[5.018620] (-) TimerEvent: {}
+[5.118965] (-) TimerEvent: {}
+[5.219302] (-) TimerEvent: {}
+[5.319643] (-) TimerEvent: {}
+[5.419969] (-) TimerEvent: {}
+[5.520373] (-) TimerEvent: {}
+[5.620699] (-) TimerEvent: {}
+[5.721060] (-) TimerEvent: {}
+[5.821357] (-) TimerEvent: {}
+[5.921703] (-) TimerEvent: {}
+[6.022053] (-) TimerEvent: {}
+[6.122394] (-) TimerEvent: {}
+[6.223109] (-) TimerEvent: {}
+[6.323468] (-) TimerEvent: {}
+[6.423805] (-) TimerEvent: {}
+[6.524148] (-) TimerEvent: {}
+[6.624469] (-) TimerEvent: {}
+[6.724802] (-) TimerEvent: {}
+[6.825123] (-) TimerEvent: {}
+[6.925706] (-) TimerEvent: {}
+[7.026058] (-) TimerEvent: {}
+[7.126440] (-) TimerEvent: {}
+[7.226774] (-) TimerEvent: {}
+[7.327120] (-) TimerEvent: {}
+[7.427467] (-) TimerEvent: {}
+[7.527842] (-) TimerEvent: {}
+[7.628208] (-) TimerEvent: {}
+[7.728588] (-) TimerEvent: {}
+[7.829174] (-) TimerEvent: {}
+[7.929545] (-) TimerEvent: {}
+[8.029863] (-) TimerEvent: {}
+[8.130198] (-) TimerEvent: {}
+[8.230512] (-) TimerEvent: {}
+[8.330828] (-) TimerEvent: {}
+[8.431146] (-) TimerEvent: {}
+[8.531464] (-) TimerEvent: {}
+[8.631776] (-) TimerEvent: {}
+[8.732093] (-) TimerEvent: {}
+[8.832423] (-) TimerEvent: {}
+[8.932741] (-) TimerEvent: {}
+[9.033072] (-) TimerEvent: {}
+[9.133389] (-) TimerEvent: {}
+[9.233721] (-) TimerEvent: {}
+[9.334057] (-) TimerEvent: {}
+[9.434381] (-) TimerEvent: {}
+[9.534814] (-) TimerEvent: {}
+[9.658877] (-) TimerEvent: {}
+[9.759219] (-) TimerEvent: {}
+[9.859647] (-) TimerEvent: {}
+[9.959963] (-) TimerEvent: {}
+[10.060279] (-) TimerEvent: {}
+[10.160615] (-) TimerEvent: {}
+[10.261237] (-) TimerEvent: {}
+[10.361591] (-) TimerEvent: {}
+[10.461932] (-) TimerEvent: {}
+[10.562266] (-) TimerEvent: {}
+[10.662579] (-) TimerEvent: {}
+[10.762911] (-) TimerEvent: {}
+[10.863225] (-) TimerEvent: {}
+[10.963548] (-) TimerEvent: {}
+[11.063865] (-) TimerEvent: {}
+[11.164181] (-) TimerEvent: {}
+[11.264498] (-) TimerEvent: {}
+[11.364815] (-) TimerEvent: {}
+[11.465128] (-) TimerEvent: {}
+[11.565467] (-) TimerEvent: {}
+[11.665809] (-) TimerEvent: {}
+[11.766135] (-) TimerEvent: {}
+[11.866471] (-) TimerEvent: {}
+[11.966798] (-) TimerEvent: {}
+[12.067375] (-) TimerEvent: {}
+[12.167998] (-) TimerEvent: {}
+[12.268334] (-) TimerEvent: {}
+[12.368670] (-) TimerEvent: {}
+[12.469012] (-) TimerEvent: {}
+[12.569387] (-) TimerEvent: {}
+[12.669721] (-) TimerEvent: {}
+[12.770066] (-) TimerEvent: {}
+[12.870415] (-) TimerEvent: {}
+[12.970765] (-) TimerEvent: {}
+[13.071110] (-) TimerEvent: {}
+[13.171451] (-) TimerEvent: {}
+[13.271791] (-) TimerEvent: {}
+[13.372353] (-) TimerEvent: {}
+[13.472691] (-) TimerEvent: {}
+[13.573018] (-) TimerEvent: {}
+[13.673369] (-) TimerEvent: {}
+[13.773709] (-) TimerEvent: {}
+[13.874041] (-) TimerEvent: {}
+[13.974383] (-) TimerEvent: {}
+[14.074699] (-) TimerEvent: {}
+[14.175065] (-) TimerEvent: {}
+[14.275399] (-) TimerEvent: {}
+[14.376029] (-) TimerEvent: {}
+[14.476362] (-) TimerEvent: {}
+[14.576684] (-) TimerEvent: {}
+[14.677035] (-) TimerEvent: {}
+[14.679712] (nav2_amcl) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libamcl_core.so\x1b[0m\n'}
+[14.777114] (-) TimerEvent: {}
+[14.877703] (-) TimerEvent: {}
+[14.909267] (nav2_amcl) StdoutLine: {'line': b'[ 92%] Built target amcl_core\n'}
+[14.945895] (nav2_amcl) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable amcl\x1b[0m\n'}
+[14.977793] (-) TimerEvent: {}
+[15.078138] (-) TimerEvent: {}
+[15.113618] (nav2_amcl) StdoutLine: {'line': b'[100%] Built target amcl\n'}
+[15.126217] (nav2_amcl) CommandEnded: {'returncode': 0}
+[15.160496] (nav2_amcl) JobProgress: {'identifier': 'nav2_amcl', 'progress': 'install'}
+[15.171618] (nav2_amcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kgh/ws2/build/nav2_amcl'], 'cwd': '/home/kgh/ws2/build/nav2_amcl', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_AGENT_PID', '1410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kgh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1110'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('JOURNAL_STREAM', '8:36783'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kgh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/kgh-yoga:@/tmp/.ICE-unix/1484,unix/kgh-yoga:/tmp/.ICE-unix/1484'), ('INVOCATION_ID', 'f3dd53015eb0409aaf3ebce46085af6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ceef4164_7bfe_44f7_9487_43665dba2f8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kgh/ws2/build/nav2_amcl'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[15.178211] (-) TimerEvent: {}
+[15.178572] (nav2_amcl) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.178721] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/libamcl_core.so\n'}
+[15.180394] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/libamcl_core.so" to ""\n'}
+[15.180541] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/kgh/ws2/install/nav2_amcl/lib/nav2_amcl/amcl\n'}
+[15.180786] (nav2_amcl) StdoutLine: {'line': b'-- Set runtime path of "/home/kgh/ws2/install/nav2_amcl/lib/nav2_amcl/amcl" to ""\n'}
+[15.180907] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include/\n'}
+[15.181002] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl\n'}
+[15.181103] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/motion_model\n'}
+[15.181227] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/motion_model/motion_model.hpp\n'}
+[15.181457] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/map\n'}
+[15.181582] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/map/map.hpp\n'}
+[15.181660] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf\n'}
+[15.181748] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/eig3.hpp\n'}
+[15.181867] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf.hpp\n'}
+[15.181941] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_kdtree.hpp\n'}
+[15.182016] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_vector.hpp\n'}
+[15.182140] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/pf/pf_pdf.hpp\n'}
+[15.182213] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors\n'}
+[15.182283] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors/laser\n'}
+[15.182374] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/sensors/laser/laser.hpp\n'}
+[15.182450] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/amcl_node.hpp\n'}
+[15.182518] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/include//nav2_amcl/angleutils.hpp\n'}
+[15.182609] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/library_path.sh\n'}
+[15.182699] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/library_path.dsv\n'}
+[15.182773] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/package_run_dependencies/nav2_amcl\n'}
+[15.182847] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/parent_prefix_path/nav2_amcl\n'}
+[15.182920] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.sh\n'}
+[15.183014] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/ament_prefix_path.dsv\n'}
+[15.183080] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/path.sh\n'}
+[15.183152] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/environment/path.dsv\n'}
+[15.183218] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.bash\n'}
+[15.183305] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.sh\n'}
+[15.183369] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.zsh\n'}
+[15.183434] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/local_setup.dsv\n'}
+[15.183509] (nav2_amcl) StdoutLine: {'line': b'-- Installing: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/package.dsv\n'}
+[15.183573] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/ament_index/resource_index/packages/nav2_amcl\n'}
+[15.183638] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.183702] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.183766] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.183826] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig.cmake\n'}
+[15.183885] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/cmake/nav2_amclConfig-version.cmake\n'}
+[15.183945] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/share/nav2_amcl/package.xml\n'}
+[15.184014] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/lib/libpf_lib.so\n'}
+[15.184148] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/lib/libmap_lib.so\n'}
+[15.184226] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/lib/libmotions_lib.so\n'}
+[15.184448] (nav2_amcl) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/nav2_amcl/lib/libsensors_lib.so\n'}
+[15.184987] (nav2_amcl) CommandEnded: {'returncode': 0}
+[15.279009] (-) TimerEvent: {}
+[15.380690] (-) TimerEvent: {}
+[15.481848] (-) TimerEvent: {}
+[15.515140] (nav2_amcl) JobEnded: {'identifier': 'nav2_amcl', 'rc': 0}
+[15.515873] (-) EventReactorShutdown: {}

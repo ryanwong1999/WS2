@@ -216,13 +216,13 @@ AmclNode::AmclNode()
 // //////////////////////    析构函数    //////////////////////////
 AmclNode::~AmclNode()
 {
-  RCLCPP_INFO(get_logger(), "Destroying");
+  RCLCPP_INFO(get_logger(), "Destroying------------------------");
 }
 
 nav2_util::CallbackReturn
 AmclNode::on_configure(const rclcpp_lifecycle::State & /*state*/)
 {
-  RCLCPP_INFO(get_logger(), "Configuring");
+  RCLCPP_INFO(get_logger(), "Configuring------------------------");
 
   initParameters();
   initTransforms();
@@ -262,7 +262,7 @@ AmclNode::waitForTransforms()
 nav2_util::CallbackReturn
 AmclNode::on_activate(const rclcpp_lifecycle::State & /*state*/)
 {
-  RCLCPP_INFO(get_logger(), "Activating");
+  RCLCPP_INFO(get_logger(), "Activating------------------------");
 
   // Lifecycle publishers must be explicitly activated
   pose_pub_->on_activate();
@@ -301,7 +301,7 @@ AmclNode::on_activate(const rclcpp_lifecycle::State & /*state*/)
 nav2_util::CallbackReturn
 AmclNode::on_deactivate(const rclcpp_lifecycle::State & /*state*/)
 {
-  RCLCPP_INFO(get_logger(), "Deactivating");
+  RCLCPP_INFO(get_logger(), "Deactivating------------------------");
 
   active_ = false;
 
@@ -316,7 +316,7 @@ AmclNode::on_deactivate(const rclcpp_lifecycle::State & /*state*/)
 nav2_util::CallbackReturn
 AmclNode::on_cleanup(const rclcpp_lifecycle::State & /*state*/)
 {
-  RCLCPP_INFO(get_logger(), "Cleaning up");
+  RCLCPP_INFO(get_logger(), "Cleaning up------------------------");
 
   // Get rid of the inputs first (services and message filter input), so we
   // don't continue to process incoming messages
@@ -389,6 +389,7 @@ AmclNode::on_shutdown(const rclcpp_lifecycle::State & /*state*/)
 void
 AmclNode::checkLaserReceived()
 {
+  // RCLCPP_WARN(get_logger(), "checkLaserReceived");
   if (last_laser_received_ts_.nanoseconds() == 0) {
     RCLCPP_WARN(
       get_logger(), "Laser scan has not been received"
@@ -636,6 +637,7 @@ AmclNode::handleInitialPose(geometry_msgs::msg::PoseWithCovarianceStamped & msg)
 void
 AmclNode::laserReceived(sensor_msgs::msg::LaserScan::ConstSharedPtr laser_scan)
 {
+  // RCLCPP_INFO(get_logger(), "LaserReceived");
   std::lock_guard<std::mutex> lock(pf_mutex_);
 
   // Since the sensor data is continually being published by the simulator or robot,
@@ -649,7 +651,7 @@ AmclNode::laserReceived(sensor_msgs::msg::LaserScan::ConstSharedPtr laser_scan)
     return;
   }
     // following 4 lines, wyj 2020-04-14
-    double secs = now().seconds();
+    double secs = rclcpp::Clock().now().seconds();
     int nowSec = int(secs);  
 
     if ((nomotion_en_ == 1) && (force_update_ == 0) && (nowSec % nomotion_time_) == 1) {
@@ -725,13 +727,14 @@ AmclNode::laserReceived(sensor_msgs::msg::LaserScan::ConstSharedPtr laser_scan)
     updateFilter(laser_index, laser_scan, pose);
 
     // Resample the particles
-    //根据重采样计数器和设定的阈值，触发对滤波器的重采样
-    //每收到多少帧激光进行一次重采样
-    //默认间隔两次激光数据重采样一次
+    // 根据重采样计数器和设定的阈值，触发对滤波器的重采样
+    // 每收到多少帧激光进行一次重采样
+    // 默认间隔两次激光数据重采样一次
     if (!(++resample_count_ % resample_interval_)) {
-      //按照一定的规则重采样粒子，包括前面说的失效恢复、粒子权重等，
-      //然后放入到kdtree，暂时先理解成关于位姿的二叉树，
-      //然后进行聚类，得到均值和方差等信息,
+      // 按照一定的规则重采样粒子，包括前面说的失效恢复、粒子权重等，
+      // 然后放入到kdtree，暂时先理解成关于位姿的二叉树，
+      // 然后进行聚类，得到均值和方差等信息,
+      // RCLCPP_INFO(get_logger(), "pf_update_resample+++++++++++++");
       pf_update_resample(pf_, map_);
       resampled = true;
 
@@ -823,10 +826,10 @@ bool AmclNode::addNewScanner(
 bool AmclNode::shouldUpdateFilter(const pf_vector_t pose, pf_vector_t & delta)
 {
   // Compute change in pose
-  //delta = pf_vector_coord_sub(pose, pf_odom_pose_);
-  //计算delta值
-  //这个就是本时刻的里程计模型减去上一时刻的里程计模型
-  //也就是delta_x=/x'-/x,这里面的/就是x头上的——
+  // delta = pf_vector_coord_sub(pose, pf_odom_pose_);
+  // 计算delta值
+  // 这个就是本时刻的里程计模型减去上一时刻的里程计模型
+  // 也就是delta_x=/x'-/x,这里面的/就是x头上的——
   // pose和pf_odom_pose_：上odom下base_Link
   delta.v[0] = pose.v[0] - pf_odom_pose_.v[0];
   delta.v[1] = pose.v[1] - pf_odom_pose_.v[1];
@@ -848,17 +851,17 @@ bool AmclNode::updateFilter(
   const pf_vector_t & pose)
 {
   nav2_amcl::LaserData ldata;
+  // 并指定传感器对象和量程
   ldata.laser = lasers_[laser_index];
+  // 根据激光点的数量对大小进行设置
   ldata.range_count = laser_scan->ranges.size();
-  //接下来一大片都是对原始激光雷达数据进行处理，转换到AMCLLaserData。
-  //然后将接收到的传感器数据拷贝到ldata对象中。
-  //包括角度最小值、增量到base_frame的转换、测距距离最大值、最小值。
 
   // To account for lasers that are mounted upside-down, we determine the
   // min, max, and increment angles of the laser in the base frame.
   //
   // Construct min and max angles of laser, in the base_link frame.
   // Here we set the roll pich yaw of the lasers.  We assume roll and pich are zero.
+  // 先将相对雷达自身角度tf2::convert为四元数-->通过tf将角度转移到base坐标系-->算出在base中的角度
   geometry_msgs::msg::QuaternionStamped min_q, inc_q;
   min_q.header.stamp = laser_scan->header.stamp;
   min_q.header.frame_id = nav2_util::strip_leading_slash(laser_scan->header.frame_id);
