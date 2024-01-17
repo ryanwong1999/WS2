@@ -9,7 +9,9 @@
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/param/yzbot（复件）.yaml
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/param/yzbot_ori.yaml
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/yzbot_map.yaml
+/home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/map.pgm
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/yzbot_map.pgm
+/home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/map.yaml
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/show_pgm.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/maps/yzbot_map.png
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/rviz/nav2.rviz

@@ -313,10 +313,10 @@ CMakeFiles/controller_server_core.dir/clean:
 # Target rules for target plugins/test/CMakeFiles/gctest.dir
 
 # All Build rule for target.
+plugins/test/CMakeFiles/gctest.dir/all: CMakeFiles/simple_goal_checker.dir/all
 plugins/test/CMakeFiles/gctest.dir/all: CMakeFiles/stopped_goal_checker.dir/all
 plugins/test/CMakeFiles/gctest.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 plugins/test/CMakeFiles/gctest.dir/all: gtest/CMakeFiles/gtest.dir/all
-plugins/test/CMakeFiles/gctest.dir/all: CMakeFiles/simple_goal_checker.dir/all
 	$(MAKE) -f plugins/test/CMakeFiles/gctest.dir/build.make plugins/test/CMakeFiles/gctest.dir/depend
 	$(MAKE) -f plugins/test/CMakeFiles/gctest.dir/build.make plugins/test/CMakeFiles/gctest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kgh/ws2/build/nav2_controller/CMakeFiles --progress-num=5,6 "Built target gctest"
@@ -343,9 +343,9 @@ plugins/test/CMakeFiles/gctest.dir/clean:
 # Target rules for target plugins/test/CMakeFiles/pctest.dir
 
 # All Build rule for target.
+plugins/test/CMakeFiles/pctest.dir/all: CMakeFiles/simple_progress_checker.dir/all
 plugins/test/CMakeFiles/pctest.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 plugins/test/CMakeFiles/pctest.dir/all: gtest/CMakeFiles/gtest.dir/all
-plugins/test/CMakeFiles/pctest.dir/all: CMakeFiles/simple_progress_checker.dir/all
 	$(MAKE) -f plugins/test/CMakeFiles/pctest.dir/build.make plugins/test/CMakeFiles/pctest.dir/depend
 	$(MAKE) -f plugins/test/CMakeFiles/pctest.dir/build.make plugins/test/CMakeFiles/pctest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kgh/ws2/build/nav2_controller/CMakeFiles --progress-num=11,12 "Built target pctest"

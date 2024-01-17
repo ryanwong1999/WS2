@@ -22,7 +22,7 @@ def generate_launch_description():
     nav2_bringup_dir = get_package_share_directory('nav2_bringup')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    map_yaml_path = LaunchConfiguration('map',default=os.path.join(yzbot_nav2_dir,'maps','yzbot_map.yaml'))
+    map_yaml_path = LaunchConfiguration('map',default=os.path.join(yzbot_nav2_dir,'maps','map.yaml'))
     nav2_param_path = LaunchConfiguration('params_file',default=os.path.join(yzbot_nav2_dir,'param','yzbot.yaml'))
 
     rviz_config_dir = os.path.join(yzbot_nav2_dir,'rviz','nav2.rviz')
