@@ -1,0 +1,23 @@
+[ 57%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:32:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   32 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:49:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   49 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 85%] [32m[1mLinking CXX executable stm32_connect[0m
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::robotSerialRead()':
+robotserial.cpp:(.text+0x297): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x2ee): undefined reference to `get_logger()'
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::Auto_Charging(int)':
+robotserial.cpp:(.text+0x4ad): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x4fc): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x721): undefined reference to `get_logger()'
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o:robotserial.cpp:(.text+0x770): more undefined references to `get_logger()' follow
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:147：stm32_connect] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

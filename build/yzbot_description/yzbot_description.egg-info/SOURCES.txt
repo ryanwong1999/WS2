@@ -18,7 +18,6 @@ urdf/yzbot_gazebo.urdf
 urdf/yzbot_gazebo（复件）.urdf
 world/fish.world
 world/yzbot.world
-world/yzbot（另一个复件）.world
 world/yzbot（复件）.world
 yzbot_description/__init__.py
 yzbot_description/rotate_wheel.py

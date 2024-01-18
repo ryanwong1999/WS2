@@ -1,0 +1,16 @@
+[0.120s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.185s] [ 57%] Built target serial
+[0.214s] [ 71%] [32m[1mLinking CXX executable stm32_connect[0m
+[0.302s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::robotSerialRead()':
+[0.302s] robotserial.cpp:(.text+0x297): undefined reference to `get_logger()'
+[0.302s] /usr/bin/ld: robotserial.cpp:(.text+0x2ee): undefined reference to `get_logger()'
+[0.302s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::Auto_Charging(int)':
+[0.302s] robotserial.cpp:(.text+0x4ad): undefined reference to `get_logger()'
+[0.302s] /usr/bin/ld: robotserial.cpp:(.text+0x4fc): undefined reference to `get_logger()'
+[0.302s] /usr/bin/ld: robotserial.cpp:(.text+0x721): undefined reference to `get_logger()'
+[0.303s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o:robotserial.cpp:(.text+0x770): more undefined references to `get_logger()' follow
+[0.312s] collect2: error: ld returned 1 exit status
+[0.315s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:147：stm32_connect] 错误 1
+[0.315s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[0.315s] make: *** [Makefile:141：all] 错误 2
+[0.319s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

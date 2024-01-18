@@ -1,0 +1,8 @@
+source;share/yzbot_stm32connect/hook/cmake_prefix_path.ps1
+source;share/yzbot_stm32connect/hook/cmake_prefix_path.dsv
+source;share/yzbot_stm32connect/hook/cmake_prefix_path.sh
+source;share/yzbot_stm32connect/local_setup.bash
+source;share/yzbot_stm32connect/local_setup.dsv
+source;share/yzbot_stm32connect/local_setup.ps1
+source;share/yzbot_stm32connect/local_setup.sh
+source;share/yzbot_stm32connect/local_setup.zsh

@@ -1,0 +1,25 @@
+[0.125s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.197s] [ 57%] Built target serial
+[0.220s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.252s] [ 71%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[1.271s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[1.271s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.271s]    31 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+[1.271s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.580s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:48:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.580s]    48 | [01;35m[K}[m[K
+[1.580s]       | [01;35m[K^[m[K
+[1.629s] [ 85%] [32m[1mLinking CXX executable stm32_connect[0m
+[1.749s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::robotSerialRead()':
+[1.749s] robotserial.cpp:(.text+0x2a1): undefined reference to `RobotSerial::get_logger() const'
+[1.749s] /usr/bin/ld: robotserial.cpp:(.text+0x302): undefined reference to `RobotSerial::get_logger() const'
+[1.749s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::Auto_Charging(int)':
+[1.749s] robotserial.cpp:(.text+0x4cb): undefined reference to `RobotSerial::get_logger() const'
+[1.749s] /usr/bin/ld: robotserial.cpp:(.text+0x524): undefined reference to `RobotSerial::get_logger() const'
+[1.749s] /usr/bin/ld: robotserial.cpp:(.text+0x753): undefined reference to `RobotSerial::get_logger() const'
+[1.750s] /usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o:robotserial.cpp:(.text+0x7ac): more undefined references to `RobotSerial::get_logger() const' follow
+[1.759s] collect2: error: ld returned 1 exit status
+[1.760s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:147：stm32_connect] 错误 1
+[1.760s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[1.760s] make: *** [Makefile:141：all] 错误 2
+[1.762s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

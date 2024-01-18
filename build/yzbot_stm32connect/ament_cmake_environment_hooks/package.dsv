@@ -1,0 +1,4 @@
+source;share/yzbot_stm32connect/local_setup.bash
+source;share/yzbot_stm32connect/local_setup.dsv
+source;share/yzbot_stm32connect/local_setup.sh
+source;share/yzbot_stm32connect/local_setup.zsh

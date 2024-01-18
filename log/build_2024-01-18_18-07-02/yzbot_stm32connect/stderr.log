@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::robotSerialRead()':
+robotserial.cpp:(.text+0x297): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x2ee): undefined reference to `get_logger()'
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o: in function `RobotSerial::Auto_Charging(int)':
+robotserial.cpp:(.text+0x4ad): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x4fc): undefined reference to `get_logger()'
+/usr/bin/ld: robotserial.cpp:(.text+0x721): undefined reference to `get_logger()'
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o:robotserial.cpp:(.text+0x770): more undefined references to `get_logger()' follow
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:147：stm32_connect] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

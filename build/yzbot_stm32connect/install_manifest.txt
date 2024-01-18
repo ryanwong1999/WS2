@@ -1,0 +1,17 @@
+/home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/libserial.a
+/home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect
+/home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/package_run_dependencies/yzbot_stm32connect
+/home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/parent_prefix_path/yzbot_stm32connect
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.sh
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.dsv
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.sh
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.dsv
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.bash
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.sh
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.zsh
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.dsv
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.dsv
+/home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/packages/yzbot_stm32connect
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig.cmake
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig-version.cmake
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.xml

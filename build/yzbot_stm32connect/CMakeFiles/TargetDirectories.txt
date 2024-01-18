@@ -1,0 +1,11 @@
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/install/local.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/install.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/list_install_components.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/rebuild_cache.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/stm32_connect.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/install/strip.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/serial.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/edit_cache.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/test.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/yzbot_stm32connect_uninstall.dir
+/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/uninstall.dir
