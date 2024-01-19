@@ -197,9 +197,9 @@ CMakeFiles/uninstall.dir/clean:
 # Target rules for target test/CMakeFiles/twist_gen_test.dir
 
 # All Build rule for target.
-test/CMakeFiles/twist_gen_test.dir/all: CMakeFiles/standard_traj_generator.dir/all
 test/CMakeFiles/twist_gen_test.dir/all: gtest/CMakeFiles/gtest_main.dir/all
 test/CMakeFiles/twist_gen_test.dir/all: gtest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/twist_gen_test.dir/all: CMakeFiles/standard_traj_generator.dir/all
 	$(MAKE) -f test/CMakeFiles/twist_gen_test.dir/build.make test/CMakeFiles/twist_gen_test.dir/depend
 	$(MAKE) -f test/CMakeFiles/twist_gen_test.dir/build.make test/CMakeFiles/twist_gen_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kgh/ws2/build/dwb_plugins/CMakeFiles --progress-num=10,11 "Built target twist_gen_test"

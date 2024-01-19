@@ -1,0 +1,2 @@
+Invoking command in '/home/kgh/ws2/build/yzbot_msgs': /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_msgs -- -j16 -l16
+Invoked command in '/home/kgh/ws2/build/yzbot_msgs' returned '2': /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_msgs -- -j16 -l16

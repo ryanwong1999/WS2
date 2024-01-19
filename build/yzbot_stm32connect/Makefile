@@ -273,6 +273,33 @@ src/impl/unix.cc.s:
 	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/src/impl/unix.cc.s
 .PHONY : src/impl/unix.cc.s
 
+src/plc.o: src/plc.cpp.o
+
+.PHONY : src/plc.o
+
+# target to build an object file
+src/plc.cpp.o:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/plc.cpp.o
+.PHONY : src/plc.cpp.o
+
+src/plc.i: src/plc.cpp.i
+
+.PHONY : src/plc.i
+
+# target to preprocess a source file
+src/plc.cpp.i:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/plc.cpp.i
+.PHONY : src/plc.cpp.i
+
+src/plc.s: src/plc.cpp.s
+
+.PHONY : src/plc.s
+
+# target to generate assembly for a file
+src/plc.cpp.s:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/plc.cpp.s
+.PHONY : src/plc.cpp.s
+
 src/robotserial.o: src/robotserial.cpp.o
 
 .PHONY : src/robotserial.o
@@ -377,6 +404,9 @@ help:
 	@echo "... src/impl/unix.o"
 	@echo "... src/impl/unix.i"
 	@echo "... src/impl/unix.s"
+	@echo "... src/plc.o"
+	@echo "... src/plc.i"
+	@echo "... src/plc.s"
 	@echo "... src/robotserial.o"
 	@echo "... src/robotserial.i"
 	@echo "... src/robotserial.s"

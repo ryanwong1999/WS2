@@ -1,0 +1,47 @@
+[0.112s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.143s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.302s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.329s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.558s] -- Found yzbot_msgs: 0.0.0 (/home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake)
+[0.562s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.642s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[0.768s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.877s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.928s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.929s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.929s] -- Configured cppcheck include dirs: 
+[0.930s] -- Configured cppcheck exclude dirs and/or files: 
+[0.930s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.930s] -- Configured cpplint exclude dirs and/or files: 
+[0.931s] -- Added test 'lint_cmake' to check CMake code style
+[0.931s] -- Added test 'uncrustify' to check C / C++ code style
+[0.932s] -- Configured uncrustify additional arguments: 
+[0.932s] -- Added test 'xmllint' to check XML markup files
+[0.936s] -- Configuring done
+[0.945s] -- Generating done
+[0.946s] -- Build files have been written to: /home/kgh/ws2/build/yzbot_stm32connect
+[0.999s] [ 50%] Built target serial
+[1.038s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[1.038s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+[1.392s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:1[m[K:
+[1.392s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.hpp: 没有那个文件或目录
+[1.392s]    10 | #include [01;31m[K<yzbot_msgs/msg/RobotPose.hpp>[m[K
+[1.392s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.392s] compilation terminated.
+[1.393s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:6[m[K,
+[1.393s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[1.393s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.hpp: 没有那个文件或目录
+[1.394s]    10 | #include [01;31m[K<yzbot_msgs/msg/RobotPose.hpp>[m[K
+[1.394s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.394s] compilation terminated.
+[1.409s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+[1.410s] make[2]: *** 正在等待未完成的任务....
+[1.410s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:89：CMakeFiles/stm32_connect.dir/src/plc.cpp.o] 错误 1
+[1.410s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[1.411s] make: *** [Makefile:141：all] 错误 2
+[1.416s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

@@ -1,0 +1,22 @@
+[0.120s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.202s] [ 50%] Built target serial
+[0.216s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.246s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[0.246s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+[0.598s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:1[m[K:
+[0.598s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.h: 没有那个文件或目录
+[0.598s]    10 | #include [01;31m[K"yzbot_msgs/msg/RobotPose.h"[m[K
+[0.598s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.598s] compilation terminated.
+[0.604s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:6[m[K,
+[0.604s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[0.604s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.h: 没有那个文件或目录
+[0.604s]    10 | #include [01;31m[K"yzbot_msgs/msg/RobotPose.h"[m[K
+[0.604s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.604s] compilation terminated.
+[0.615s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+[0.615s] make[2]: *** 正在等待未完成的任务....
+[0.615s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:89：CMakeFiles/stm32_connect.dir/src/plc.cpp.o] 错误 1
+[0.615s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[0.615s] make: *** [Makefile:141：all] 错误 2
+[0.620s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

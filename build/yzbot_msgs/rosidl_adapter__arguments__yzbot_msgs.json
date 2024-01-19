@@ -1,0 +1,6 @@
+{
+  "package_name": "yzbot_msgs",
+  "non_idl_tuples": [
+    "/home/kgh/ws2/src/yzbot_msgs:msg/RobotPose.msg"
+  ]
+}

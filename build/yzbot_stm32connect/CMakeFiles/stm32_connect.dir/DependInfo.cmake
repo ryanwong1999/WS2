@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp" "/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/stm32_connect.dir/src/plc.cpp.o"
   "/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp" "/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o"
   "/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp" "/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o"
   )
@@ -19,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/kgh/ws2/src/yzbot_stm32connect/include"
+  "/home/kgh/ws2/install/yzbot_msgs/include"
   "/opt/ros/foxy/include"
   )
 

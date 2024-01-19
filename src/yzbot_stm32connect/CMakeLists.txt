@@ -18,7 +18,54 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-# find_package(serial REQUIRED)
+find_package(yzbot_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(tf2_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+
+set(serial_SRCS
+    src/serial.cc
+    include/serial/serial.h
+    include/serial/v8stdint.h
+)
+list(APPEND serial_SRCS src/impl/unix.cc)
+list(APPEND serial_SRCS src/impl/list_ports/list_ports_linux.cc)
+
+add_library(serial 
+    ${serial_SRCS} 
+)
+
+include_directories(include) # 添加项目中的include文件夹路径
+
+add_executable(stm32_connect 
+    src/stm32_connect.cpp
+    src/robotserial.cpp
+    src/plc.cpp
+)
+
+target_include_directories(stm32_connect PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+target_compile_features(stm32_connect PUBLIC c_std_99 cxx_std_17) 
+
+ament_target_dependencies(stm32_connect 
+    rclcpp
+    yzbot_msgs
+    geometry_msgs
+    nav_msgs
+    tf2_msgs
+    tf2_ros
+)
+
+target_link_libraries(stm32_connect  
+    ${catkin_LIBRARIES} 
+    serial
+)
+
+install(TARGETS serial stm32_connect 
+    DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -30,40 +77,5 @@ if(BUILD_TESTING)
   #set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-
-
-
-set(serial_SRCS
-    src/serial.cc
-    include/serial/serial.h
-    include/serial/v8stdint.h
-)
-list(APPEND serial_SRCS src/impl/unix.cc)
-list(APPEND serial_SRCS src/impl/list_ports/list_ports_linux.cc)
-
-
-add_library(serial 
-    ${serial_SRCS} 
-)
-
-
-include_directories(include) # 添加项目中的include文件夹路径
-
-add_executable(stm32_connect 
-    src/stm32_connect.cpp
-    src/robotserial.cpp
-)
-ament_target_dependencies(stm32_connect rclcpp)
-
-target_link_libraries(stm32_connect  
-    ${catkin_LIBRARIES} 
-    serial
-)
-
-
-install(TARGETS serial stm32_connect 
-    DESTINATION lib/${PROJECT_NAME}
-)
-
 
 ament_package()

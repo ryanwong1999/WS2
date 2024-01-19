@@ -1,0 +1,63 @@
+[0.113s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.150s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.172s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.326s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.602s] -- Found yzbot_msgs: 0.0.0 (/home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake)
+[0.608s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.697s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[0.837s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.960s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.014s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.015s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.015s] -- Configured cppcheck include dirs: /home/kgh/ws2/src/yzbot_stm32connect/include;$<BUILD_INTERFACE:/home/kgh/ws2/src/yzbot_stm32connect/include>
+[1.015s] -- Configured cppcheck exclude dirs and/or files: 
+[1.016s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.016s] -- Configured cpplint exclude dirs and/or files: 
+[1.017s] -- Added test 'lint_cmake' to check CMake code style
+[1.018s] -- Added test 'uncrustify' to check C / C++ code style
+[1.018s] -- Configured uncrustify additional arguments: 
+[1.018s] -- Added test 'xmllint' to check XML markup files
+[1.022s] -- Configuring done
+[1.033s] -- Generating done
+[1.034s] -- Build files have been written to: /home/kgh/ws2/build/yzbot_stm32connect
+[1.069s] [35m[1mScanning dependencies of target serial[0m
+[1.082s] [ 37%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.082s] [ 37%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.082s] [ 37%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.280s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.280s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.280s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[1.280s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.280s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.280s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[1.280s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.282s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[1.282s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.428s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[1.472s] [ 50%] Built target serial
+[1.504s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[1.505s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+[1.873s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:1[m[K:
+[1.873s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.h: 没有那个文件或目录
+[1.874s]    10 | #include [01;31m[K<yzbot_msgs/msg/RobotPose.h>[m[K
+[1.874s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.874s] compilation terminated.
+[1.878s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:6[m[K,
+[1.878s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[1.878s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:10:10:[m[K [01;31m[Kfatal error: [m[Kyzbot_msgs/msg/RobotPose.h: 没有那个文件或目录
+[1.878s]    10 | #include [01;31m[K<yzbot_msgs/msg/RobotPose.h>[m[K
+[1.878s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.878s] compilation terminated.
+[1.888s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+[1.889s] make[2]: *** 正在等待未完成的任务....
+[1.889s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:89：CMakeFiles/stm32_connect.dir/src/plc.cpp.o] 错误 1
+[1.889s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[1.889s] make: *** [Makefile:141：all] 错误 2
+[1.895s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
