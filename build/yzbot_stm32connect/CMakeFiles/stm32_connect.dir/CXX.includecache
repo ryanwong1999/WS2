@@ -9,6 +9,16 @@
 /home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp
 rclcpp/rclcpp.hpp
 /home/kgh/ws2/src/yzbot_stm32connect/include/rclcpp/rclcpp.hpp
+boost/bind.hpp
+-
+boost/thread.hpp
+-
+netinet/in.h
+-
+time.h
+-
+sys/timeb.h
+-
 serial/v8stdint.h
 -
 serial/serial.h
@@ -40,9 +50,25 @@ stdio.h
 stdint.h
 -
 
+/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp
+rclcpp/rclcpp.hpp
+/home/kgh/ws2/src/yzbot_stm32connect/include/rclcpp/rclcpp.hpp
+robotserial.hpp
+/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp
+serial/serial.h
+/home/kgh/ws2/src/yzbot_stm32connect/include/serial/serial.h
+string
+-
+iostream
+-
+
 /home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp
 robotserial.hpp
 /home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.hpp
+
+/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp
+stm32_connect.hpp
+/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

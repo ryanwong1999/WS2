@@ -2,10 +2,17 @@
 #define ROBOTSERIAL_HPP_
 
 #include "rclcpp/rclcpp.hpp"
+#include <boost/bind.hpp> 
+#include <boost/thread.hpp>
+#include <netinet/in.h>
+#include <time.h>
+#include <sys/timeb.h>
 #include <serial/v8stdint.h>
 #include <serial/serial.h>
 
-#define MAX_RX_LEN    64
+#define TIME_OUT        10
+#define MAX_RX_LEN      64
+#define PRE_RATE        0.0174532925
 
 class RobotSerial : public rclcpp::Node
 {
@@ -16,6 +23,10 @@ public:
 
     unsigned char index;
     unsigned char RecvBUF[MAX_RX_LEN];
+
+    int neck_height = 0;
+    float pulse_sec = 0;
+    float wheel_distance = 0;
 
     unsigned char CRC8_Table(unsigned char *p, char counter);
 
@@ -38,7 +49,6 @@ public:
     int set_angle_offset(int8_t &level_offset, int8_t pitch_offset);
 
 
-private:
     int8_t robotSerialRead(void);
 
 

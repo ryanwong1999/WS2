@@ -1,0 +1,71 @@
+[0.125s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.198s] [ 57%] Built target serial
+[0.220s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.246s] [ 71%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[1.279s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[1.279s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.279s]    31 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+[1.279s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.281s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::Get_Pms(int&, int&)[m[K’:
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:182:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrecvFrameIndex[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.282s]   182 |                     unsigned char [01;35m[KrecvFrameIndex[m[K=0;
+[1.282s]       |                                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:183:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   183 |                     unsigned char [01;35m[Klength[m[K;
+[1.282s]       |                                   [01;35m[K^~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:184:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   184 |                     unsigned char [01;35m[Ks_devid[m[K;
+[1.282s]       |                                   [01;35m[K^~~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:185:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   185 |                     unsigned char [01;35m[Kp_devid[m[K;
+[1.282s]       |                                   [01;35m[K^~~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   186 |                     unsigned char [01;35m[Kcmd[m[K;
+[1.282s]       |                                   [01;35m[K^~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:187:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcharging_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   187 |                     int [01;35m[Kcharging_flag[m[K = 0;
+[1.283s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[1.283s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:188:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbattary_level[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   188 |                     int [01;35m[Kbattary_level[m[K = 0;
+[1.283s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[1.285s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)[m[K’:
+[1.285s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:384:30:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KRobotSerial::GetOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)::timeb stTimeb[m[K’ has incomplete type and cannot be defined
+[1.285s]   384 |                 struct timeb [01;31m[KstTimeb[m[K;
+[1.285s]       |                              [01;31m[K^~~~~~~[m[K
+[1.288s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:387:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kftime[m[K’ was not declared in this scope; did you mean ‘[01m[Kctime[m[K’?
+[1.288s]   387 |                 [01;31m[Kftime[m[K(&stTimeb);
+[1.288s]       |                 [01;31m[K^~~~~[m[K
+[1.289s]       |                 [32m[Kctime[m[K
+[1.289s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:346:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kper_get_Angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.289s]   346 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+[1.289s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[1.289s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:348:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.289s]   348 |                 unsigned char [01;35m[Klength[m[K;
+[1.289s]       |                               [01;35m[K^~~~~~[m[K
+[1.289s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:349:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.289s]   349 |                 unsigned char [01;35m[Ks_devid[m[K;
+[1.289s]       |                               [01;35m[K^~~~~~~[m[K
+[1.289s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:350:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.289s]   350 |                 unsigned char [01;35m[Kp_devid[m[K;
+[1.289s]       |                               [01;35m[K^~~~~~~[m[K
+[1.290s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:351:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.290s]   351 |                 unsigned char [01;35m[Kcmd[m[K;
+[1.290s]       |                               [01;35m[K^~~[m[K
+[1.290s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:301:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_per[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.290s]   301 |     static float [01;35m[Kangle_per[m[K = 0;
+[1.290s]       |                  [01;35m[K^~~~~~~~~[m[K
+[1.605s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[1.605s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:48:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.605s]    48 | [01;35m[K}[m[K
+[1.605s]       | [01;35m[K^[m[K
+[1.609s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K At global scope:
+[1.609s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:346:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kper_get_Angle[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.610s]   346 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+[1.610s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[1.610s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:301:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kangle_per[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[1.610s]   301 |     static float [01;35m[Kangle_per[m[K = 0;
+[1.610s]       |                  [01;35m[K^~~~~~~~~[m[K
+[1.627s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:76：CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o] 错误 1
+[1.627s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[1.627s] make: *** [Makefile:141：all] 错误 2
+[1.630s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

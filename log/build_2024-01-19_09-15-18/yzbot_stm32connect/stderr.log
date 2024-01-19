@@ -1,0 +1,143 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In function ‘[01m[Kvoid* Timer_Callback(void*)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:7:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karge[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 | void *Timer_Callback([01;35m[Kvoid *arge[m[K)
+      |                      [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In constructor ‘[01m[KRobotSerial::RobotSerial(std::shared_ptr<serial::Serial>)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |     int [01;35m[Kret[m[K = pthread_create(&pid, &attr, Timer_Callback, NULL);
+      |         [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:46:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   46 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::Get_Pms(int&, int&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:197:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrecvFrameIndex[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  197 |                     unsigned char [01;35m[KrecvFrameIndex[m[K=0;
+      |                                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:198:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  198 |                     unsigned char [01;35m[Klength[m[K;
+      |                                   [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:199:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  199 |                     unsigned char [01;35m[Ks_devid[m[K;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:200:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  200 |                     unsigned char [01;35m[Kp_devid[m[K;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  201 |                     unsigned char [01;35m[Kcmd[m[K;
+      |                                   [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:202:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcharging_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  202 |                     int [01;35m[Kcharging_flag[m[K = 0;
+      |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:203:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbattary_level[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  203 |                     int [01;35m[Kbattary_level[m[K = 0;
+      |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:402:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint ftime(timeb*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  402 |                 ftime(&stTimeb[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:9[m[K,
+                 from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   39 | extern int [01;36m[Kftime[m[K (struct timeb *__timebuf)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:402:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint ftime(timeb*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  402 |                 ftime(&stTimeb[01;35m[K)[m[K;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:9[m[K,
+                 from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   39 | extern int [01;36m[Kftime[m[K (struct timeb *__timebuf)
+      |            [01;36m[K^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:361:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kper_get_Angle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  361 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:363:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  363 |                 unsigned char [01;35m[Klength[m[K;
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:364:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  364 |                 unsigned char [01;35m[Ks_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:365:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  365 |                 unsigned char [01;35m[Kp_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:366:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  366 |                 unsigned char [01;35m[Kcmd[m[K;
+      |                               [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:316:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_per[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  316 |     static float [01;35m[Kangle_per[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetAutoSpeed()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:468:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  468 |                 double [01;35m[Klinear[m[K = (short)((RecvBUF[8]<<8) + RecvBUF[9]);     // 线速度
+      |                        [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:469:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  469 |                 double [01;35m[Kangular[m[K = (short)((RecvBUF[10]<<8) + RecvBUF[11]);  // 角速度
+      |                        [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:470:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KautoChargeTaskFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  470 |                 int [01;35m[KautoChargeTaskFlag[m[K = RecvBUF[12];
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:471:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KEmergency_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  471 |                 int [01;35m[KEmergency_flag[m[K = RecvBUF[13];
+      |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:472:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KreChargeFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  472 |                 int [01;35m[KreChargeFlag[m[K = RecvBUF[14];
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::SetSensorEn(int, int)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:524:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcarLight_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  524 |         int [01;35m[KcarLight_result[m[K = RecvBUF[9];
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:525:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KturnLight_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  525 |         int [01;35m[KturnLight_result[m[K = RecvBUF[10];
+      |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::get_ultrasound_result(int&, int&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:609:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrecvFrameIndex[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  609 |                 unsigned char [01;35m[KrecvFrameIndex[m[K=0;
+      |                               [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:610:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  610 |                 unsigned char [01;35m[Klength[m[K;
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:611:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  611 |                 unsigned char [01;35m[Ks_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:612:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  612 |                 unsigned char [01;35m[Kp_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:613:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  613 |                 unsigned char [01;35m[Kcmd[m[K;
+      |                               [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:579:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  579 |     static int [01;35m[Ktmp[m[K = 0;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetNeckPose(int&, int&, int&, int, int)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:674:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmheight[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  674 |                 short int [01;35m[Kmheight[m[K = 0;
+      |                           [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:675:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmlimit[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  675 |                 short int [01;35m[Kmlimit[m[K = 0;
+      |                           [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:676:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmdone[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  676 |                 short int [01;35m[Kmdone[m[K = 0;
+      |                           [01;35m[K^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetHeadPose(int&, int&, int&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:724:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KmSwitch_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  724 |                 short int [01;35m[KmSwitch_flag[m[K = 0;
+      |                           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:63:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   63 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::SendHeardCtrl(int)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:856:19:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  856 |         [01;35m[KSendBUF[8]=0x08[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:857:9:[m[K [01;36m[Knote: [m[Khere
+  857 |         [01;36m[Kcase[m[K 9:
+      |         [01;36m[K^~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K At global scope:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:579:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktmp[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  579 |     static int [01;35m[Ktmp[m[K = 0;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:316:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kangle_per[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  316 |     static float [01;35m[Kangle_per[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~[m[K

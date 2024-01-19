@@ -1,0 +1,4 @@
+[ 57%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m

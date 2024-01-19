@@ -1,0 +1,88 @@
+[0.130s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.200s] [ 57%] Built target serial
+[0.224s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.253s] [ 71%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[1.275s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[1.276s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.276s]    31 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+[1.276s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.278s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.278s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.279s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.280s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:4[m[K,
+[1.280s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[1.280s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::Get_Pms(int&, int&)[m[K’:
+[1.280s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[1.280s]   201 |                     [01;31m[KRCLCPP_INFO[m[K("PMS_______: %d, %d", Charging_Flag, Battary_Level);
+[1.280s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[1.280s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.280s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.281s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:4[m[K,
+[1.281s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[1.281s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("PMS_______: %d, %d")[m[K’, which is of non-class type ‘[01m[Kconst char [19][m[K’
+[1.281s]   201 |                     [01;31m[KRCLCPP_INFO[m[K("PMS_______: %d, %d", Charging_Flag, Battary_Level);
+[1.281s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[1.281s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("PMS_______: %d, %d")[m[K’, which is of non-class type ‘[01m[Kconst char [19][m[K’
+[1.281s]   201 |                     [01;31m[KRCLCPP_INFO[m[K("PMS_______: %d, %d", Charging_Flag, Battary_Level);
+[1.281s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[1.281s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:55:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.281s]   201 |                     RCLCPP_INFO("PMS_______: %d, %d", [01;31m[KCharging_Flag[m[K, Battary_Level);
+[1.281s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.281s]       |                                                       [01;31m[K|[m[K
+[1.281s]       |                                                       [01;31m[Kint[m[K
+[1.281s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.281s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.282s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.282s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:4[m[K,
+[1.282s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[1.282s] [01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+[1.282s]   296 | get_c_string([01;36m[Kconst char * string_in[m[K);
+[1.282s]       |              [01;36m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:183:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   183 |                     unsigned char [01;35m[Klength[m[K;
+[1.282s]       |                                   [01;35m[K^~~~~~[m[K
+[1.282s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:184:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.282s]   184 |                     unsigned char [01;35m[Ks_devid[m[K;
+[1.282s]       |                                   [01;35m[K^~~~~~~[m[K
+[1.283s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:185:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   185 |                     unsigned char [01;35m[Kp_devid[m[K;
+[1.283s]       |                                   [01;35m[K^~~~~~~[m[K
+[1.283s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   186 |                     unsigned char [01;35m[Kcmd[m[K;
+[1.283s]       |                                   [01;35m[K^~~[m[K
+[1.283s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:187:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcharging_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   187 |                     int [01;35m[Kcharging_flag[m[K = 0;
+[1.283s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[1.283s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:188:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbattary_level[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.283s]   188 |                     int [01;35m[Kbattary_level[m[K = 0;
+[1.283s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[1.578s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[1.578s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:48:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[1.578s]    48 | [01;35m[K}[m[K
+[1.578s]       | [01;35m[K^[m[K
+[1.595s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:76：CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o] 错误 1
+[1.596s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[1.596s] make: *** [Makefile:141：all] 错误 2
+[1.602s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

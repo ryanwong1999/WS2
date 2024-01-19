@@ -1,0 +1,25 @@
+[ 57%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[100%] [32m[1mLinking CXX executable stm32_connect[0m
+[100%] Built target stm32_connect
+-- Install configuration: ""
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/libserial.a
+-- Installing: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect
+-- Set runtime path of "/home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect" to ""
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/package_run_dependencies/yzbot_stm32connect
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/parent_prefix_path/yzbot_stm32connect
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.sh
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.dsv
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.bash
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.sh
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.zsh
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.dsv
+-- Installing: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.dsv
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/packages/yzbot_stm32connect
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig.cmake
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig-version.cmake
+-- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.xml

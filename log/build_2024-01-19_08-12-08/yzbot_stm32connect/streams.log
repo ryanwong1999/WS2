@@ -1,0 +1,28 @@
+[0.115s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.197s] [ 57%] Built target serial
+[0.213s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.240s] [ 71%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[1.832s] [ 85%] [32m[1mLinking CXX executable stm32_connect[0m
+[1.954s] [100%] Built target stm32_connect
+[1.965s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[2.020s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/yzbot_stm32connect
+[2.028s] -- Install configuration: ""
+[2.028s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/libserial.a
+[2.029s] -- Installing: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect
+[2.029s] -- Set runtime path of "/home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect" to ""
+[2.029s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/package_run_dependencies/yzbot_stm32connect
+[2.029s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/parent_prefix_path/yzbot_stm32connect
+[2.029s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.sh
+[2.029s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.dsv
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.sh
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.dsv
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.bash
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.sh
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.zsh
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.dsv
+[2.030s] -- Installing: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.dsv
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/packages/yzbot_stm32connect
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig.cmake
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig-version.cmake
+[2.030s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.xml
+[2.032s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/yzbot_stm32connect

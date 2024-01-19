@@ -1,0 +1,73 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:31:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   31 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+      |           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::Get_Pms(int&, int&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:182:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrecvFrameIndex[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  182 |                     unsigned char [01;35m[KrecvFrameIndex[m[K=0;
+      |                                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:183:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  183 |                     unsigned char [01;35m[Klength[m[K;
+      |                                   [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:184:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  184 |                     unsigned char [01;35m[Ks_devid[m[K;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:185:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  185 |                     unsigned char [01;35m[Kp_devid[m[K;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:186:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  186 |                     unsigned char [01;35m[Kcmd[m[K;
+      |                                   [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:187:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcharging_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  187 |                     int [01;35m[Kcharging_flag[m[K = 0;
+      |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:188:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbattary_level[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  188 |                     int [01;35m[Kbattary_level[m[K = 0;
+      |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::GetOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:325:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+  325 |             [01;31m[Kcmd_vel[m[K.linear.x = 0;
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:328:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_cmd[m[K’ was not declared in this scope
+  328 |             [01;31m[Kpub_cmd[m[K.publish(cmd_vel);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:383:30:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KRobotSerial::GetOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)::timeb stTimeb[m[K’ has incomplete type and cannot be defined
+  383 |                 struct timeb [01;31m[KstTimeb[m[K;
+      |                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:386:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kftime[m[K’ was not declared in this scope; did you mean ‘[01m[Kctime[m[K’?
+  386 |                 [01;31m[Kftime[m[K(&stTimeb);
+      |                 [01;31m[K^~~~~[m[K
+      |                 [32m[Kctime[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:345:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kper_get_Angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  345 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:347:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  347 |                 unsigned char [01;35m[Klength[m[K;
+      |                               [01;35m[K^~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:348:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  348 |                 unsigned char [01;35m[Ks_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:349:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  349 |                 unsigned char [01;35m[Kp_devid[m[K;
+      |                               [01;35m[K^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:350:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  350 |                 unsigned char [01;35m[Kcmd[m[K;
+      |                               [01;35m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:300:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_per[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  300 |     static float [01;35m[Kangle_per[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:48:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   48 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K At global scope:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:345:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kper_get_Angle[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  345 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:300:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kangle_per[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  300 |     static float [01;35m[Kangle_per[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:76：CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

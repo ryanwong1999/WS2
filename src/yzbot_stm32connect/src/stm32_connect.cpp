@@ -12,10 +12,10 @@ Stm32_Connect::Stm32_Connect() : Node("stm32_connect")
     initSerial();
 
     // 创建定时器
-    RCLCPP_INFO(get_logger(), "创建定时器");
     timer_ = create_wall_timer(
         std::chrono::microseconds(100),
         std::bind(&Stm32_Connect::timerCallback, this));
+    RCLCPP_INFO(get_logger(), "创建定时器");
 }
 
 Stm32_Connect::~Stm32_Connect()
@@ -43,7 +43,7 @@ void Stm32_Connect::timerCallback()
     if(serial_->available())
     {
         std::string read_data = serial_->read(serial_->available());
-        RCLCPP_INFO(get_logger(), "Received: %s", read_data.c_str());
+        // RCLCPP_INFO(get_logger(), "Received: %s", read_data.c_str());
     }
 }
 
