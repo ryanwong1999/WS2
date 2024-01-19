@@ -30,23 +30,23 @@ public:
 
     unsigned char CRC8_Table(unsigned char *p, char counter);
 
-    int Auto_Charging(int chargeFlag);
-    int Get_Pms(int &Charging_Flag, int &Battary_Level);
-    int SetSpeed(short int st1, short int st2, short int tag, double yaw, double d);
-    int8_t GetOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2, float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth);
-    int8_t GetHeadPose(int &Level, int &Vertical, int &switch_flag);
-    int8_t GetNeckPose(int &height, int &limit, int &done, int light, int bebebe);
-    int8_t get_robot_button(int &audio_button, int &power_button, int &zs);
-    int8_t SetSensorEn(int carLight, int turnLight);
-    int8_t GetAutoSpeed(void);
-    int get_ultrasound_result(int &cs_obs, int &fz_obs);
-    int SendHeardCtrl(int direction);
-    int SendHead_angle(int level, int pitch);
-    int SendNeckCtrl(int direction);
-    int SendNeck_Height(int height);
+    int autoCharge(int chargeFlag);
+    int getPms(int &Charging_Flag, int &Battary_Level);
+    int setSpeed(short int st1, short int st2, short int tag, double yaw, double d);
+    int8_t getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2, float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth);
+    int8_t getHeadPose(int &Level, int &Vertical, int &switch_flag);
+    int8_t getNeckPose(int &height, int &limit, int &done, int light, int bebebe);
+    int8_t getRobotButton(int &audio_button, int &power_button, int &zs);
+    int8_t setSensorEn(int carLight, int turnLight);
+    int8_t getAutoSpeed(void);
+    int getUltrasoundResult(int &cs_obs, int &fz_obs);
+    int sendHeadCtrl(int direction);
+    int sendHeadAngle(int level, int pitch);
+    int sendNeckCtrl(int direction);
+    int sendNeckHeight(int height);
     // void GetonlineStateCallback(const yzbot_msgs::walk_state msg);
     // void set_hand_callback(const yzbot_msgs::testt msg);
-    int set_angle_offset(int8_t &level_offset, int8_t pitch_offset);
+    int setAngleOffset(int8_t &level_offset, int8_t pitch_offset);
 
 
     int8_t robotSerialRead(void);

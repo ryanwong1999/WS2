@@ -1,0 +1,87 @@
+[ 50%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:6[m[K,
+                 from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   47 |     [01;31m[Kmy_robot_pose[m[K.robot_x = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   48 |     [01;31m[Kmy_robot_pose[m[K.robot_y = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   49 |     [01;31m[Kmy_robot_pose[m[K.robot_yaw = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   47 |     [01;31m[Kmy_robot_pose[m[K.robot_x = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   48 |     [01;31m[Kmy_robot_pose[m[K.robot_y = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ does not name a type; did you mean ‘[01m[KRobot_pose[m[K’?
+   49 |     [01;31m[Kmy_robot_pose[m[K.robot_yaw = 0;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[KRobot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::amcl_pose_callback(geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmD[m[K’ was not declared in this scope
+   44 |     [01;31m[KmD[m[K = mRobotPose_y - 14.3;
+      |     [01;31m[K^~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_robot_pose[m[K’?
+   45 |     [01;31m[Kmy_robot_pose[m[K.robot_x = amcl_pose->pose.pose.position.x;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Kpub_robot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kint PLC::pub_odom(short int, short int, short int, short int, float, float, float, float)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:60:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   60 | int PLC::pub_odom([01;35m[Kshort int vx[m[K, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+      |                   [01;35m[K~~~~~~~~~~^~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:60:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   60 | int PLC::pub_odom(short int vx, [01;35m[Kshort int vy[m[K, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+      |                                 [01;35m[K~~~~~~~~~~^~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:60:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_v[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   60 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, [01;35m[Kfloat angle_v[m[K, float angle, float n_vx, float n_vth)
+      |                                                                           [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:60:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   60 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, [01;35m[Kfloat n_vx[m[K, float n_vth)
+      |                                                                                                       [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:60:121:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vth[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   60 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, [01;35m[Kfloat n_vth[m[K)
+      |                                                                                                                   [01;35m[K~~~~~~^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::pub_robot_pose(int, int, double, double)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:172:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+  172 |     [01;31m[Kcurrent_time[m[K = this->now();
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:173:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_pose_lasttime[m[K’ was not declared in this scope
+  173 |     double dt = (current_time - [01;31m[Krobot_pose_lasttime[m[K).seconds();
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:177:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_robot_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_robot_pose[m[K’?
+  177 |     double dt_x = ((left_t + right_t) * pulse_sec * cos([01;31m[Kmy_robot_pose[m[K.robot_yaw + dt_th/2.0))/2.0;
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                         [32m[Kpub_robot_pose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:169:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktrueth_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:173:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  173 |     double [01;35m[Kdt[m[K = (current_time - robot_pose_lasttime).seconds();
+      |            [01;35m[K^~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:179:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksin_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  179 |     double [01;35m[Ksin_y[m[K = sin(my_robot_pose.robot_yaw + dt_th/2.0);
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:166:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_l[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  166 | void PLC::pub_robot_pose(int left_t, int right_t, double angle_t, [01;35m[Kdouble angle_l[m[K)
+      |                                                                   [01;35m[K~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K At global scope:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:169:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrueth_angle[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+  169 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+      |                  [01;35m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:89：CMakeFiles/stm32_connect.dir/src/plc.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

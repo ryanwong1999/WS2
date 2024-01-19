@@ -3,7 +3,10 @@
   "output_dir": "/home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_introspection_cpp/yzbot_msgs",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/RobotPose.idl"
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/RobotPose.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/FmqSet.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/ChargeCtrl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PmsStatus.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +17,9 @@
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/RobotPose.idl"
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/RobotPose.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/FmqSet.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl"
   ]
 }

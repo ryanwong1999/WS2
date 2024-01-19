@@ -1,0 +1,9 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:[m[K In constructor ‘[01m[KPMS::PMS(RobotSerial*)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:8:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KRobotserial_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    8 | PMS::PMS([01;35m[KRobotSerial *Robotserial_[m[K) : Node("pms")
+      |          [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/pms.cpp.o:(.bss+0x0): multiple definition of `mRobotSerial'; CMakeFiles/stm32_connect.dir/src/plc.cpp.o:(.bss+0x0): first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:222：stm32_connect] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

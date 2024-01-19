@@ -1,0 +1,1 @@
+int8 switch_status

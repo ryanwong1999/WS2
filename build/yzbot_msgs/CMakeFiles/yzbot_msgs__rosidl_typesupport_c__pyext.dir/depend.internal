@@ -95,6 +95,15 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yzbot
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__struct.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__struct.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__type_support.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__struct.h
+ rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__type_support.h
  rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.h
  rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__struct.h
  rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__type_support.h

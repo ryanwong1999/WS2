@@ -1,0 +1,80 @@
+[0.107s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.144s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.164s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.294s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.586s] -- Found yzbot_msgs: 0.0.0 (/home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake)
+[0.591s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.674s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[0.806s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.917s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.974s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.975s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.975s] -- Configured cppcheck include dirs: /home/kgh/ws2/src/yzbot_stm32connect/include;$<BUILD_INTERFACE:/home/kgh/ws2/src/yzbot_stm32connect/include>
+[0.975s] -- Configured cppcheck exclude dirs and/or files: 
+[0.976s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.976s] -- Configured cpplint exclude dirs and/or files: 
+[0.977s] -- Added test 'lint_cmake' to check CMake code style
+[0.978s] -- Added test 'uncrustify' to check C / C++ code style
+[0.978s] -- Configured uncrustify additional arguments: 
+[0.978s] -- Added test 'xmllint' to check XML markup files
+[0.980s] -- Configuring done
+[0.991s] -- Generating done
+[0.992s] -- Build files have been written to: /home/kgh/ws2/build/yzbot_stm32connect
+[1.035s] [ 50%] Built target serial
+[1.056s] [35m[1mScanning dependencies of target stm32_connect[0m
+[1.089s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+[1.090s] [ 75%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[3.126s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In constructor ‘[01m[KPLC::PLC(RobotSerial*)[m[K’:
+[3.126s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfmq_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kfsub[m[K’?
+[3.126s]    20 |     [01;31m[Kfmq_sub[m[K = this->create_subscription<yzbot_msgs::msg::FmqSet>(
+[3.126s]       |     [01;31m[K^~~~~~~[m[K
+[3.126s]       |     [32m[Kfsub[m[K
+[3.126s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:21:35:[m[K [01;31m[Kerror: [m[K‘[01m[KYourNode[m[K’ has not been declared
+[3.126s]    21 |         "Fmq_set", 10, std::bind(&[01;31m[KYourNode[m[K::get_fmq_callback, this, std::placeholders::_1));
+[3.126s]       |                                   [01;31m[K^~~~~~~~[m[K
+[3.148s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kint PLC::pub_odom(short int, short int, short int, short int, float, float, float, float)[m[K’:
+[3.148s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:67:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.148s]    67 | int PLC::pub_odom([01;35m[Kshort int vx[m[K, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+[3.149s]       |                   [01;35m[K~~~~~~~~~~^~[m[K
+[3.149s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:67:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.149s]    67 | int PLC::pub_odom(short int vx, [01;35m[Kshort int vy[m[K, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+[3.149s]       |                                 [01;35m[K~~~~~~~~~~^~[m[K
+[3.149s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:67:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_v[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.149s]    67 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, [01;35m[Kfloat angle_v[m[K, float angle, float n_vx, float n_vth)
+[3.149s]       |                                                                           [01;35m[K~~~~~~^~~~~~~[m[K
+[3.149s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:67:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.149s]    67 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, [01;35m[Kfloat n_vx[m[K, float n_vth)
+[3.149s]       |                                                                                                       [01;35m[K~~~~~~^~~~[m[K
+[3.149s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:67:121:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vth[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.149s]    67 | int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, [01;35m[Kfloat n_vth[m[K)
+[3.149s]       |                                                                                                                   [01;35m[K~~~~~~^~~~~[m[K
+[3.154s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::pub_robot_pose(int, int, double, double)[m[K’:
+[3.154s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:176:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktrueth_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.154s]   176 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+[3.154s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[3.154s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:180:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.154s]   180 |     double [01;35m[Kdt[m[K = (current_time - robot_pose_lasttime).seconds();
+[3.154s]       |            [01;35m[K^~[m[K
+[3.155s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:186:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksin_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.155s]   186 |     double [01;35m[Ksin_y[m[K = sin(my_robot_pose.robot_yaw + dt_th/2.0);
+[3.155s]       |            [01;35m[K^~~~~[m[K
+[3.155s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:173:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_l[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.155s]   173 | void PLC::pub_robot_pose(int left_t, int right_t, double angle_t, [01;35m[Kdouble angle_l[m[K)
+[3.155s]       |                                                                   [01;35m[K~~~~~~~^~~~~~~[m[K
+[3.155s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::plc_Timer_deal_odom()[m[K’:
+[3.155s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:250:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kget_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.155s]   250 |   int [01;35m[Kget_odom[m[K = mRobotSerial->GetOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth);
+[3.155s]       |       [01;35m[K^~~~~~~~[m[K
+[5.064s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K At global scope:
+[5.065s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:176:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrueth_angle[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[5.065s]   176 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+[5.065s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[5.092s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:89：CMakeFiles/stm32_connect.dir/src/plc.cpp.o] 错误 1
+[5.093s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[5.093s] make: *** [Makefile:141：all] 错误 2
+[5.098s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

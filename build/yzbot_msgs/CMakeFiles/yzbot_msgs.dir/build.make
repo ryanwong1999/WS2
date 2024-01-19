@@ -54,6 +54,9 @@ CMAKE_BINARY_DIR = /home/kgh/ws2/build/yzbot_msgs
 include CMakeFiles/yzbot_msgs.dir/progress.make
 
 CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/RobotPose.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/FmqSet.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/ChargeCtrl.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PmsStatus.msg
 
 
 yzbot_msgs: CMakeFiles/yzbot_msgs

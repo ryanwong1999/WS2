@@ -1,2 +1,8 @@
+msg/ChargeCtrl.idl
+msg/ChargeCtrl.msg
+msg/FmqSet.idl
+msg/FmqSet.msg
+msg/PmsStatus.idl
+msg/PmsStatus.msg
 msg/RobotPose.idl
 msg/RobotPose.msg

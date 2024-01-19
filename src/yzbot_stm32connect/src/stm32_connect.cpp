@@ -4,7 +4,7 @@
 std::shared_ptr<serial::Serial> serial_;
 RobotSerial *RobotSerial_ = NULL;
 PLC *PLC_ = NULL;
-// PMS *PMS_ = NULL;
+PMS *PMS_ = NULL;
 // PSC *PSC_ = NULL;
 
 using namespace std;
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 
     RobotSerial_ = new RobotSerial(serial_);
     PLC_ = new PLC(RobotSerial_);
-    // PMS_ = new PMS(RobotSerial_);
+    PMS_ = new PMS(RobotSerial_);
     // PSC_ = new PSC(RobotSerial_);
     // 运行节点，并检测退出信号
     rclcpp::spin(node);

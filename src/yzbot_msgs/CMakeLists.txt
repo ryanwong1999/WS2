@@ -33,6 +33,9 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotPose.msg"
+  "msg/FmqSet.msg"
+  "msg/ChargeCtrl.msg"
+  "msg/PmsStatus.msg"
 )
 
 ament_package()

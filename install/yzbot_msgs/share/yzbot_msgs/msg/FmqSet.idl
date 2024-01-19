@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yzbot_msgs/msg/FmqSet.msg
+// generated code does not contain a copyright notice
+
+
+module yzbot_msgs {
+  module msg {
+    struct FmqSet {
+      int8 switch_status;
+    };
+  };
+};

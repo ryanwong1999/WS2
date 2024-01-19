@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yzbot_msgs/msg/PmsStatus.msg
+// generated code does not contain a copyright notice
+
+
+module yzbot_msgs {
+  module msg {
+    struct PmsStatus {
+      int32 pms_charging_flag;
+
+      int32 pms_battery_level;
+    };
+  };
+};

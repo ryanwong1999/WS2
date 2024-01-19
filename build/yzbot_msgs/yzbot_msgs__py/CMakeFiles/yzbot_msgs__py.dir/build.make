@@ -57,8 +57,14 @@ yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_
 yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
 yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_c.c
 yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_robot_pose.py
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_fmq_set.py
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl.py
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_pms_status.py
 yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/__init__.py
 yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c
+yzbot_msgs__py/CMakeFiles/yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c
 
 
 rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +81,9 @@ rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/yzbot_msgs/msg/RobotPose.idl
+rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/yzbot_msgs/msg/FmqSet.idl
+rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl
+rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/kgh/ws2/build/yzbot_msgs/yzbot_msgs__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -87,19 +96,43 @@ rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_c.c: rosidl_g
 rosidl_generator_py/yzbot_msgs/msg/_robot_pose.py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_robot_pose.py
 
+rosidl_generator_py/yzbot_msgs/msg/_fmq_set.py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_fmq_set.py
+
+rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl.py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl.py
+
+rosidl_generator_py/yzbot_msgs/msg/_pms_status.py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_pms_status.py
+
 rosidl_generator_py/yzbot_msgs/msg/__init__.py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/__init__.py
 
 rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c
 
+rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c
+
+rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c
+
+rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c
+
 yzbot_msgs__py: yzbot_msgs__py/CMakeFiles/yzbot_msgs__py
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_c.c
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_robot_pose.py
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_fmq_set.py
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl.py
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_pms_status.py
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/__init__.py
 yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c
+yzbot_msgs__py: rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c
 yzbot_msgs__py: yzbot_msgs__py/CMakeFiles/yzbot_msgs__py.dir/build.make
 
 .PHONY : yzbot_msgs__py

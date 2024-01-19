@@ -1,0 +1,32 @@
+[ 44%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/pms.cpp.o[0m
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:[m[K In constructor ‘[01m[KPMS::PMS(RobotSerial*)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:11:61:[m[K [01;31m[Kerror: [m[K‘[01m[KChargingControl[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’
+   11 |     charge_sub = this->create_subscription<yzbot_msgs::msg::[01;31m[KChargingControl[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:12:43:[m[K [01;31m[Kerror: [m[K‘[01m[KYourNode[m[K’ has not been declared
+   12 |         "your_topic_name", 10, std::bind(&[01;31m[KYourNode[m[K::get_callback, this, std::placeholders::_1));
+      |                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:9:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kauto_charge_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+    9 |     int [01;35m[Kauto_charge_flag[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:[m[K At global scope:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:17:42:[m[K [01;31m[Kerror: [m[K‘[01m[KChargingControl[m[K’ in namespace ‘[01m[Kyzbot_msgs::msg[m[K’ does not name a type
+   17 | void get_callback(const yzbot_msgs::msg::[01;31m[KChargingControl[m[K::SharedPtr msg)
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:17:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   17 | void get_callback(const yzbot_msgs::msg::ChargingControl::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                     [01;31m[K^~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:17:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   17 | void get_callback[34m[K([m[Kconst yzbot_msgs::msg::ChargingControl::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |                  [34m[K~[m[K                                                 [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                    [32m[K)[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/pms.cpp:17:69:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   17 | void get_callback(const yzbot_msgs::msg::ChargingControl::SharedPtr [01;31m[Kmsg[m[K)
+      |                                                                     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:102：CMakeFiles/stm32_connect.dir/src/pms.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

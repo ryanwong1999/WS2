@@ -1,0 +1,2 @@
+int32 pms_charging_flag
+int32 pms_battery_level

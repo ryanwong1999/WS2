@@ -70,14 +70,59 @@ CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.s
 
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o: CMakeFiles/yzbot_msgs__python.dir/flags.make
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o: rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o   -c /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c > CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.i
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o: CMakeFiles/yzbot_msgs__python.dir/flags.make
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o: rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o   -c /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c > CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.i
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o: CMakeFiles/yzbot_msgs__python.dir/flags.make
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o: rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o   -c /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c > CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.i
+
+CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c -o CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s
+
 # Object files for target yzbot_msgs__python
 yzbot_msgs__python_OBJECTS = \
-"CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.o"
+"CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.o" \
+"CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o" \
+"CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o" \
+"CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o"
 
 # External object files for target yzbot_msgs__python
 yzbot_msgs__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.o
+rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o
+rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.o
+rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/build.make
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: libyzbot_msgs__rosidl_generator_c.so
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -87,7 +132,7 @@ rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: /opt/ros/foxy/lib/libro
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so: CMakeFiles/yzbot_msgs__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/yzbot_msgs/libyzbot_msgs__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yzbot_msgs__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

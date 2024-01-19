@@ -1,1 +1,4 @@
 /home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/RobotPose.idl
+/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/FmqSet.idl
+/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/ChargeCtrl.idl
+/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PmsStatus.idl

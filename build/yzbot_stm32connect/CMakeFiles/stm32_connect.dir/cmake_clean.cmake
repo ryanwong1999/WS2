@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stm32_connect.dir/src/plc.cpp.o"
+  "CMakeFiles/stm32_connect.dir/src/pms.cpp.o"
+  "CMakeFiles/stm32_connect.dir/src/psc.cpp.o"
   "CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o"
   "CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o"
   "stm32_connect"

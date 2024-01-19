@@ -8,6 +8,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_c.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_introspection_c.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/__init__.py" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl.py" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_fmq_set.py" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_pms_status.py" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_robot_pose.py" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c" "/home/kgh/ws2/build/yzbot_msgs/rosidl_generator_py/yzbot_msgs/_yzbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

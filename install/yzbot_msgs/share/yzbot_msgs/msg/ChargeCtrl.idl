@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yzbot_msgs/msg/ChargeCtrl.msg
+// generated code does not contain a copyright notice
+
+
+module yzbot_msgs {
+  module msg {
+    struct ChargeCtrl {
+      int8 auto_charge_flag;
+    };
+  };
+};

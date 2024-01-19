@@ -58,6 +58,21 @@ CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pos
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__struct.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/charge_ctrl.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/pms_status.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -81,6 +96,9 @@ rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_g
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/RobotPose.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/FmqSet.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_cpp__arguments.json
 
@@ -96,12 +114,72 @@ rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp: rosidl_genera
 rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
 
+rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/charge_ctrl.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/charge_ctrl.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/pms_status.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/pms_status.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
+
 yzbot_msgs__cpp: CMakeFiles/yzbot_msgs__cpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__builder.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__struct.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/charge_ctrl.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/pms_status.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
 yzbot_msgs__cpp: CMakeFiles/yzbot_msgs__cpp.dir/build.make
 
 .PHONY : yzbot_msgs__cpp

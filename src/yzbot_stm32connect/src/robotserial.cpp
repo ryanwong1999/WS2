@@ -62,7 +62,7 @@ int8_t RobotSerial::robotSerialRead(void)
     else return -1;
 }
 
-int RobotSerial::Auto_Charging(int chargeFlag)
+int RobotSerial::autoCharge(int chargeFlag)
 {
     RCLCPP_INFO(get_logger(), "Auto_Charging----%d", chargeFlag);
     uint8_t SendBUF[MAX_RX_LEN];
@@ -101,7 +101,7 @@ int RobotSerial::Auto_Charging(int chargeFlag)
     } 
 }
 
-int RobotSerial::SetSpeed(short int st1, short int st2, short int tag, double yaw, double d)   
+int RobotSerial::setSpeed(short int st1, short int st2, short int tag, double yaw, double d)   
 {
     RCLCPP_INFO(get_logger(), "SetSpeed----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -158,7 +158,7 @@ int RobotSerial::SetSpeed(short int st1, short int st2, short int tag, double ya
     } 
 }
 
-int RobotSerial::Get_Pms(int &Charging_Flag, int &Battary_Level)
+int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
 {
     RCLCPP_INFO(get_logger(), "SetSpeed----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -221,7 +221,7 @@ int RobotSerial::Get_Pms(int &Charging_Flag, int &Battary_Level)
     }
 }
 
-int RobotSerial::SendNeckCtrl(int direction)
+int RobotSerial::sendNeckCtrl(int direction)
 { 
     RCLCPP_INFO(get_logger(), "SendNeckCtrl----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -263,7 +263,7 @@ int RobotSerial::SendNeckCtrl(int direction)
 }
 
 
-int RobotSerial::SendNeck_Height(int height)
+int RobotSerial::sendNeckHeight(int height)
 {
     RCLCPP_INFO(get_logger(), "SendNeck_Height----");
     //height = height - 71;
@@ -309,7 +309,7 @@ int RobotSerial::SendNeck_Height(int height)
 }
 
 int ttt1, ttt2;
-int8_t RobotSerial::GetOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
+int8_t RobotSerial::getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
                            float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth)                       
 {
     RCLCPP_INFO(get_logger(), "GetOdom----");
@@ -433,7 +433,7 @@ int8_t RobotSerial::GetOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
 }
 
 // 获取自动充电时stm32给的速度
-int8_t RobotSerial::GetAutoSpeed()
+int8_t RobotSerial::getAutoSpeed()
 {
     RCLCPP_INFO(get_logger(), "GetOdom----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -487,7 +487,7 @@ int8_t RobotSerial::GetAutoSpeed()
     }
 }
 
-int8_t RobotSerial::SetSensorEn(int carLight, int turnLight)
+int8_t RobotSerial::setSensorEn(int carLight, int turnLight)
 {
   RCLCPP_INFO(get_logger(),"SetSensorEn---- carLight: %d  turnLight: %d", carLight, turnLight);
   uint8_t SendBUF[MAX_RX_LEN];
@@ -531,7 +531,7 @@ int8_t RobotSerial::SetSensorEn(int carLight, int turnLight)
 }
 
 // 获取按钮开关状态和噪声分贝值
-int8_t RobotSerial::get_robot_button(int &audio_button, int &power_button, int &zs)
+int8_t RobotSerial::getRobotButton(int &audio_button, int &power_button, int &zs)
 {
     RCLCPP_INFO(get_logger(), "get_robot_button----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -573,7 +573,7 @@ int8_t RobotSerial::get_robot_button(int &audio_button, int &power_button, int &
     }
 }
 
-int RobotSerial::get_ultrasound_result(int &cs_obs, int &fz_obs)
+int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
 {
     RCLCPP_INFO(get_logger(), "get_ultrasound_result----");
     static int tmp = 0;
@@ -637,7 +637,7 @@ int RobotSerial::get_ultrasound_result(int &cs_obs, int &fz_obs)
 }
 
 // 获取升降干状态
-int8_t RobotSerial::GetNeckPose(int &height, int &limit, int &done, int light, int bebebe)
+int8_t RobotSerial::getNeckPose(int &height, int &limit, int &done, int light, int bebebe)
 {
     RCLCPP_INFO(get_logger(), "GetNeckPose----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -687,7 +687,7 @@ int8_t RobotSerial::GetNeckPose(int &height, int &limit, int &done, int light, i
     }
 }
 
-int8_t RobotSerial::GetHeadPose(int &Level, int &Vertical, int &switch_flag)
+int8_t RobotSerial::getHeadPose(int &Level, int &Vertical, int &switch_flag)
 {
     RCLCPP_INFO(get_logger(), "GetHeadPose----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -740,7 +740,7 @@ int8_t RobotSerial::GetHeadPose(int &Level, int &Vertical, int &switch_flag)
     }
 }
 
-int RobotSerial::SendHead_angle(int level, int pitch)
+int RobotSerial::sendHeadAngle(int level, int pitch)
 {
     RCLCPP_INFO(get_logger(), "SendHead_angle----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -782,7 +782,7 @@ int RobotSerial::SendHead_angle(int level, int pitch)
     } 
 }
 
-int RobotSerial::set_angle_offset(int8_t &level_offset, int8_t pitch_offset)
+int RobotSerial::setAngleOffset(int8_t &level_offset, int8_t pitch_offset)
 {
     RCLCPP_INFO(get_logger(), "set_angle_offset----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -827,9 +827,9 @@ int RobotSerial::set_angle_offset(int8_t &level_offset, int8_t pitch_offset)
     }  
 }
 
-int RobotSerial::SendHeardCtrl(int direction)
+int RobotSerial::sendHeadCtrl(int direction)
 { 
-    RCLCPP_INFO(get_logger(), "SendHeardCtrl----");
+    RCLCPP_INFO(get_logger(), "SendHeadCtrl----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);

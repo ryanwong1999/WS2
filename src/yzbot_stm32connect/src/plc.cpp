@@ -1,29 +1,35 @@
 #include "plc.hpp"
 
-RobotSerial *mRobotSerial;
-
 /**
   构造函数初始化
 **/
 PLC::PLC(RobotSerial *Robotserial_) : Node("plc")
 {
-    th_total_h = 0;
+    th_total_h = 0;  
+    my_robot_pose.robot_x = 0;
+    my_robot_pose.robot_y = 0;
+    my_robot_pose.robot_yaw = 0;
     
     mRobotSerial = Robotserial_;
     // 初始化发布者
     odom_pub = this->create_publisher<nav_msgs::msg::Odometry>("odom", 50);
     robot_pose_pub = this->create_publisher<yzbot_msgs::msg::RobotPose>("robot_pose", 10);
     
+    fmq_sub = this->create_subscription<yzbot_msgs::msg::FmqSet>(
+        "Fmq_set", 10, std::bind(&PLC::get_fmq_callback, this, std::placeholders::_1));
     cmd_vel_sub = this->create_subscription<geometry_msgs::msg::Twist>(
         "cmd_vel", 10, std::bind(&PLC::cmd_vel_callback, this, std::placeholders::_1));
-    
+    amcl_pose_sub = this->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(
+        "amcl_pose", 10, std::bind(&PLC::amcl_pose_callback, this, std::placeholders::_1));
     // 初始化 last_time
     last_time = this->now();
 }
 
-PLC::~PLC()
-{
+PLC::~PLC() {}
 
+void PLC::get_fmq_callback(const yzbot_msgs::msg::FmqSet::SharedPtr msg)
+{
+    fmq_status_flag = msg->switch_status;
 }
 
 void PLC::cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel)
@@ -33,6 +39,22 @@ void PLC::cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel)
     g_vth = cmd_vel->angular.z;
 }
 
+void PLC::amcl_pose_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr amcl_pose)
+{
+    mRobotPose_x = amcl_pose->pose.pose.position.x;
+    mRobotPose_y = amcl_pose->pose.pose.position.y;
+    mD = mRobotPose_y - 14.3;
+    my_robot_pose.robot_x = amcl_pose->pose.pose.position.x;
+    my_robot_pose.robot_y = amcl_pose->pose.pose.position.y;
+
+    tf2::Quaternion quat;
+    tf2::fromMsg(amcl_pose->pose.pose.orientation, quat);
+    double roll, pitch, yaw;
+    tf2::Matrix3x3(quat).getRPY(roll, pitch, yaw);
+
+    mRobotPose_yaw = yaw;
+    my_robot_pose.robot_yaw = yaw;
+}
 
 /**
   发布odom话题
@@ -55,7 +77,7 @@ int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float 
 
     double dt_x = ((t1 + t2) * pulse_sec * cos(th_total_h - th_dt_h + th_dt_h/2.0))/2.0;
     double dt_y = ((t1 + t2) * pulse_sec * sin(th_total_h - th_dt_h + th_dt_h/2.0))/2.0;
-    double my_angle = th_total_h*(180/3.1415926);
+    double my_angle = th_total_h*(180/PI);
     
     int left_t = t1, right_t = t2;
     if(-90<my_angle && my_angle<90)
@@ -145,26 +167,89 @@ int PLC::pub_odom(short int vx, short int vy, short int t1, short int t2, float 
 
 void PLC::pub_robot_pose(int left_t, int right_t, double angle_t, double angle_l)
 {
-  static float per_angle = 0;
-  static float trueth_angle = 0;
+    static float per_angle = 0;
+    static float trueth_angle = 0;
+    yzbot_msgs::msg::RobotPose robot_pose;
 
+    current_time = this->now();
+    double dt = (current_time - robot_pose_lasttime).seconds();
+
+    // 角度  弧度 
+    double dt_th = (angle_t - per_angle) * PRE_RATE;
+    double dt_x = ((left_t + right_t) * pulse_sec * cos(my_robot_pose.robot_yaw + dt_th/2.0))/2.0;
+    double dt_y = ((left_t + right_t) * pulse_sec * sin(my_robot_pose.robot_yaw + dt_th/2.0))/2.0;
+    double sin_y = sin(my_robot_pose.robot_yaw + dt_th/2.0);
+
+    my_robot_pose.robot_yaw = angle_t;
+
+    //通过角度 排除x y 正负问题
+    double my_angle =  my_robot_pose.robot_yaw * (180/PI);
+    if(-90<my_angle && my_angle<90)
+    {
+        if((left_t>0 && right_t>0) && dt_x<0)
+            dt_x = -1*dt_x;
+        if((left_t<0 && right_t<0) && dt_x>0)
+            dt_x = -1*dt_x;
+    }
+    else
+    {
+        if((left_t<0 && right_t<0) && dt_x<0)
+            dt_x = -1*dt_x;
+        if((left_t>0 && right_t>0) && dt_x>0)
+            dt_x = -1*dt_x;
+    }
+
+    if(my_angle>0)
+    {
+        if((left_t>0 && right_t>0) && dt_y<0)
+            dt_y = -1*dt_y;
+        if((left_t<0 && right_t<0) && dt_y>0)
+            dt_y = -1*dt_y;
+    }
+    else
+    {
+        if((left_t<0 && right_t<0) && dt_y<0)
+            dt_y = -1*dt_y;
+        if((left_t>0 && right_t>0) && dt_y>0)
+            dt_y = -1*dt_y;
+    }
+
+    my_robot_pose.robot_x += dt_x;
+    my_robot_pose.robot_y += dt_y;
+    //动态amcl坐标+静态odom角度 剔除+-3.14切换数据 发布robot_pose
+    //ROS_INFO("dt_th:%.2f %.2f", dt_th, mRobotPose_yaw);
+    if(dt_th > 1) dt_th = 0;
+    mRobotPose_yaw = mRobotPose_yaw + dt_th;
+    if(fabs(mRobotPose_yaw) > 3.14) mRobotPose_yaw = 3.14*Sign(mRobotPose_yaw)*-1+(Sign(mRobotPose_yaw)*fabs(fabs(mRobotPose_yaw)-3.14));
+    robot_pose.yaw = mRobotPose_yaw;
+    if(my_robot_pose.robot_yaw <= -PI) my_robot_pose.robot_yaw = 2 * PI + my_robot_pose.robot_yaw;
+    else if(my_robot_pose.robot_yaw > PI) my_robot_pose.robot_yaw = -2 * PI + my_robot_pose.robot_yaw;
+
+    //这个是 发布 robot 的位置
+    robot_pose.robot_x = my_robot_pose.robot_x;
+    robot_pose.robot_y = my_robot_pose.robot_y;
+    robot_pose.robot_yaw = my_robot_pose.robot_yaw;
+
+    robot_pose_pub->publish(robot_pose);
+    per_angle = angle_t;
+    robot_pose_lasttime = current_time;
 }
 
-// void PLC::plc_Timer_deal_odom()
-// {
-//   unsigned char frameIndex = 0;
-//   int16_t t1 = 0, t2 = 0;
-//   float dbTh = 0, dbVth = 0, dbTh_l = 0;
-//   int16_t vx = 0, vth = 0;
+void PLC::plc_timer_deal_odom()
+{
+  unsigned char frameIndex = 0;
+  int16_t t1 = 0, t2 = 0;
+  float dbTh = 0, dbVth = 0, dbTh_l = 0;
+  int16_t vx = 0, vth = 0;
 
-//   int get_odom = mRobotSerial->GetOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth); 
-//   pub_odom(g_vx, g_vy, t1, t2, (float)(dbVth/100.0), (float)(dbTh/100.0), (float)(vx/1000.0), (float)(vth/1000.0));  
-//   pub_robot_pose(t1, t2, (float)(dbTh/100.0), (float)(dbTh_l/100.0));
+  int get_odom = mRobotSerial->getOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth); 
+  pub_odom(g_vx, g_vy, t1, t2, (float)(dbVth/100.0), (float)(dbTh/100.0), (float)(vx/1000.0), (float)(vth/1000.0));  
+  pub_robot_pose(t1, t2, (float)(dbTh/100.0), (float)(dbTh_l/100.0));
 
-//   mRobotSerial->SetSpeed(g_vx*1000, g_vth*1000, 0x15, mRobotPose_yaw, mD);
-// }
+  mRobotSerial->setSpeed(g_vx*1000, g_vth*1000, 0x15, mRobotPose_yaw, mD);
+}
 
-// void PLC::get_auto_speed()
-// {
-//   int autospeed = mRobotSerial->GetAutoSpeed();
-// }
+void PLC::get_auto_speed()
+{
+  int autospeed = mRobotSerial->getAutoSpeed();
+}

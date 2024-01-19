@@ -300,6 +300,60 @@ src/plc.cpp.s:
 	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/plc.cpp.s
 .PHONY : src/plc.cpp.s
 
+src/pms.o: src/pms.cpp.o
+
+.PHONY : src/pms.o
+
+# target to build an object file
+src/pms.cpp.o:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/pms.cpp.o
+.PHONY : src/pms.cpp.o
+
+src/pms.i: src/pms.cpp.i
+
+.PHONY : src/pms.i
+
+# target to preprocess a source file
+src/pms.cpp.i:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/pms.cpp.i
+.PHONY : src/pms.cpp.i
+
+src/pms.s: src/pms.cpp.s
+
+.PHONY : src/pms.s
+
+# target to generate assembly for a file
+src/pms.cpp.s:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/pms.cpp.s
+.PHONY : src/pms.cpp.s
+
+src/psc.o: src/psc.cpp.o
+
+.PHONY : src/psc.o
+
+# target to build an object file
+src/psc.cpp.o:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/psc.cpp.o
+.PHONY : src/psc.cpp.o
+
+src/psc.i: src/psc.cpp.i
+
+.PHONY : src/psc.i
+
+# target to preprocess a source file
+src/psc.cpp.i:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/psc.cpp.i
+.PHONY : src/psc.cpp.i
+
+src/psc.s: src/psc.cpp.s
+
+.PHONY : src/psc.s
+
+# target to generate assembly for a file
+src/psc.cpp.s:
+	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/src/psc.cpp.s
+.PHONY : src/psc.cpp.s
+
 src/robotserial.o: src/robotserial.cpp.o
 
 .PHONY : src/robotserial.o
@@ -407,6 +461,12 @@ help:
 	@echo "... src/plc.o"
 	@echo "... src/plc.i"
 	@echo "... src/plc.s"
+	@echo "... src/pms.o"
+	@echo "... src/pms.i"
+	@echo "... src/pms.s"
+	@echo "... src/psc.o"
+	@echo "... src/psc.i"
+	@echo "... src/psc.s"
 	@echo "... src/robotserial.o"
 	@echo "... src/robotserial.i"
 	@echo "... src/robotserial.s"

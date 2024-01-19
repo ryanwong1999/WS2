@@ -41,6 +41,8 @@ add_executable(stm32_connect
     src/stm32_connect.cpp
     src/robotserial.cpp
     src/plc.cpp
+    src/pms.cpp
+    src/psc.cpp
 )
 
 target_include_directories(stm32_connect PUBLIC

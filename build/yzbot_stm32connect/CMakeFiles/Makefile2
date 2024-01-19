@@ -78,12 +78,12 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/stm32_connect.dir/all: CMakeFiles/serial.dir/all
 	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/depend
 	$(MAKE) -f CMakeFiles/stm32_connect.dir/build.make CMakeFiles/stm32_connect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles --progress-num=5,6,7,8 "Built target stm32_connect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target stm32_connect"
 .PHONY : CMakeFiles/stm32_connect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stm32_connect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stm32_connect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kgh/ws2/build/yzbot_stm32connect/CMakeFiles 0
 .PHONY : CMakeFiles/stm32_connect.dir/rule
