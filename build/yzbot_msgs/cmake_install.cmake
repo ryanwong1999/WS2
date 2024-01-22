@@ -355,6 +355,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/RobotButton.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/FmqSet.idl")
 endif()
 
@@ -367,7 +371,47 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/ObsResult.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/EmergencyButton.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscHeadOffset.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscGetHeadStatus.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscGetNeckStatus.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscHeadControl.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscNeckControl.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscKeyHeadControl.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscKeyNeckControl.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/RobotPose.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/RobotButton.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -380,6 +424,42 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PmsStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/ObsResult.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/EmergencyButton.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscHeadOffset.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscGetHeadStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscGetNeckStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscHeadControl.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscNeckControl.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscKeyHeadControl.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/yzbot_msgs/msg" TYPE FILE FILES "/home/kgh/ws2/src/yzbot_msgs/msg/PscKeyNeckControl.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

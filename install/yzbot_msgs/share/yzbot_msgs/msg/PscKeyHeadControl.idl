@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yzbot_msgs/msg/PscKeyHeadControl.msg
+// generated code does not contain a copyright notice
+
+
+module yzbot_msgs {
+  module msg {
+    struct PscKeyHeadControl {
+      int32 psc_head_direction;
+    };
+  };
+};

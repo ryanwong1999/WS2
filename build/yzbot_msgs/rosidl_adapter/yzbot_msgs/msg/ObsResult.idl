@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yzbot_msgs/msg/ObsResult.msg
+// generated code does not contain a copyright notice
+
+
+module yzbot_msgs {
+  module msg {
+    struct ObsResult {
+      int8 cs_obs;
+
+      int8 fz_obs;
+    };
+  };
+};

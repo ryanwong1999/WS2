@@ -1,0 +1,174 @@
+[0.117s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.170s] [ 40%] Built target serial
+[0.203s] [ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o[0m
+[0.203s] [ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[2.248s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.248s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:80:53:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCAngleControl[m[K’ in namespace ‘[01m[Kyzbot_msgs::msg[m[K’ does not name a type
+[2.248s]    80 |   void head_control_by_angle(const yzbot_msgs::msg::[01;31m[KPSCAngleControl[m[K &msg);
+[2.248s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.257s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetNeckStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetNeckStatus[m[K’?
+[2.257s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::[01;31m[KPSCGetNeckStatus[m[K>::SharedPtr psc_neck_status_pub;
+[2.257s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.257s]       |                                      [32m[KPscGetNeckStatus[m[K
+[2.257s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.257s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus[01;31m[K>[m[K::SharedPtr psc_neck_status_pub;
+[2.257s]       |                                                      [01;31m[K^[m[K
+[2.257s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.257s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::[01;31m[KSharedPtr[m[K psc_neck_status_pub;
+[2.257s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[2.257s]       |                                                                  [32m[K;[m[K
+[2.264s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_neck_status_pub[m[K’ does not name a type
+[2.264s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::SharedPtr [01;31m[Kpsc_neck_status_pub[m[K;
+[2.264s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.264s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetHeadStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetHeadStatus[m[K’?
+[2.264s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::[01;31m[KPSCGetHeadStatus[m[K>::SharedPtr psc_head_status_pub;
+[2.264s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.265s]       |                                      [32m[KPscGetHeadStatus[m[K
+[2.265s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.265s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus[01;31m[K>[m[K::SharedPtr psc_head_status_pub;
+[2.265s]       |                                                      [01;31m[K^[m[K
+[2.265s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.265s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::[01;31m[KSharedPtr[m[K psc_head_status_pub;
+[2.265s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[2.265s]       |                                                                  [32m[K;[m[K
+[2.265s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PSC::SharedPtr[m[K’
+[2.265s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PSC::SharedPtr[m[K’
+[2.265s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::[01;36m[KSharedPtr[m[K psc_neck_status_pub;
+[2.266s]       |                                                         [01;36m[K^~~~~~~~~[m[K
+[2.272s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_head_status_pub[m[K’ does not name a type
+[2.272s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::SharedPtr [01;31m[Kpsc_head_status_pub[m[K;
+[2.272s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.284s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In constructor ‘[01m[KPSC::PSC(RobotSerial*)[m[K’:
+[2.285s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_neck_status_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpsc_neck_status[m[K’?
+[2.285s]    12 |     [01;31m[Kpsc_neck_status_pub[m[K = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10);
+[2.285s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.285s]       |     [32m[Kpsc_neck_status[m[K
+[2.285s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:67:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetNeckStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetNeckStatus[m[K’?
+[2.285s]    12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::[01;31m[KPSCGetNeckStatus[m[K>("psc_get_neck_status", 10);
+[2.285s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.285s]       |                                                                   [32m[KPscGetNeckStatus[m[K
+[2.285s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPSC::create_publisher<<expression error> >(const char [20], int)[m[K’
+[2.285s]    12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10[01;31m[K)[m[K;
+[2.285s]       |                                                                                                              [01;31m[K^[m[K
+[2.285s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[2.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.286s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.286s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4[m[K,
+[2.286s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.286s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.286s]    71 | [01;36m[KNode[m[K::create_publisher(
+[2.286s]       | [01;36m[K^~~~[m[K
+[2.286s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.286s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.286s]    12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10[01;31m[K)[m[K;
+[2.286s]       |                                                                                                              [01;31m[K^[m[K
+[2.290s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_head_status_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpsc_head_status[m[K’?
+[2.290s]    13 |     [01;31m[Kpsc_head_status_pub[m[K = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10);
+[2.290s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.290s]       |     [32m[Kpsc_head_status[m[K
+[2.290s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:67:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetHeadStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetHeadStatus[m[K’?
+[2.290s]    13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::[01;31m[KPSCGetHeadStatus[m[K>("psc_get_head_status", 10);
+[2.290s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.290s]       |                                                                   [32m[KPscGetHeadStatus[m[K
+[2.290s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPSC::create_publisher<<expression error> >(const char [20], int)[m[K’
+[2.290s]    13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10[01;31m[K)[m[K;
+[2.290s]       |                                                                                                              [01;31m[K^[m[K
+[2.291s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[2.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.291s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.291s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4[m[K,
+[2.291s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.291s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.291s]    71 | [01;36m[KNode[m[K::create_publisher(
+[2.291s]       | [01;36m[K^~~~[m[K
+[2.291s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.291s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.291s]    13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10[01;31m[K)[m[K;
+[2.291s]       |                                                                                                              [01;31m[K^[m[K
+[2.313s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kvoid PSC::neck_control_by_height(const PscNeckControl&)[m[K’:
+[2.314s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_height_neck_control_flag[m[K’ was not declared in this scope
+[2.314s]    63 |     [01;31m[Kpsc_height_neck_control_flag[m[K = 1;
+[2.314s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.314s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K At global scope:
+[2.314s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:69:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PSC::head_control_by_angle(const PscHeadControl&)[m[K’
+[2.314s]    69 | void [01;31m[KPSC[m[K::head_control_by_angle(const yzbot_msgs::msg::PscHeadControl &msg)
+[2.315s]       |      [01;31m[K^~~[m[K
+[2.315s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.315s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:80:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid PSC::head_control_by_angle(const int&)[m[K’
+[2.315s]    80 |   void [01;36m[Khead_control_by_angle[m[K(const yzbot_msgs::msg::PSCAngleControl &msg);
+[2.315s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.315s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PSC[m[K’ defined here
+[2.315s]    60 | class [01;36m[KPSC[m[K : public rclcpp::Node
+[2.316s]       |       [01;36m[K^~~[m[K
+[2.316s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PSC::Neck_Control_By_Key(const PscKeyNeckControl&)[m[K’
+[2.316s]    78 | void [01;31m[KPSC[m[K::Neck_Control_By_Key(const yzbot_msgs::msg::PscKeyNeckControl &msg)
+[2.316s]       |      [01;31m[K^~~[m[K
+[2.316s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PSC::Neck_Control_By_Key(const PscKeyNeckControl&)[m[K’
+[2.316s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.316s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PSC[m[K’ defined here
+[2.317s]    60 | class [01;36m[KPSC[m[K : public rclcpp::Node
+[2.317s]       |       [01;36m[K^~~[m[K
+[2.317s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PSC::control_by_key(const PscKeyHeadControl&)[m[K’
+[2.317s]    85 | void [01;31m[KPSC[m[K::control_by_key(const yzbot_msgs::msg::PscKeyHeadControl &msg)
+[2.317s]       |      [01;31m[K^~~[m[K
+[2.317s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PSC::control_by_key(const PscKeyHeadControl&)[m[K’
+[2.317s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.317s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PSC[m[K’ defined here
+[2.317s]    60 | class [01;36m[KPSC[m[K : public rclcpp::Node
+[2.318s]       |       [01;36m[K^~~[m[K
+[2.318s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:55:[m[K [01;31m[Kerror: [m[K‘[01m[KPscAngleOffset[m[K’ in namespace ‘[01m[Kyzbot_msgs[m[K’ does not name a type
+[2.318s]    91 | void PSC::Set_angle_offset_callback(const yzbot_msgs::[01;31m[KPscAngleOffset[m[K &msg)
+[2.318s]       |                                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.318s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PSC::Set_angle_offset_callback(const int&)[m[K’
+[2.318s]    91 | void [01;31m[KPSC[m[K::Set_angle_offset_callback(const yzbot_msgs::PscAngleOffset &msg)
+[2.318s]       |      [01;31m[K^~~[m[K
+[2.318s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PSC::Set_angle_offset_callback(const int&)[m[K’
+[2.318s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[2.319s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PSC[m[K’ defined here
+[2.319s]    60 | class [01;36m[KPSC[m[K : public rclcpp::Node
+[2.319s]       |       [01;36m[K^~~[m[K
+[2.410s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:8[m[K,
+[2.410s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[2.410s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:80:53:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCAngleControl[m[K’ in namespace ‘[01m[Kyzbot_msgs::msg[m[K’ does not name a type
+[2.410s]    80 |   void head_control_by_angle(const yzbot_msgs::msg::[01;31m[KPSCAngleControl[m[K &msg);
+[2.410s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.418s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetNeckStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetNeckStatus[m[K’?
+[2.419s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::[01;31m[KPSCGetNeckStatus[m[K>::SharedPtr psc_neck_status_pub;
+[2.419s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.419s]       |                                      [32m[KPscGetNeckStatus[m[K
+[2.419s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.419s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus[01;31m[K>[m[K::SharedPtr psc_neck_status_pub;
+[2.419s]       |                                                      [01;31m[K^[m[K
+[2.419s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.419s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::[01;31m[KSharedPtr[m[K psc_neck_status_pub;
+[2.419s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[2.420s]       |                                                                  [32m[K;[m[K
+[2.426s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_neck_status_pub[m[K’ does not name a type
+[2.426s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::SharedPtr [01;31m[Kpsc_neck_status_pub[m[K;
+[2.426s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.426s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPSCGetHeadStatus[m[K’ is not a member of ‘[01m[Kyzbot_msgs::msg[m[K’; did you mean ‘[01m[KPscGetHeadStatus[m[K’?
+[2.426s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::[01;31m[KPSCGetHeadStatus[m[K>::SharedPtr psc_head_status_pub;
+[2.426s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.426s]       |                                      [32m[KPscGetHeadStatus[m[K
+[2.426s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.426s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus[01;31m[K>[m[K::SharedPtr psc_head_status_pub;
+[2.427s]       |                                                      [01;31m[K^[m[K
+[2.427s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.427s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::[01;31m[KSharedPtr[m[K psc_head_status_pub;
+[2.427s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[2.427s]       |                                                                  [32m[K;[m[K
+[2.427s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PSC::SharedPtr[m[K’
+[2.427s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PSC::SharedPtr[m[K’
+[2.427s]    88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::[01;36m[KSharedPtr[m[K psc_neck_status_pub;
+[2.427s]       |                                                         [01;36m[K^~~~~~~~~[m[K
+[2.432s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_head_status_pub[m[K’ does not name a type
+[2.433s]    89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::SharedPtr [01;31m[Kpsc_head_status_pub[m[K;
+[2.433s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.084s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+[3.085s] make[2]: *** 正在等待未完成的任务....
+[3.244s] make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+[3.244s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+[3.245s] make: *** [Makefile:141：all] 错误 2
+[3.246s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '2': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16

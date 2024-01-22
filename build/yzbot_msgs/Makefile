@@ -402,6 +402,33 @@ rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.c.s
 .PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.c.s
 
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.c.s
+
 rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.c.o
 
 .PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.o
@@ -429,6 +456,33 @@ rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.c.s
 .PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.c.s
 
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.c.s
+
 rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.c.o
 
 .PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.o
@@ -455,6 +509,222 @@ rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.s: rosidl_generat
 rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.c.s
 .PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.c.s
+
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.o
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.o
+
+# target to build an object file
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.o
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.o
+
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.i: rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.i
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.i
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.i
+
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.s: rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.s
+
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.s
+.PHONY : rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.c.s
 
 rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.o: rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.c.o
 
@@ -591,6 +861,33 @@ rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s
 .PHONY : rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.c.s
 
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.o: rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.i: rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.s: rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.c.s
+
 rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.o: rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.o
 
 .PHONY : rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.o
@@ -618,6 +915,33 @@ rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s
 .PHONY : rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.c.s
 
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.o: rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.i: rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.s: rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.c.s
+
 rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.o: rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.o
 
 .PHONY : rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.o
@@ -644,6 +968,222 @@ rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.s: rosidl_generator_py/yzbot_ms
 rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s
 .PHONY : rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.o: rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.i: rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.s: rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.c.s
+
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.o: rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.o
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.o
+
+# target to build an object file
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.o
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.o
+
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.i: rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.i
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.i
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.i
+
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.s: rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.s
+
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__python.dir/build.make CMakeFiles/yzbot_msgs__python.dir/rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.s
+.PHONY : rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.c.s
 
 rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.o: rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.c.o
 
@@ -699,6 +1239,33 @@ rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s
 
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+
 rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.o
@@ -726,6 +1293,33 @@ rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.cpp.s
 
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.cpp.s
+
 rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.o
@@ -752,6 +1346,222 @@ rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.s: rosidl_typesuppo
 rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.o
+
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.i: rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.i
+
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.s: rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.cpp.s
 
 rosidl_typesupport_c/yzbot_msgs/msg/robot_pose__type_support.o: rosidl_typesupport_c/yzbot_msgs/msg/robot_pose__type_support.cpp.o
 
@@ -807,6 +1617,33 @@ rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.cpp.s
 
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.cpp.s
+
 rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.o
@@ -834,6 +1671,33 @@ rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.cpp.s
 
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.cpp.s
+
 rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.o
@@ -860,6 +1724,222 @@ rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.s: rosidl_typesup
 rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.cpp.s
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.o
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.i: rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.i
+
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.s: rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.cpp.s
 
 rosidl_typesupport_cpp/yzbot_msgs/msg/robot_pose__type_support.o: rosidl_typesupport_cpp/yzbot_msgs/msg/robot_pose__type_support.cpp.o
 
@@ -915,6 +1995,33 @@ rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.o
@@ -942,6 +2049,33 @@ rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.o
@@ -968,6 +2102,222 @@ rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.s
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.i: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.s: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o
 
@@ -1023,6 +2373,33 @@ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.o
@@ -1050,6 +2427,33 @@ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.o
@@ -1076,6 +2480,222 @@ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__t
 rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.i: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.s: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.o: rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o
 
@@ -1131,6 +2751,33 @@ rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_suppo
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.c.s
 
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.c.s
+
 rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.o
@@ -1158,6 +2805,33 @@ rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.c
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.c.s
 
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.c.s
+
 rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.o
@@ -1184,6 +2858,222 @@ rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_suppor
 rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.c.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.c.s
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.o
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.i: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.i
+
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.s: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.c.s
 
 rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_pose__type_support.o: rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_pose__type_support.c.o
 
@@ -1239,6 +3129,33 @@ rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_sup
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.o
@@ -1266,6 +3183,33 @@ rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.o
@@ -1292,6 +3236,222 @@ rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_supp
 rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.i: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.s: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/yzbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.o: rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.cpp.o
 
@@ -1352,12 +3512,42 @@ help:
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.o"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.i"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/charge_ctrl__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/emergency_button__functions.s"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.o"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.i"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/fmq_set__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/obs_result__functions.s"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.o"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.i"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/pms_status__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_head_status__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_get_neck_status__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_control__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_head_offset__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_head_control__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_key_neck_control__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/psc_neck_control__functions.s"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.o"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.i"
+	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_button__functions.s"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.o"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.i"
 	@echo "... rosidl_generator_c/yzbot_msgs/msg/detail/robot_pose__functions.s"
@@ -1373,84 +3563,294 @@ help:
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.o"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.i"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_charge_ctrl_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_emergency_button_s.s"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.o"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.i"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_fmq_set_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_obs_result_s.s"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.o"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.i"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_pms_status_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_head_status_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_get_neck_status_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_control_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_head_offset_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_head_control_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_key_neck_control_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_psc_neck_control_s.s"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.o"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.i"
+	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_button_s.s"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.o"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.i"
 	@echo "... rosidl_generator_py/yzbot_msgs/msg/_robot_pose_s.s"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.o"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.i"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/charge_ctrl__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/emergency_button__type_support.s"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.o"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.i"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/fmq_set__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/obs_result__type_support.s"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.o"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.i"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/pms_status__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_head_status__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_get_neck_status__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_control__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_head_offset__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_head_control__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_key_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/psc_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.o"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.i"
+	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_button__type_support.s"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_pose__type_support.o"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_pose__type_support.i"
 	@echo "... rosidl_typesupport_c/yzbot_msgs/msg/robot_pose__type_support.s"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.o"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.i"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/charge_ctrl__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/emergency_button__type_support.s"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.o"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.i"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/fmq_set__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/obs_result__type_support.s"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.o"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.i"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/pms_status__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_head_status__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_get_neck_status__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_control__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_head_offset__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_head_control__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_key_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/psc_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.o"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.i"
+	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_button__type_support.s"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_pose__type_support.o"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_pose__type_support.i"
 	@echo "... rosidl_typesupport_cpp/yzbot_msgs/msg/robot_pose__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/charge_ctrl__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/charge_ctrl__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/emergency_button__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/fmq_set__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/obs_result__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/pms_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_head_offset__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/psc_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_button__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_pose__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_pose__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/yzbot_msgs/msg/detail/robot_pose__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/charge_ctrl__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/fmq_set__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/obs_result__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/pms_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_button__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.s"

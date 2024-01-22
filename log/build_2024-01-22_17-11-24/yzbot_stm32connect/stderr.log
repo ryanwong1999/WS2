@@ -1,0 +1,46 @@
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:87:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPscHeadOffset[m[K’ in namespace ‘[01m[Kyzbot_msgs[m[K’ does not name a type
+   87 |   void set_head_offset_callback(const yzbot_msgs::[01;31m[KPscHeadOffset[m[K &msg)
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:87:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   87 |   void set_head_offset_callback(const yzbot_msgs::PscHeadOffset &msg[01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kvoid PSC::neck_Control_By_Key_callback(const PscKeyNeckControl&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_key_neck_control_direction[m[K’ was not declared in this scope; did you mean ‘[01m[Kpsc_key_neck_control_flag[m[K’?
+   81 |     [01;31m[Kpsc_key_neck_control_direction[m[K = msg.psc_neck_direction;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kpsc_key_neck_control_flag[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kvoid PSC::head_control_by_key_callback(const PscKeyHeadControl&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_key_head_control_direction[m[K’ was not declared in this scope
+   87 |     [01;31m[Kpsc_key_head_control_direction[m[K = msg.psc_direction;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:87:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst PscKeyHeadControl[m[K’ {aka ‘[01m[Kconst struct yzbot_msgs::msg::PscKeyHeadControl_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpsc_direction[m[K’; did you mean ‘[01m[Kpsc_head_direction[m[K’?
+   87 |     psc_key_head_control_direction = msg.[01;31m[Kpsc_direction[m[K;
+      |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                          [32m[Kpsc_head_direction[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K At global scope:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:54:[m[K [01;31m[Kerror: [m[K‘[01m[KPscHeadOffset[m[K’ in namespace ‘[01m[Kyzbot_msgs[m[K’ does not name a type
+   91 | void PSC::set_head_offset_callback(const yzbot_msgs::[01;31m[KPscHeadOffset[m[K &msg)
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kvoid PSC::set_head_offset_callback(const int&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_head_offset_en[m[K’ was not declared in this scope
+   93 |     [01;31m[Kpsc_head_offset_en[m[K = msg.offset_set_en;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:93:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Koffset_set_en[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   93 |     psc_head_offset_en = msg.[01;31m[Koffset_set_en[m[K;
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:8[m[K,
+                 from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:87:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPscHeadOffset[m[K’ in namespace ‘[01m[Kyzbot_msgs[m[K’ does not name a type
+   87 |   void set_head_offset_callback(const yzbot_msgs::[01;31m[KPscHeadOffset[m[K &msg)
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:87:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   87 |   void set_head_offset_callback(const yzbot_msgs::PscHeadOffset &msg[01;31m[K)[m[K
+      |                                                                     [01;31m[K^[m[K
+      |                                                                      [32m[K;[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

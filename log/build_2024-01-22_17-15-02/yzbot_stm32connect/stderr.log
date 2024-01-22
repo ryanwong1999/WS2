@@ -1,0 +1,7 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kvoid PSC::set_head_offset_callback(const PscHeadOffset&)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsc_head_offset_en[m[K’ was not declared in this scope
+   93 |     [01;31m[Kpsc_head_offset_en[m[K = msg.offset_set_en;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

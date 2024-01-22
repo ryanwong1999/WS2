@@ -1,0 +1,13 @@
+[ 40%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In constructor ‘[01m[KPSC::PSC(RobotSerial*)[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[KmRobotSerial[m[K’ was not declared in this scope; did you mean ‘[01m[KRobotSerial[m[K’?
+    8 |     [01;31m[KmRobotSerial[m[K = Robotserial_;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[KRobotSerial[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

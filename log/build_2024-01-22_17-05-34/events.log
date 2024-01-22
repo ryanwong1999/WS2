@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000700] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000785] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000818] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000849] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000883] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000912] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000939] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000966] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001036] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001068] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001105] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001272] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001304] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001333] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001360] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.001388] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001416] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001443] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001510] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001541] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001586] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.001630] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001665] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001735] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001785] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001813] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001850] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001877] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001930] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001959] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002716] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.002748] (-) JobUnselected: {'identifier': 'yzbot_cartographer'}
+[0.002992] (-) JobUnselected: {'identifier': 'yzbot_controller'}
+[0.003028] (-) JobUnselected: {'identifier': 'yzbot_description'}
+[0.003105] (-) JobUnselected: {'identifier': 'yzbot_msgs'}
+[0.003242] (-) JobUnselected: {'identifier': 'yzbot_nav2'}
+[0.003277] (yzbot_stm32connect) JobQueued: {'identifier': 'yzbot_stm32connect', 'dependencies': OrderedDict([('yzbot_msgs', '/home/kgh/ws2/install/yzbot_msgs')])}
+[0.003324] (yzbot_stm32connect) JobStarted: {'identifier': 'yzbot_stm32connect'}
+[0.101151] (-) TimerEvent: {}
+[0.112512] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'cmake'}
+[0.113077] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'build'}
+[0.113598] (yzbot_stm32connect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/ws2/build/yzbot_stm32connect', '--', '-j16', '-l16'], 'cwd': '/home/kgh/ws2/build/yzbot_stm32connect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_CLIENT', '192.168.0.113 63064 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kgh'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6004424f-e4d6-4e37-b9a6-ed5eaa5cc9e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '49'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-24b122ee6f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kgh/ws2/build/yzbot_stm32connect'), ('SSH_CONNECTION', '192.168.0.113 63064 192.168.0.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.193930] (yzbot_stm32connect) StdoutLine: {'line': b'[ 40%] Built target serial\n'}
+[0.201329] (-) TimerEvent: {}
+[0.221864] (yzbot_stm32connect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target stm32_connect\x1b[0m\n'}
+[0.292520] (yzbot_stm32connect) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o\x1b[0m\n'}
+[0.292745] (yzbot_stm32connect) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o\x1b[0m\n'}
+[0.301434] (-) TimerEvent: {}
+[0.401703] (-) TimerEvent: {}
+[0.502016] (-) TimerEvent: {}
+[0.602910] (-) TimerEvent: {}
+[0.703403] (-) TimerEvent: {}
+[0.803763] (-) TimerEvent: {}
+[0.904137] (-) TimerEvent: {}
+[1.004921] (-) TimerEvent: {}
+[1.105871] (-) TimerEvent: {}
+[1.206232] (-) TimerEvent: {}
+[1.307225] (-) TimerEvent: {}
+[1.407613] (-) TimerEvent: {}
+[1.508374] (-) TimerEvent: {}
+[1.608782] (-) TimerEvent: {}
+[1.709219] (-) TimerEvent: {}
+[1.809604] (-) TimerEvent: {}
+[1.910033] (-) TimerEvent: {}
+[2.010422] (-) TimerEvent: {}
+[2.110811] (-) TimerEvent: {}
+[2.211206] (-) TimerEvent: {}
+[2.260131] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPSC::PSC(RobotSerial*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.260382] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.260480] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K>("psc_get_neck_status", 10);\n'}
+[2.260568] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.260638] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\n'}
+[2.260707] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPSC::create_publisher<<expression error> >(const char [20], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.260777] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.260845] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.260909] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.260974] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.261038] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.261102] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.261164] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4\x1b[m\x1b[K,\n'}
+[2.261226] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.261291] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.261361] (yzbot_stm32connect) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[2.261440] (yzbot_stm32connect) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.261534] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.261602] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.261667] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.261738] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.261803] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.261885] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K>("psc_get_head_status", 10);\n'}
+[2.261963] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.262031] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\n'}
+[2.262097] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPSC::create_publisher<<expression error> >(const char [20], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.262164] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.262227] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.262289] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.262353] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.262423] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.262486] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.262555] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4\x1b[m\x1b[K,\n'}
+[2.262621] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.262683] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.262750] (yzbot_stm32connect) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[2.262815] (yzbot_stm32connect) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.262876] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.262960] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.263032] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.263097] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.271764] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.272046] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::Neck_Control_By_Key_callback(const PscKeyNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272135] (yzbot_stm32connect) StderrLine: {'line': b'   78 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::Neck_Control_By_Key_callback(const yzbot_msgs::msg::PscKeyNeckControl &msg)\n'}
+[2.272210] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.272278] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::Neck_Control_By_Key_callback(const PscKeyNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272348] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.272422] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.272491] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.272558] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.272624] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::control_by_key_callback(const PscKeyHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272691] (yzbot_stm32connect) StderrLine: {'line': b'   85 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::control_by_key_callback(const yzbot_msgs::msg::PscKeyHeadControl &msg)\n'}
+[2.272758] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.272823] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::control_by_key_callback(const PscKeyHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.272888] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.272953] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.273021] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.273088] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.273154] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPscHeadOffset\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.273221] (yzbot_stm32connect) StderrLine: {'line': b'   91 | void PSC::set_head_offset_callback(const yzbot_msgs::\x1b[01;31m\x1b[KPscHeadOffset\x1b[m\x1b[K &msg)\n'}
+[2.273294] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.273361] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::set_head_offset_callback(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.273429] (yzbot_stm32connect) StderrLine: {'line': b'   91 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::set_head_offset_callback(const yzbot_msgs::PscHeadOffset &msg)\n'}
+[2.273495] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.273560] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::set_head_offset_callback(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.273625] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.273694] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.273761] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.273824] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.311337] (-) TimerEvent: {}
+[2.411740] (-) TimerEvent: {}
+[2.512130] (-) TimerEvent: {}
+[2.612523] (-) TimerEvent: {}
+[2.712930] (-) TimerEvent: {}
+[2.813307] (-) TimerEvent: {}
+[2.913715] (-) TimerEvent: {}
+[3.014106] (-) TimerEvent: {}
+[3.114525] (-) TimerEvent: {}
+[3.160843] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115\xef\xbc\x9aCMakeFiles/stm32_connect.dir/src/psc.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.161063] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.214649] (-) TimerEvent: {}
+[3.307363] (yzbot_stm32connect) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80\xef\xbc\x9aCMakeFiles/stm32_connect.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.307641] (yzbot_stm32connect) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.309371] (yzbot_stm32connect) CommandEnded: {'returncode': 2}
+[3.314829] (-) TimerEvent: {}
+[3.419970] (-) TimerEvent: {}
+[3.484546] (yzbot_stm32connect) JobEnded: {'identifier': 'yzbot_stm32connect', 'rc': 2}
+[3.495679] (-) EventReactorShutdown: {}

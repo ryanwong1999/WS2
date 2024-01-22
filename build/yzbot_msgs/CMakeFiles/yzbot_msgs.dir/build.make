@@ -54,9 +54,19 @@ CMAKE_BINARY_DIR = /home/kgh/ws2/build/yzbot_msgs
 include CMakeFiles/yzbot_msgs.dir/progress.make
 
 CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/RobotPose.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/RobotButton.msg
 CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/FmqSet.msg
 CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/ChargeCtrl.msg
 CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PmsStatus.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/ObsResult.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/EmergencyButton.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscHeadOffset.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscGetHeadStatus.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscGetNeckStatus.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscHeadControl.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscNeckControl.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscKeyHeadControl.msg
+CMakeFiles/yzbot_msgs: /home/kgh/ws2/src/yzbot_msgs/msg/PscKeyNeckControl.msg
 
 
 yzbot_msgs: CMakeFiles/yzbot_msgs

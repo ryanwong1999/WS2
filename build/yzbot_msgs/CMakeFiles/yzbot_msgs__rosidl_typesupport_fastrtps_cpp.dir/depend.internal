@@ -25,6 +25,30 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fa
  rosidl_generator_cpp/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_cpp.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/emergency_button__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.cpp.o
  /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/fmq_set__type_support.cpp
  /opt/ros/foxy/include/fastcdr/Cdr.h
@@ -49,6 +73,30 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fa
  rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_cpp.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/obs_result__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp.o
  /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/pms_status__type_support.cpp
  /opt/ros/foxy/include/fastcdr/Cdr.h
@@ -72,6 +120,198 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fa
  /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
  rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_head_status__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_get_neck_status__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_control__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_head_offset__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_head_control__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_key_neck_control__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/psc_neck_control__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_cpp.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp.o
+ /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_button__type_support.cpp
+ /opt/ros/foxy/include/fastcdr/Cdr.h
+ /opt/ros/foxy/include/fastcdr/FastBuffer.h
+ /opt/ros/foxy/include/fastcdr/config.h
+ /opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
+ /opt/ros/foxy/include/fastcdr/exceptions/Exception.h
+ /opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
+ /opt/ros/foxy/include/fastcdr/fastcdr_dll.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
+ /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+ /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+ /opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp
+ /opt/ros/foxy/include/rosidl_runtime_cpp/message_initialization.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+ /opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+ /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+ rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__struct.hpp
+ rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_cpp.hpp
  rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o
  /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_cpp/yzbot_msgs/msg/detail/dds_fastrtps/robot_pose__type_support.cpp

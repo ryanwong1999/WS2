@@ -606,7 +606,7 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
             {   
                 // 返回0,表示接收到有效数据
                 // 解析数据
-                unsigned char recvFrameIndex=0;
+                unsigned char recvFrameIndex = 0;
                 unsigned char length;
                 unsigned char s_devid;
                 unsigned char p_devid;

@@ -1,4 +1,14 @@
 from yzbot_msgs.msg._charge_ctrl import ChargeCtrl  # noqa: F401
+from yzbot_msgs.msg._emergency_button import EmergencyButton  # noqa: F401
 from yzbot_msgs.msg._fmq_set import FmqSet  # noqa: F401
+from yzbot_msgs.msg._obs_result import ObsResult  # noqa: F401
 from yzbot_msgs.msg._pms_status import PmsStatus  # noqa: F401
+from yzbot_msgs.msg._psc_get_head_status import PscGetHeadStatus  # noqa: F401
+from yzbot_msgs.msg._psc_get_neck_status import PscGetNeckStatus  # noqa: F401
+from yzbot_msgs.msg._psc_head_control import PscHeadControl  # noqa: F401
+from yzbot_msgs.msg._psc_head_offset import PscHeadOffset  # noqa: F401
+from yzbot_msgs.msg._psc_key_head_control import PscKeyHeadControl  # noqa: F401
+from yzbot_msgs.msg._psc_key_neck_control import PscKeyNeckControl  # noqa: F401
+from yzbot_msgs.msg._psc_neck_control import PscNeckControl  # noqa: F401
+from yzbot_msgs.msg._robot_button import RobotButton  # noqa: F401
 from yzbot_msgs.msg._robot_pose import RobotPose  # noqa: F401

@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000843] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000883] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000908] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000931] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000952] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000972] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000992] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001088] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001220] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001246] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001267] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001288] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001308] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001328] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001348] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001367] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.001387] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001408] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001428] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001448] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001467] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001487] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.001507] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001526] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001546] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001565] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001583] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001602] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001621] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001640] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001659] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001678] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.001698] (-) JobUnselected: {'identifier': 'yzbot_cartographer'}
+[0.001718] (-) JobUnselected: {'identifier': 'yzbot_controller'}
+[0.001737] (-) JobUnselected: {'identifier': 'yzbot_description'}
+[0.001757] (-) JobUnselected: {'identifier': 'yzbot_msgs'}
+[0.001776] (-) JobUnselected: {'identifier': 'yzbot_nav2'}
+[0.001797] (yzbot_stm32connect) JobQueued: {'identifier': 'yzbot_stm32connect', 'dependencies': OrderedDict([('yzbot_msgs', '/home/kgh/ws2/install/yzbot_msgs')])}
+[0.001824] (yzbot_stm32connect) JobStarted: {'identifier': 'yzbot_stm32connect'}
+[0.100297] (-) TimerEvent: {}
+[0.114375] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'cmake'}
+[0.115005] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'build'}
+[0.115904] (yzbot_stm32connect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/ws2/build/yzbot_stm32connect', '--', '-j16', '-l16'], 'cwd': '/home/kgh/ws2/build/yzbot_stm32connect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_CLIENT', '192.168.0.113 63064 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kgh'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6004424f-e4d6-4e37-b9a6-ed5eaa5cc9e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '49'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-24b122ee6f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kgh/ws2/build/yzbot_stm32connect'), ('SSH_CONNECTION', '192.168.0.113 63064 192.168.0.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.171298] (yzbot_stm32connect) StdoutLine: {'line': b'[ 40%] Built target serial\n'}
+[0.187441] (yzbot_stm32connect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target stm32_connect\x1b[0m\n'}
+[0.200379] (-) TimerEvent: {}
+[0.246385] (yzbot_stm32connect) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o\x1b[0m\n'}
+[0.246623] (yzbot_stm32connect) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o\x1b[0m\n'}
+[0.300517] (-) TimerEvent: {}
+[0.400883] (-) TimerEvent: {}
+[0.501262] (-) TimerEvent: {}
+[0.601640] (-) TimerEvent: {}
+[0.702019] (-) TimerEvent: {}
+[0.802375] (-) TimerEvent: {}
+[0.902770] (-) TimerEvent: {}
+[1.003165] (-) TimerEvent: {}
+[1.103535] (-) TimerEvent: {}
+[1.203890] (-) TimerEvent: {}
+[1.304249] (-) TimerEvent: {}
+[1.404602] (-) TimerEvent: {}
+[1.504974] (-) TimerEvent: {}
+[1.605374] (-) TimerEvent: {}
+[1.705735] (-) TimerEvent: {}
+[1.806109] (-) TimerEvent: {}
+[1.906516] (-) TimerEvent: {}
+[2.006897] (-) TimerEvent: {}
+[2.107286] (-) TimerEvent: {}
+[2.207679] (-) TimerEvent: {}
+[2.308076] (-) TimerEvent: {}
+[2.333200] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.333551] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:80:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCAngleControl\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.333648] (yzbot_stm32connect) StderrLine: {'line': b'   80 |   void head_control_by_angle(const yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCAngleControl\x1b[m\x1b[K &msg);\n'}
+[2.333729] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341151] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.341383] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K>::SharedPtr psc_neck_status_pub;\n'}
+[2.341470] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.341546] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\n'}
+[2.341617] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.341690] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr psc_neck_status_pub;\n'}
+[2.341760] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.341827] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.341897] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K psc_neck_status_pub;\n'}
+[2.341967] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.342035] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.347895] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.348215] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::SharedPtr \x1b[01;31m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K;\n'}
+[2.348329] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.348445] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.348560] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K>::SharedPtr psc_head_status_pub;\n'}
+[2.348659] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.348756] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\n'}
+[2.348852] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.348947] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr psc_head_status_pub;\n'}
+[2.349045] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.349147] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.349247] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K psc_head_status_pub;\n'}
+[2.349345] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.349441] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.349540] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint PSC::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.349637] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint PSC::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.349733] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K psc_neck_status_pub;\n'}
+[2.349838] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.354900] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.355084] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::SharedPtr \x1b[01;31m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K;\n'}
+[2.355199] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.367528] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPSC::PSC(RobotSerial*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.367852] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpsc_neck_status\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.367967] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     \x1b[01;31m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10);\n'}
+[2.368083] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.368183] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kpsc_neck_status\x1b[m\x1b[K\n'}
+[2.368283] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.368384] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K>("psc_get_neck_status", 10);\n'}
+[2.368481] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.368578] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\n'}
+[2.368671] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPSC::create_publisher<<expression error> >(const char [20], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.368767] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.368862] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.368964] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.369059] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.369153] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.369246] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.369336] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4\x1b[m\x1b[K,\n'}
+[2.369428] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.369527] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.369626] (yzbot_stm32connect) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[2.369722] (yzbot_stm32connect) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.369818] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.369914] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:12:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.370015] (yzbot_stm32connect) StderrLine: {'line': b'   12 |     psc_neck_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetNeckStatus>("psc_get_neck_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.370113] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.372434] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpsc_head_status\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.372571] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10);\n'}
+[2.372673] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.372774] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kpsc_head_status\x1b[m\x1b[K\n'}
+[2.372874] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.372992] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K>("psc_get_head_status", 10);\n'}
+[2.373102] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.373203] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\n'}
+[2.373301] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPSC::create_publisher<<expression error> >(const char [20], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.373401] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.373499] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.373598] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[2.373701] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.373800] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.373897] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.373995] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:4\x1b[m\x1b[K,\n'}
+[2.374093] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.374190] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.374307] (yzbot_stm32connect) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[2.374408] (yzbot_stm32connect) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.374507] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.374606] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:13:110:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.374703] (yzbot_stm32connect) StderrLine: {'line': b'   13 |     psc_head_status_pub = this->create_publisher<yzbot_msgs::msg::PSCGetHeadStatus>("psc_get_head_status", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.374801] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.384394] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.384612] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:61:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::neck_control_by_height_callback(const PscNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.384724] (yzbot_stm32connect) StderrLine: {'line': b'   61 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::neck_control_by_height_callback(const yzbot_msgs::msg::PscNeckControl &msg)\n'}
+[2.384828] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.384930] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:61:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::neck_control_by_height_callback(const PscNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.385019] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.385102] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.385184] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.385265] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.385346] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:69:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::head_control_by_angle_callback(const PscHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.385428] (yzbot_stm32connect) StderrLine: {'line': b'   69 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::head_control_by_angle_callback(const yzbot_msgs::msg::PscHeadControl &msg)\n'}
+[2.385509] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.385588] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:69:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::head_control_by_angle_callback(const PscHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.385670] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.385752] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.385850] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.385933] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.386013] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::Neck_Control_By_Key_callback(const PscKeyNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.386099] (yzbot_stm32connect) StderrLine: {'line': b'   78 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::Neck_Control_By_Key_callback(const yzbot_msgs::msg::PscKeyNeckControl &msg)\n'}
+[2.386181] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.386259] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:78:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::Neck_Control_By_Key_callback(const PscKeyNeckControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.386340] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.386420] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.386501] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.386580] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.386658] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::control_by_key_callback(const PscKeyHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.386735] (yzbot_stm32connect) StderrLine: {'line': b'   85 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::control_by_key_callback(const yzbot_msgs::msg::PscKeyHeadControl &msg)\n'}
+[2.386827] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.386914] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:85:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::control_by_key_callback(const PscKeyHeadControl&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387000] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.387081] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.387163] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.387243] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.387322] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPscHeadOffset\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.387403] (yzbot_stm32connect) StderrLine: {'line': b'   91 | void PSC::set_head_offset_callback(const yzbot_msgs::\x1b[01;31m\x1b[KPscHeadOffset\x1b[m\x1b[K &msg)\n'}
+[2.387481] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.387569] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::set_head_offset_callback(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387650] (yzbot_stm32connect) StderrLine: {'line': b'   91 | void \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::set_head_offset_callback(const yzbot_msgs::PscHeadOffset &msg)\n'}
+[2.387730] (yzbot_stm32connect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.387809] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:91:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PSC::set_head_offset_callback(const int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.387889] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.387969] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.388050] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.388130] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.408214] (-) TimerEvent: {}
+[2.475895] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:8\x1b[m\x1b[K,\n'}
+[2.476211] (yzbot_stm32connect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1\x1b[m\x1b[K:\n'}
+[2.476349] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:80:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCAngleControl\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.476478] (yzbot_stm32connect) StderrLine: {'line': b'   80 |   void head_control_by_angle(const yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCAngleControl\x1b[m\x1b[K &msg);\n'}
+[2.476583] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.484451] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.484763] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetNeckStatus\x1b[m\x1b[K>::SharedPtr psc_neck_status_pub;\n'}
+[2.484897] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.485017] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KPscGetNeckStatus\x1b[m\x1b[K\n'}
+[2.485122] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.485223] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr psc_neck_status_pub;\n'}
+[2.485329] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.485436] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.485539] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K psc_neck_status_pub;\n'}
+[2.485639] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.485742] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.492709] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.493003] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::SharedPtr \x1b[01;31m\x1b[Kpsc_neck_status_pub\x1b[m\x1b[K;\n'}
+[2.493131] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493246] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kyzbot_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.493356] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::\x1b[01;31m\x1b[KPSCGetHeadStatus\x1b[m\x1b[K>::SharedPtr psc_head_status_pub;\n'}
+[2.493460] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.493562] (yzbot_stm32connect) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[KPscGetHeadStatus\x1b[m\x1b[K\n'}
+[2.493663] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.493762] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr psc_head_status_pub;\n'}
+[2.493859] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.493967] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.494067] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K psc_head_status_pub;\n'}
+[2.494164] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.494260] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.494356] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint PSC::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494454] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:88:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint PSC::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494564] (yzbot_stm32connect) StderrLine: {'line': b'   88 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetNeckStatus>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K psc_neck_status_pub;\n'}
+[2.494663] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.501600] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:89:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.501813] (yzbot_stm32connect) StderrLine: {'line': b'   89 |   rclcpp::Publisher<yzbot_msgs::msg::PSCGetHeadStatus>::SharedPtr \x1b[01;31m\x1b[Kpsc_head_status_pub\x1b[m\x1b[K;\n'}
+[2.501933] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.508322] (-) TimerEvent: {}
+[2.608668] (-) TimerEvent: {}
+[2.709061] (-) TimerEvent: {}
+[2.809462] (-) TimerEvent: {}
+[2.909851] (-) TimerEvent: {}
+[3.010284] (-) TimerEvent: {}
+[3.110710] (-) TimerEvent: {}
+[3.152301] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63\xef\xbc\x9aCMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.152611] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.210882] (-) TimerEvent: {}
+[3.309261] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115\xef\xbc\x9aCMakeFiles/stm32_connect.dir/src/psc.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.309607] (yzbot_stm32connect) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80\xef\xbc\x9aCMakeFiles/stm32_connect.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.309790] (yzbot_stm32connect) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.310961] (-) TimerEvent: {}
+[3.311924] (yzbot_stm32connect) CommandEnded: {'returncode': 2}
+[3.412150] (-) TimerEvent: {}
+[3.479091] (yzbot_stm32connect) JobEnded: {'identifier': 'yzbot_stm32connect', 'rc': 2}
+[3.489796] (-) EventReactorShutdown: {}

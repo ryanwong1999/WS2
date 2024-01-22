@@ -1,0 +1,19 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kint PSC::query_neck_pose()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:33:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotSerial[m[K’ has no member named ‘[01m[KGetNeckPose[m[K’; did you mean ‘[01m[KgetNeckPose[m[K’?
+   33 |     neck_pose = mRobotSerial->[01;31m[KGetNeckPose[m[K(psc_neck_status.height, psc_neck_status.limit, psc_neck_status.done, flag_light, flag_bebebe);
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+      |                               [32m[KgetNeckPose[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:33:112:[m[K [01;31m[Kerror: [m[K‘[01m[Kflag_light[m[K’ was not declared in this scope; did you mean ‘[01m[Kdaylight[m[K’?
+   33 |     neck_pose = mRobotSerial->GetNeckPose(psc_neck_status.height, psc_neck_status.limit, psc_neck_status.done, [01;31m[Kflag_light[m[K, flag_bebebe);
+      |                                                                                                                [01;31m[K^~~~~~~~~~[m[K
+      |                                                                                                                [32m[Kdaylight[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:33:124:[m[K [01;31m[Kerror: [m[K‘[01m[Kflag_bebebe[m[K’ was not declared in this scope
+   33 |     neck_pose = mRobotSerial->GetNeckPose(psc_neck_status.height, psc_neck_status.limit, psc_neck_status.done, flag_light, [01;31m[Kflag_bebebe[m[K);
+      |                                                                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:36:12:[m[K [01;31m[Kerror: [m[K‘[01m[Khead_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kneck_pose[m[K’?
+   36 |     return [01;31m[Khead_pose[m[K != 0 ? 0 : 1;
+      |            [01;31m[K^~~~~~~~~[m[K
+      |            [32m[Kneck_pose[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

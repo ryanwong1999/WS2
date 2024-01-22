@@ -4,9 +4,19 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/RobotPose.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/RobotButton.idl",
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/FmqSet.idl",
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/ChargeCtrl.idl",
-    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PmsStatus.idl"
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PmsStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/ObsResult.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/EmergencyButton.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscHeadOffset.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscGetHeadStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscGetNeckStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscHeadControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscNeckControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscKeyHeadControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs:msg/PscKeyNeckControl.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -29,8 +39,18 @@
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/RobotPose.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/RobotButton.idl",
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/FmqSet.idl",
     "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl",
-    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl"
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/ObsResult.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/EmergencyButton.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscHeadOffset.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscGetHeadStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscGetNeckStatus.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscHeadControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscNeckControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscKeyHeadControl.idl",
+    "/home/kgh/ws2/build/yzbot_msgs/rosidl_adapter/yzbot_msgs/msg/PscKeyNeckControl.idl"
   ]
 }

@@ -58,6 +58,11 @@ CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pos
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__struct.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_button.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__type_support.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
@@ -73,6 +78,51 @@ CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_statu
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/obs_result.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/emergency_button.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_head_offset.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_get_head_status.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_get_neck_status.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_head_control.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_neck_control.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_key_head_control.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_key_neck_control.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__builder.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__traits.hpp
+CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.hpp
 CMakeFiles/yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -96,9 +146,19 @@ rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_g
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/RobotPose.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/RobotButton.idl
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/FmqSet.idl
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl
 rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/ObsResult.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/EmergencyButton.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscHeadOffset.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscGetHeadStatus.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscGetNeckStatus.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscHeadControl.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscNeckControl.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscKeyHeadControl.idl
+rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp: rosidl_adapter/yzbot_msgs/msg/PscKeyNeckControl.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kgh/ws2/build/yzbot_msgs/rosidl_generator_cpp__arguments.json
 
@@ -113,6 +173,21 @@ rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp: rosidl_genera
 
 rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/robot_button.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/robot_button.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__type_support.hpp
 
 rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
@@ -159,12 +234,152 @@ rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp: rosidl_genera
 rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
 
+rosidl_generator_cpp/yzbot_msgs/msg/obs_result.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/obs_result.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/emergency_button.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/emergency_button.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_head_offset.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_head_offset.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_get_head_status.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_get_head_status.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_get_neck_status.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_get_neck_status.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_head_control.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_head_control.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_neck_control.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_neck_control.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_key_head_control.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_key_head_control.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/psc_key_neck_control.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/psc_key_neck_control.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__builder.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__builder.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__traits.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__traits.hpp
+
+rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.hpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.hpp
+
 yzbot_msgs__cpp: CMakeFiles/yzbot_msgs__cpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_pose.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__builder.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__struct.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__traits.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/robot_button.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/robot_button__type_support.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/fmq_set.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__builder.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/fmq_set__struct.hpp
@@ -180,6 +395,51 @@ yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__builder.
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__struct.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__traits.hpp
 yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/pms_status__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/obs_result.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/obs_result__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/emergency_button.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/emergency_button__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_head_offset.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_get_head_status.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_head_status__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_get_neck_status.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_head_control.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_head_control__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_neck_control.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_key_head_control.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_head_control__type_support.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/psc_key_neck_control.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__builder.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__traits.hpp
+yzbot_msgs__cpp: rosidl_generator_cpp/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.hpp
 yzbot_msgs__cpp: CMakeFiles/yzbot_msgs__cpp.dir/build.make
 
 .PHONY : yzbot_msgs__cpp

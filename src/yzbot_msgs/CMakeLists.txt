@@ -33,9 +33,19 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotPose.msg"
+  "msg/RobotButton.msg"
   "msg/FmqSet.msg"
   "msg/ChargeCtrl.msg"
   "msg/PmsStatus.msg"
+  "msg/ObsResult.msg"
+  "msg/EmergencyButton.msg"
+  "msg/PscHeadOffset.msg"
+  "msg/PscGetHeadStatus.msg"
+  "msg/PscGetNeckStatus.msg"
+  "msg/PscHeadControl.msg"
+  "msg/PscNeckControl.msg"
+  "msg/PscKeyHeadControl.msg"
+  "msg/PscKeyNeckControl.msg"
 )
 
 ament_package()

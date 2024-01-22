@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000249] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000275] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000316] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000336] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000378] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000401] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000421] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000441] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000461] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000480] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000499] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000518] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000537] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000555] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000573] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.000591] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000610] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000629] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.000649] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000669] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.000687] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.000705] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000723] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.000741] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.000760] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000778] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.000796] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.000814] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000832] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000850] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.000867] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.000886] (-) JobUnselected: {'identifier': 'yzbot_cartographer'}
+[0.000904] (-) JobUnselected: {'identifier': 'yzbot_controller'}
+[0.000923] (-) JobUnselected: {'identifier': 'yzbot_description'}
+[0.000942] (-) JobUnselected: {'identifier': 'yzbot_nav2'}
+[0.000960] (-) JobUnselected: {'identifier': 'yzbot_stm32connect'}
+[0.000980] (yzbot_msgs) JobQueued: {'identifier': 'yzbot_msgs', 'dependencies': OrderedDict()}
+[0.001005] (yzbot_msgs) JobStarted: {'identifier': 'yzbot_msgs'}
+[0.099351] (-) TimerEvent: {}
+[0.100895] (yzbot_msgs) JobProgress: {'identifier': 'yzbot_msgs', 'progress': 'cmake'}
+[0.102417] (yzbot_msgs) JobProgress: {'identifier': 'yzbot_msgs', 'progress': 'build'}
+[0.104816] (yzbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/ws2/build/yzbot_msgs', '--', '-j16', '-l16'], 'cwd': '/home/kgh/ws2/build/yzbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_CLIENT', '192.168.0.113 63064 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kgh'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6004424f-e4d6-4e37-b9a6-ed5eaa5cc9e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '49'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-24b122ee6f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kgh/ws2/build/yzbot_msgs'), ('SSH_CONNECTION', '192.168.0.113 63064 192.168.0.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.185558] (yzbot_msgs) StdoutLine: {'line': b'[  0%] Built target yzbot_msgs__cpp\n'}
+[0.185977] (yzbot_msgs) StdoutLine: {'line': b'[ 12%] Built target yzbot_msgs__rosidl_generator_c\n'}
+[0.199470] (-) TimerEvent: {}
+[0.208463] (yzbot_msgs) StdoutLine: {'line': b'[ 59%] Built target yzbot_msgs__rosidl_typesupport_introspection_c\n'}
+[0.208684] (yzbot_msgs) StdoutLine: {'line': b'[ 59%] Built target yzbot_msgs__rosidl_typesupport_c\n'}
+[0.208777] (yzbot_msgs) StdoutLine: {'line': b'[ 59%] Built target yzbot_msgs__rosidl_typesupport_cpp\n'}
+[0.208868] (yzbot_msgs) StdoutLine: {'line': b'[ 60%] Built target yzbot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.209396] (yzbot_msgs) StdoutLine: {'line': b'[ 72%] Built target yzbot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.244762] (yzbot_msgs) StdoutLine: {'line': b'[ 84%] Built target yzbot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.270375] (yzbot_msgs) StdoutLine: {'line': b'[ 84%] Built target yzbot_msgs\n'}
+[0.300162] (-) TimerEvent: {}
+[0.305344] (yzbot_msgs) StdoutLine: {'line': b'[ 85%] Built target yzbot_msgs__py\n'}
+[0.355878] (yzbot_msgs) StdoutLine: {'line': b'[ 96%] Built target yzbot_msgs__python\n'}
+[0.381939] (yzbot_msgs) StdoutLine: {'line': b'[100%] Built target yzbot_msgs__rosidl_typesupport_c__pyext\n'}
+[0.382167] (yzbot_msgs) StdoutLine: {'line': b'[100%] Built target yzbot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.382252] (yzbot_msgs) StdoutLine: {'line': b'[100%] Built target yzbot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.398702] (yzbot_msgs) CommandEnded: {'returncode': 0}
+[0.401125] (-) TimerEvent: {}
+[0.501541] (-) TimerEvent: {}
+[0.601863] (-) TimerEvent: {}
+[0.628991] (yzbot_msgs) JobProgress: {'identifier': 'yzbot_msgs', 'progress': 'install'}
+[0.640132] (yzbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kgh/ws2/build/yzbot_msgs'], 'cwd': '/home/kgh/ws2/build/yzbot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_CLIENT', '192.168.0.113 63064 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kgh'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6004424f-e4d6-4e37-b9a6-ed5eaa5cc9e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '49'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-24b122ee6f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kgh/ws2/build/yzbot_msgs'), ('SSH_CONNECTION', '192.168.0.113 63064 192.168.0.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.652638] (yzbot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.652878] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/ament_index/resource_index/rosidl_interfaces/yzbot_msgs\n'}
+[0.653055] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.653214] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.653396] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/fmq_set.h\n'}
+[0.653565] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_neck_control.h\n'}
+[0.653700] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_control.h\n'}
+[0.653818] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.653919] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_pose.h\n'}
+[0.653990] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_neck_status.h\n'}
+[0.654064] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_key_head_control.h\n'}
+[0.654134] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/pms_status.h\n'}
+[0.654271] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/obs_result.h\n'}
+[0.654405] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_button.h\n'}
+[0.654514] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.654589] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__functions.c\n'}
+[0.654677] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__struct.h\n'}
+[0.654756] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__functions.c\n'}
+[0.654926] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__functions.c\n'}
+[0.655565] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__functions.h\n'}
+[0.655660] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c\n'}
+[0.655732] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.h\n'}
+[0.655802] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__type_support.h\n'}
+[0.655879] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__struct.h\n'}
+[0.655957] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.h\n'}
+[0.656027] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__functions.h\n'}
+[0.656096] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__struct.h\n'}
+[0.656165] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__functions.h\n'}
+[0.656233] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__struct.h\n'}
+[0.656298] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__struct.h\n'}
+[0.656366] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__functions.h\n'}
+[0.656434] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__functions.h\n'}
+[0.656502] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__functions.c\n'}
+[0.656570] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__functions.c\n'}
+[0.656639] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__functions.c\n'}
+[0.656780] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__struct.h\n'}
+[0.656887] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__functions.h\n'}
+[0.656962] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__struct.h\n'}
+[0.657067] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__type_support.h\n'}
+[0.657139] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.h\n'}
+[0.657223] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__type_support.h\n'}
+[0.657294] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__type_support.h\n'}
+[0.657370] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__functions.c\n'}
+[0.657438] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__functions.c\n'}
+[0.657541] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__type_support.h\n'}
+[0.657645] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.h\n'}
+[0.657748] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__functions.h\n'}
+[0.657824] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__struct.h\n'}
+[0.657940] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__functions.h\n'}
+[0.658075] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.h\n'}
+[0.658202] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__functions.h\n'}
+[0.658285] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__functions.h\n'}
+[0.658359] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__functions.c\n'}
+[0.658511] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__struct.h\n'}
+[0.658623] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__functions.h\n'}
+[0.658697] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__functions.c\n'}
+[0.658824] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__struct.h\n'}
+[0.658996] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__functions.h\n'}
+[0.659096] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__struct.h\n'}
+[0.659185] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__functions.c\n'}
+[0.659259] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__functions.h\n'}
+[0.659334] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__struct.h\n'}
+[0.659403] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__struct.h\n'}
+[0.659477] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.h\n'}
+[0.659567] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__functions.h\n'}
+[0.659671] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__struct.h\n'}
+[0.659747] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__type_support.h\n'}
+[0.659820] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__functions.h\n'}
+[0.659890] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__type_support.h\n'}
+[0.659963] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.h\n'}
+[0.660033] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__struct.h\n'}
+[0.660101] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__type_support.h\n'}
+[0.660173] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__functions.c\n'}
+[0.660244] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__functions.c\n'}
+[0.660309] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__functions.c\n'}
+[0.660369] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_offset.h\n'}
+[0.660427] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_head_status.h\n'}
+[0.660493] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/ultrasound_result.h\n'}
+[0.660551] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_key_neck_control.h\n'}
+[0.660609] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/emergency_button.h\n'}
+[0.660666] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/charge_ctrl.h\n'}
+[0.660727] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/library_path.sh\n'}
+[0.660785] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/library_path.dsv\n'}
+[0.660841] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_generator_c.so\n'}
+[0.660900] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.660961] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.661020] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.661077] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.661134] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661193] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661250] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661310] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661370] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661432] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661491] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661553] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661615] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661675] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661733] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661791] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661866] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661925] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.661990] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_c.h\n'}
+[0.662048] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.662109] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.662169] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.662227] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.662284] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.662344] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662403] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662460] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662526] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662588] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662647] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662703] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662764] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662825] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.662884] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/dds_fastrtps\n'}
+[0.662942] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663000] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663060] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663118] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663178] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663237] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.663299] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.663359] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.663420] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.663488] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.663571] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.663637] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_introspection_c.h\n'}
+[0.663698] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_introspection_c.h\n'}
+[0.663757] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.c\n'}
+[0.663819] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.c\n'}
+[0.663885] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_introspection_c.h\n'}
+[0.663942] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__type_support.c\n'}
+[0.664000] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_introspection_c.h\n'}
+[0.664061] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.c\n'}
+[0.664121] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__type_support.c\n'}
+[0.664180] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_introspection_c.h\n'}
+[0.664241] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_introspection_c.h\n'}
+[0.664300] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_introspection_c.h\n'}
+[0.664358] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__type_support.c\n'}
+[0.664417] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__type_support.c\n'}
+[0.664473] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__type_support.c\n'}
+[0.664533] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_introspection_c.h\n'}
+[0.664591] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_introspection_c.h\n'}
+[0.664657] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_introspection_c.h\n'}
+[0.664716] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_introspection_c.h\n'}
+[0.664776] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h\n'}
+[0.664834] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__type_support.c\n'}
+[0.664890] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__type_support.c\n'}
+[0.664953] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.c\n'}
+[0.665013] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c\n'}
+[0.665071] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.c\n'}
+[0.665127] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_introspection_c.h\n'}
+[0.665186] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_introspection_c.h\n'}
+[0.665253] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__type_support.c\n'}
+[0.665320] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_introspection_c.h\n'}
+[0.665386] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.c\n'}
+[0.665457] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.665526] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_c.so\n'}
+[0.665593] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.665658] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.665723] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_head_status.hpp\n'}
+[0.665789] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_neck_status.hpp\n'}
+[0.665855] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.665921] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_control.hpp\n'}
+[0.665987] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/ultrasound_result.hpp\n'}
+[0.666055] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/emergency_button.hpp\n'}
+[0.666121] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_pose.hpp\n'}
+[0.666186] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/obs_result.hpp\n'}
+[0.666251] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/pms_status.hpp\n'}
+[0.666316] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_key_neck_control.hpp\n'}
+[0.666378] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/fmq_set.hpp\n'}
+[0.666439] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.666498] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__builder.hpp\n'}
+[0.666569] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp\n'}
+[0.666628] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__traits.hpp\n'}
+[0.666696] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__builder.hpp\n'}
+[0.666759] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__traits.hpp\n'}
+[0.666824] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp\n'}
+[0.666897] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp\n'}
+[0.666960] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp\n'}
+[0.667020] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__struct.hpp\n'}
+[0.667084] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__type_support.hpp\n'}
+[0.667154] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__struct.hpp\n'}
+[0.667217] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp\n'}
+[0.667278] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp\n'}
+[0.667343] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__builder.hpp\n'}
+[0.667406] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp\n'}
+[0.667468] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__struct.hpp\n'}
+[0.667549] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__traits.hpp\n'}
+[0.667622] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__type_support.hpp\n'}
+[0.667686] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__type_support.hpp\n'}
+[0.667749] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__struct.hpp\n'}
+[0.667816] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__struct.hpp\n'}
+[0.667883] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__type_support.hpp\n'}
+[0.667949] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.hpp\n'}
+[0.668012] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__builder.hpp\n'}
+[0.668078] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.hpp\n'}
+[0.668140] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__traits.hpp\n'}
+[0.668202] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__traits.hpp\n'}
+[0.668264] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__traits.hpp\n'}
+[0.668328] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__struct.hpp\n'}
+[0.668394] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__traits.hpp\n'}
+[0.668456] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__builder.hpp\n'}
+[0.668520] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__struct.hpp\n'}
+[0.668583] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__builder.hpp\n'}
+[0.668644] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp\n'}
+[0.668704] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp\n'}
+[0.668768] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.hpp\n'}
+[0.668836] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.hpp\n'}
+[0.668899] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__struct.hpp\n'}
+[0.668962] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp\n'}
+[0.669024] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp\n'}
+[0.669089] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__traits.hpp\n'}
+[0.669165] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__builder.hpp\n'}
+[0.669233] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.hpp\n'}
+[0.669304] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__struct.hpp\n'}
+[0.669370] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__builder.hpp\n'}
+[0.669436] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__builder.hpp\n'}
+[0.669501] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__builder.hpp\n'}
+[0.669566] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.hpp\n'}
+[0.669640] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__traits.hpp\n'}
+[0.669706] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__struct.hpp\n'}
+[0.669769] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__type_support.hpp\n'}
+[0.669830] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__traits.hpp\n'}
+[0.669896] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__traits.hpp\n'}
+[0.669958] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__traits.hpp\n'}
+[0.670019] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.hpp\n'}
+[0.670088] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__builder.hpp\n'}
+[0.670155] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__type_support.hpp\n'}
+[0.670224] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__struct.hpp\n'}
+[0.670289] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__builder.hpp\n'}
+[0.670352] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__struct.hpp\n'}
+[0.670417] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/charge_ctrl.hpp\n'}
+[0.670478] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_button.hpp\n'}
+[0.670542] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_neck_control.hpp\n'}
+[0.670602] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_offset.hpp\n'}
+[0.670668] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_key_head_control.hpp\n'}
+[0.670732] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs\n'}
+[0.670795] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg\n'}
+[0.670857] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail\n'}
+[0.670931] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.670991] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.671053] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__type_support.cpp\n'}
+[0.671116] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__type_support.cpp\n'}
+[0.671178] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.671241] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__type_support.cpp\n'}
+[0.671304] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.671369] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.671434] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__type_support.cpp\n'}
+[0.671496] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__type_support.cpp\n'}
+[0.671605] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp\n'}
+[0.671681] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.671747] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.cpp\n'}
+[0.671823] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp\n'}
+[0.671890] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.cpp\n'}
+[0.671956] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp\n'}
+[0.672019] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672080] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.cpp\n'}
+[0.672149] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.cpp\n'}
+[0.672211] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp\n'}
+[0.672271] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__type_support.cpp\n'}
+[0.672331] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672392] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672455] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672516] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672576] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672637] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672697] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__type_support.cpp\n'}
+[0.672756] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672816] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.672886] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.672945] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_cpp.so\n'}
+[0.673003] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/pythonpath.sh\n'}
+[0.673064] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/pythonpath.dsv\n'}
+[0.673124] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/__init__.py\n'}
+[0.688053] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg\n'}
+[0.688246] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_obs_result.py\n'}
+[0.688400] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_fmq_set.py\n'}
+[0.688514] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_head_offset_s.c\n'}
+[0.688643] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_robot_pose_s.c\n'}
+[0.688719] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_head_control.py\n'}
+[0.688793] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_key_neck_control.py\n'}
+[0.688867] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_robot_button.py\n'}
+[0.688940] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_emergency_button_s.c\n'}
+[0.689015] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_key_head_control_s.c\n'}
+[0.689089] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_pms_status.py\n'}
+[0.689161] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_neck_control_s.c\n'}
+[0.689236] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_charge_ctrl.py\n'}
+[0.689333] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_ultrasound_result.py\n'}
+[0.689408] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_robot_button_s.c\n'}
+[0.689480] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_head_status.py\n'}
+[0.689552] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_head_control_s.c\n'}
+[0.689631] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_neck_status.py\n'}
+[0.689707] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/__init__.py\n'}
+[0.689788] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_robot_pose.py\n'}
+[0.689863] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_head_offset.py\n'}
+[0.689939] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_fmq_set_s.c\n'}
+[0.690016] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_key_neck_control_s.c\n'}
+[0.690089] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_neck_status_s.c\n'}
+[0.690160] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_key_head_control.py\n'}
+[0.690232] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_head_status_s.c\n'}
+[0.690303] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_neck_control.py\n'}
+[0.690400] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_emergency_button.py\n'}
+[0.690476] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_ultrasound_result_s.c\n'}
+[0.690548] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_pms_status_s.c\n'}
+[0.690619] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_obs_result_s.c\n'}
+[0.690687] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_charge_ctrl_s.c\n'}
+[0.690802] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/yzbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.690878] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/yzbot_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.690984] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/yzbot_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.691062] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__python.so\n'}
+[0.691133] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/RobotPose.idl\n'}
+[0.691262] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/RobotButton.idl\n'}
+[0.691459] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/FmqSet.idl\n'}
+[0.691686] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/ChargeCtrl.idl\n'}
+[0.691874] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PmsStatus.idl\n'}
+[0.692070] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/ObsResult.idl\n'}
+[0.692258] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/EmergencyButton.idl\n'}
+[0.692454] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscHeadOffset.idl\n'}
+[0.692603] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscGetHeadStatus.idl\n'}
+[0.692721] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscGetNeckStatus.idl\n'}
+[0.692819] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscHeadControl.idl\n'}
+[0.692900] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscNeckControl.idl\n'}
+[0.692980] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscKeyHeadControl.idl\n'}
+[0.693060] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscKeyNeckControl.idl\n'}
+[0.693140] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/RobotPose.msg\n'}
+[0.693218] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/RobotButton.msg\n'}
+[0.693297] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/FmqSet.msg\n'}
+[0.693372] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/ChargeCtrl.msg\n'}
+[0.693443] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PmsStatus.msg\n'}
+[0.693570] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/ObsResult.msg\n'}
+[0.693647] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/EmergencyButton.msg\n'}
+[0.693720] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscHeadOffset.msg\n'}
+[0.693791] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscGetHeadStatus.msg\n'}
+[0.693863] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscGetNeckStatus.msg\n'}
+[0.693979] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscHeadControl.msg\n'}
+[0.694057] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscNeckControl.msg\n'}
+[0.694130] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscKeyHeadControl.msg\n'}
+[0.694204] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/msg/PscKeyNeckControl.msg\n'}
+[0.694278] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/ament_index/resource_index/package_run_dependencies/yzbot_msgs\n'}
+[0.694357] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/ament_index/resource_index/parent_prefix_path/yzbot_msgs\n'}
+[0.694434] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/ament_prefix_path.sh\n'}
+[0.694509] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/ament_prefix_path.dsv\n'}
+[0.694582] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/path.sh\n'}
+[0.694656] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/environment/path.dsv\n'}
+[0.694728] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/local_setup.bash\n'}
+[0.694802] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/local_setup.sh\n'}
+[0.694875] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/local_setup.zsh\n'}
+[0.694947] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/local_setup.dsv\n'}
+[0.695019] (yzbot_msgs) StdoutLine: {'line': b'-- Installing: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/package.dsv\n'}
+[0.695092] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/ament_index/resource_index/packages/yzbot_msgs\n'}
+[0.695165] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_generator_cExport.cmake\n'}
+[0.695237] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.695309] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.695383] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.695553] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.695640] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.695726] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.695799] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.695871] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.695941] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.696013] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.696083] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.696152] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.696221] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.696291] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.696358] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.696427] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.696496] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.696567] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgsConfig.cmake\n'}
+[0.696640] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/cmake/yzbot_msgsConfig-version.cmake\n'}
+[0.696756] (yzbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/kgh/ws2/install/yzbot_msgs/share/yzbot_msgs/package.xml\n'}
+[0.697585] (yzbot_msgs) CommandEnded: {'returncode': 0}
+[0.702512] (-) TimerEvent: {}
+[0.802971] (-) TimerEvent: {}
+[0.903445] (-) TimerEvent: {}
+[1.003954] (-) TimerEvent: {}
+[1.104517] (-) TimerEvent: {}
+[1.206509] (-) TimerEvent: {}
+[1.262107] (yzbot_msgs) JobEnded: {'identifier': 'yzbot_msgs', 'rc': 0}
+[1.262723] (-) EventReactorShutdown: {}

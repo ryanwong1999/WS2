@@ -66,14 +66,30 @@ rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesuppo
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/RobotPose.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/RobotButton.idl
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/FmqSet.idl
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/ChargeCtrl.idl
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PmsStatus.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/ObsResult.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/EmergencyButton.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscHeadOffset.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscGetHeadStatus.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscGetNeckStatus.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscHeadControl.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscNeckControl.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscKeyHeadControl.idl
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/yzbot_msgs/msg/PscKeyNeckControl.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp
 
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_c.h
@@ -93,6 +109,60 @@ rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__rosidl_typesuppo
 rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp
+
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o"
@@ -106,9 +176,22 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.s
 
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.s
+
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.i: cmake_force
@@ -121,7 +204,7 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.i: cmake_force
@@ -134,7 +217,7 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.i: cmake_force
@@ -145,20 +228,157 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.s
 
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.s
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o -c /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp > CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.i
+
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kgh/ws2/build/yzbot_msgs/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp -o CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.s
+
 # Object files for target yzbot_msgs__rosidl_typesupport_fastrtps_c
 yzbot_msgs__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o" \
 "CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o" \
 "CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o" \
-"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o"
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o" \
+"CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o"
 
 # External object files for target yzbot_msgs__rosidl_typesupport_fastrtps_c
 yzbot_msgs__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp.o
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp.o
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp.o
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp.o
+libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp.o
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/build.make
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_c.so
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: libyzbot_msgs__rosidl_generator_c.so
@@ -175,7 +395,7 @@ libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libss
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 libyzbot_msgs__rosidl_typesupport_fastrtps_c.so: CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libyzbot_msgs__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kgh/ws2/build/yzbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libyzbot_msgs__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,12 +409,32 @@ CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_pose__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/robot_button__type_support_c.cpp
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/fmq_set__type_support_c.cpp
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/charge_ctrl__type_support_c.cpp
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/pms_status__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/obs_result__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/emergency_button__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_offset__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_head_status__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_get_neck_status__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_head_control__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_neck_control__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_head_control__type_support_c.cpp
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/yzbot_msgs/msg/detail/psc_key_neck_control__type_support_c.cpp
 	cd /home/kgh/ws2/build/yzbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kgh/ws2/src/yzbot_msgs /home/kgh/ws2/src/yzbot_msgs /home/kgh/ws2/build/yzbot_msgs /home/kgh/ws2/build/yzbot_msgs /home/kgh/ws2/build/yzbot_msgs/CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/yzbot_msgs__rosidl_typesupport_fastrtps_c.dir/depend
 

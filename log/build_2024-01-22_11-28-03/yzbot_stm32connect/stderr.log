@@ -1,0 +1,8 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kint PSC::query_head_pose()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:17:87:[m[K [01;31m[Kerror: [m[K‘[01m[KEmergency_Switch_Flag[m[K’ was not declared in this scope
+   17 |   head_pose = mRobotSerial->getHeadPose(psc_head_status.level, psc_head_status.pitch, [01;31m[KEmergency_Switch_Flag[m[K);
+      |                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
