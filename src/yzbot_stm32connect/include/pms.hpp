@@ -23,13 +23,11 @@ public:
     int back_ = 0;
 
     int queryPmsAll(void);
+    void getAutoChargeCallback(const yzbot_msgs::msg::ChargeCtrl::SharedPtr msg);
 
 private:
     RobotSerial *mRobotSerial;
     rclcpp::Publisher<yzbot_msgs::msg::PmsStatus>::SharedPtr pms_status_pub;
-    rclcpp::Subscription<yzbot_msgs::msg::ChargeCtrl>::SharedPtr charge_sub;
-
-    void getAutoChargeCallback(const yzbot_msgs::msg::ChargeCtrl::SharedPtr msg);
 };
 
 #endif

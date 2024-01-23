@@ -1,0 +1,23 @@
+[ 40%] Built target serial
+[35m[1mScanning dependencies of target stm32_connect[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o[0m
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kint PSC::query_head_pose()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PscGetHeadStatus = struct yzbot_msgs::msg::PscGetHeadStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct yzbot_msgs::msg::PscGetHeadStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kemergency_button[m[K’
+   31 |     psc_head_msg.[01;31m[Kemergency_button[m[K = psc_head_status.level;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:32:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PscGetHeadStatus = struct yzbot_msgs::msg::PscGetHeadStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct yzbot_msgs::msg::PscGetHeadStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kemergency_button[m[K’
+   32 |     psc_head_msg.[01;31m[Kemergency_button[m[K = psc_head_status.pitch;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:[m[K In member function ‘[01m[Kint PSC::query_neck_pose()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:46:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PscGetNeckStatus = struct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kemergency_button[m[K’
+   46 |     psc_neck_msg.[01;31m[Kemergency_button[m[K = psc_neck_status.height;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PscGetNeckStatus = struct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kemergency_button[m[K’
+   47 |     psc_neck_msg.[01;31m[Kemergency_button[m[K = psc_neck_status.limit;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:48:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PscGetNeckStatus = struct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct yzbot_msgs::msg::PscGetNeckStatus_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kemergency_button[m[K’
+   48 |     psc_neck_msg.[01;31m[Kemergency_button[m[K = psc_neck_status.done;
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115：CMakeFiles/stm32_connect.dir/src/psc.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

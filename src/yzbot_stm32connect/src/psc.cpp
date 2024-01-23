@@ -17,27 +17,42 @@ PSC::PSC(RobotSerial *Robotserial_) : Node("psc")
 PSC::~PSC() {}
 
 // 查询头部云台状态
-int PSC::query_head_pose(void)
+int PSC::queryHeadPose(void)
 {
     int head_pose;
     head_pose = mRobotSerial->getHeadPose(psc_head_status.level, psc_head_status.pitch, emergency_switch_flag);
     // RCLCPP_INFO(get_logger(), "psc_head_level: %d  psc_head_pitch: %d", psc_head_status.level, psc_head_status.pitch);
 
+    yzbot_msgs::msg::EmergencyButton emergency_msg;
+    emergency_msg.emergency_button = emergency_switch_flag;
+    emergency_pub->publish(emergency_msg);
+    
+    yzbot_msgs::msg::PscGetHeadStatus psc_head_msg;
+    psc_head_msg.get_level = psc_head_status.level;
+    psc_head_msg.get_pitch = psc_head_status.pitch;
+    psc_head_status_pub->publish(psc_head_msg);
+
     return head_pose != 0 ? 0 : 1;
 }
 
 // 查询升降杆状态
-int PSC::query_neck_pose(void)
+int PSC::queryNeckPose(void)
 {
     int neck_pose;
     neck_pose = mRobotSerial->getNeckPose(psc_neck_status.height, psc_neck_status.limit, psc_neck_status.done, flag_light, flag_bebebe);
     // RCLCPP_INFO(get_logger(), "psc_neck_status---  height: %d  limit: %d  done: %d", psc_neck_status.height, psc_neck_status.limit, psc_neck_status.done);
-    
+ 
+    yzbot_msgs::msg::PscGetNeckStatus psc_neck_msg;
+    psc_neck_msg.get_height = psc_neck_status.height;
+    psc_neck_msg.get_limit = psc_neck_status.limit;
+    psc_neck_msg.get_done = psc_neck_status.done;
+    psc_neck_status_pub->publish(psc_neck_msg);
+
     return neck_pose != 0 ? 0 : 1;
 }
 
 // 查询障碍信息
-int PSC::query_obs_state(void)
+int PSC::queryObsState(void)
 {
     int obs_state;
     obs_state = mRobotSerial->getUltrasoundResult(psc_obs_status.cs, psc_obs_status.fz);
@@ -51,7 +66,7 @@ int PSC::query_obs_state(void)
 }
 
 // 查询按钮状态
-int PSC::query_robot_button(void)
+int PSC::queryRobotButton(void)
 {
     int button_state;
     button_state = mRobotSerial->getRobotButton(psc_robot_button.audio_button, psc_robot_button.power_button, psc_robot_button.zs);
@@ -68,37 +83,38 @@ int PSC::query_robot_button(void)
 }
 
 // 按照高度精确控制升降杆
-void PSC::neck_control_by_height_callback(const yzbot_msgs::msg::PscNeckControl &msg)
+void PSC::neckControlByHeightCallback(const yzbot_msgs::msg::PscNeckControl::SharedPtr msg)
 {
     psc_height_neck_control_flag = 1;  
-    psc_goal_height = msg.set_height;
+    psc_goal_height = msg->set_height;
     RCLCPP_INFO(this->get_logger(), "psc_goal_height: %d", psc_goal_height);
 }
 
 // 按照角度精确控制头部云台
-void PSC::head_control_by_angle_callback(const yzbot_msgs::msg::PscHeadControl &msg)
+void PSC::headControlByAngleCallback(const yzbot_msgs::msg::PscHeadControl::SharedPtr msg)
 {
     psc_angle_head_control_flag = 1;
-    psc_goal_level = msg.set_level;
-    psc_goal_pitch = msg.set_pitch;
+    psc_goal_level = msg->set_level;
+    psc_goal_pitch = msg->set_pitch;
     RCLCPP_INFO(this->get_logger(), "psc_goal_level: %d  psc_goal_pitch: %d", psc_goal_level, psc_goal_pitch);
 }
 
 // 按键控制升降杆
-void PSC::neck_Control_By_Key_callback(const yzbot_msgs::msg::PscKeyNeckControl &msg)
+void PSC::neckControlByKeyCallback(const yzbot_msgs::msg::PscKeyNeckControl::SharedPtr msg)
 {
     psc_key_neck_control_flag = 1; 
-    psc_key_neck_control_direction = msg.psc_neck_direction;
+    psc_key_neck_control_direction = msg->psc_neck_direction;
 }
 
 // 按键控制头部云台
-void PSC::head_control_by_key_callback(const yzbot_msgs::msg::PscKeyHeadControl &msg)
+void PSC::headControlByKeyCallback(const yzbot_msgs::msg::PscKeyHeadControl::SharedPtr msg)
 {
-    psc_key_head_control_direction = msg.psc_head_direction;
+    psc_key_head_control_flag = 1; 
+    psc_key_head_control_direction = msg->psc_head_direction;
 }
 
 // 头部云台偏移量调节
-void PSC::set_head_offset_callback(const yzbot_msgs::msg::PscHeadOffset &msg)
+void PSC::setHeadOffsetCallback(const yzbot_msgs::msg::PscHeadOffset::SharedPtr msg)
 {
-    psc_head_offset_en = msg.offset_set_en;
+    psc_head_offset_en = msg->offset_set_en;
 }

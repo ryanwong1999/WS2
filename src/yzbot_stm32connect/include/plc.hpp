@@ -52,26 +52,21 @@ public:
     rclcpp::Time last_time = now();
     rclcpp::Time robot_pose_lasttime = now();
     
-    
     // 发布里程计信息
-    int pub_odom(short int vx, short int vy, short int t1, short int  t2, float angle_v, float angle, float n_vx, float n_vth);
-    void pub_robot_pose(int left_t, int right_t, double angle_t, double angle_l);
-    void plc_timer_deal_odom();
-    void get_auto_speed();
+    int pubOdom(short int vx, short int vy, short int t1, short int  t2, float angle_v, float angle, float n_vx, float n_vth);
+    void pubRobotPose(int left_t, int right_t, double angle_t, double angle_l);
+    void odomTimerDeal();
+    void getAutoSpeed();
+    
+    void fmqCallback(const yzbot_msgs::msg::FmqSet::SharedPtr msg);
+    void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel);
+    void amclPoseCallback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr amcl_pose);
     
 private:
     RobotSerial *mRobotSerial;
 
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_pub;
     rclcpp::Publisher<yzbot_msgs::msg::RobotPose>::SharedPtr robot_pose_pub;
-    
-    rclcpp::Subscription<yzbot_msgs::msg::FmqSet>::SharedPtr fmq_sub;
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_sub;
-    rclcpp::Subscription<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr amcl_pose_sub;
-
-    void get_fmq_callback(const yzbot_msgs::msg::FmqSet::SharedPtr msg);
-    void cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr cmd_vel);
-    void amcl_pose_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr amcl_pose);
 
 };
 #endif

@@ -1,0 +1,7 @@
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:20:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[KStm32_Connect::cnt[m[K’
+   20 |     static int [01;31m[Kcnt[m[K = 0;
+      |                [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

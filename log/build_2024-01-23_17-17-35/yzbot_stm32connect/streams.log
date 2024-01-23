@@ -1,0 +1,209 @@
+[0.113s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[0.182s] [ 40%] Built target serial
+[0.200s] [35m[1mScanning dependencies of target stm32_connect[0m
+[0.262s] [ 70%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/pms.cpp.o[0m
+[0.262s] [ 70%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
+[0.262s] [ 70%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
+[0.263s] [ 80%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m
+[0.264s] [ 90%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o[0m
+[2.475s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In function ‘[01m[Kvoid* Timer_Callback(void*)[m[K’:
+[2.475s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:7:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karge[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.475s]     7 | void *Timer_Callback([01;35m[Kvoid *arge[m[K)
+[2.475s]       |                      [01;35m[K~~~~~~^~~~[m[K
+[2.475s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In constructor ‘[01m[KRobotSerial::RobotSerial(std::shared_ptr<serial::Serial>)[m[K’:
+[2.475s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.475s]    27 |     int [01;35m[Kret[m[K = pthread_create(&pid, &attr, Timer_Callback, NULL);
+[2.475s]       |         [01;35m[K^~~[m[K
+[2.476s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[2.477s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:46:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kread_byte[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.477s]    46 |    size_t [01;35m[Kread_byte[m[K = mSerial->read(RecvBUF+2, 17);
+[2.477s]       |           [01;35m[K^~~~~~~~~[m[K
+[2.479s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::getPms(int&, int&)[m[K’:
+[2.479s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:196:35:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrecvFrameIndex[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.480s]   196 |                     unsigned char [01;35m[KrecvFrameIndex[m[K=0;
+[2.480s]       |                                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:197:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.480s]   197 |                     unsigned char [01;35m[Klength[m[K;
+[2.480s]       |                                   [01;35m[K^~~~~~[m[K
+[2.480s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:198:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.480s]   198 |                     unsigned char [01;35m[Ks_devid[m[K;
+[2.480s]       |                                   [01;35m[K^~~~~~~[m[K
+[2.481s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:199:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.481s]   199 |                     unsigned char [01;35m[Kp_devid[m[K;
+[2.481s]       |                                   [01;35m[K^~~~~~~[m[K
+[2.481s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:200:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.481s]   200 |                     unsigned char [01;35m[Kcmd[m[K;
+[2.481s]       |                                   [01;35m[K^~~[m[K
+[2.481s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:201:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcharging_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.481s]   201 |                     int [01;35m[Kcharging_flag[m[K = 0;
+[2.482s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[2.482s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:202:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbattary_level[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.482s]   202 |                     int [01;35m[Kbattary_level[m[K = 0;
+[2.482s]       |                         [01;35m[K^~~~~~~~~~~~~[m[K
+[2.483s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::getOdom(unsigned char&, int16_t&, int16_t&, float&, float&, float&, int, int16_t&, int16_t&)[m[K’:
+[2.483s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:401:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint ftime(timeb*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.483s]   401 |                 ftime(&stTimeb[01;35m[K)[m[K;
+[2.484s]       |                               [01;35m[K^[m[K
+[2.484s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:9[m[K,
+[2.484s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[2.484s] [01m[K/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.484s]    39 | extern int [01;36m[Kftime[m[K (struct timeb *__timebuf)
+[2.484s]       |            [01;36m[K^~~~~[m[K
+[2.485s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:401:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint ftime(timeb*)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.485s]   401 |                 ftime(&stTimeb[01;35m[K)[m[K;
+[2.485s]       |                               [01;35m[K^[m[K
+[2.485s] In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/robotserial.hpp:9[m[K,
+[2.485s]                  from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:1[m[K:
+[2.485s] [01m[K/usr/include/x86_64-linux-gnu/sys/timeb.h:39:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.485s]    39 | extern int [01;36m[Kftime[m[K (struct timeb *__timebuf)
+[2.485s]       |            [01;36m[K^~~~~[m[K
+[2.486s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:360:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kper_get_Angle[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.486s]   360 |                 static float [01;35m[Kper_get_Angle[m[K = 0;
+[2.486s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[2.486s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:362:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.486s]   362 |                 unsigned char [01;35m[Klength[m[K;
+[2.486s]       |                               [01;35m[K^~~~~~[m[K
+[2.487s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:363:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.487s]   363 |                 unsigned char [01;35m[Ks_devid[m[K;
+[2.487s]       |                               [01;35m[K^~~~~~~[m[K
+[2.487s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:364:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.487s]   364 |                 unsigned char [01;35m[Kp_devid[m[K;
+[2.487s]       |                               [01;35m[K^~~~~~~[m[K
+[2.487s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:365:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.488s]   365 |                 unsigned char [01;35m[Kcmd[m[K;
+[2.488s]       |                               [01;35m[K^~~[m[K
+[2.488s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:315:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_per[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.488s]   315 |     static float [01;35m[Kangle_per[m[K = 0;
+[2.488s]       |                  [01;35m[K^~~~~~~~~[m[K
+[2.488s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::getAutoSpeed()[m[K’:
+[2.488s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:467:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klinear[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.488s]   467 |                 double [01;35m[Klinear[m[K = (short)((RecvBUF[8]<<8) + RecvBUF[9]);     // 线速度
+[2.489s]       |                        [01;35m[K^~~~~~[m[K
+[2.489s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:468:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangular[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.489s]   468 |                 double [01;35m[Kangular[m[K = (short)((RecvBUF[10]<<8) + RecvBUF[11]);  // 角速度
+[2.489s]       |                        [01;35m[K^~~~~~~[m[K
+[2.489s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:469:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KautoChargeTaskFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.489s]   469 |                 int [01;35m[KautoChargeTaskFlag[m[K = RecvBUF[12];
+[2.489s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.490s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:470:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KEmergency_flag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.490s]   470 |                 int [01;35m[KEmergency_flag[m[K = RecvBUF[13];
+[2.490s]       |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.490s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:471:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KreChargeFlag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.490s]   471 |                 int [01;35m[KreChargeFlag[m[K = RecvBUF[14];
+[2.490s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[2.490s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::setSensorEn(int, int)[m[K’:
+[2.490s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:523:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcarLight_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.491s]   523 |         int [01;35m[KcarLight_result[m[K = RecvBUF[9];
+[2.491s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.491s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:524:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KturnLight_result[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.491s]   524 |         int [01;35m[KturnLight_result[m[K = RecvBUF[10];
+[2.491s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.491s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint RobotSerial::getUltrasoundResult(int&, int&)[m[K’:
+[2.491s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:608:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrecvFrameIndex[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.491s]   608 |                 unsigned char [01;35m[KrecvFrameIndex[m[K = 0;
+[2.491s]       |                               [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.492s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:609:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.492s]   609 |                 unsigned char [01;35m[Klength[m[K;
+[2.492s]       |                               [01;35m[K^~~~~~[m[K
+[2.492s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:610:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ks_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.492s]   610 |                 unsigned char [01;35m[Ks_devid[m[K;
+[2.492s]       |                               [01;35m[K^~~~~~~[m[K
+[2.492s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:611:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kp_devid[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.492s]   611 |                 unsigned char [01;35m[Kp_devid[m[K;
+[2.493s]       |                               [01;35m[K^~~~~~~[m[K
+[2.493s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:612:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcmd[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.493s]   612 |                 unsigned char [01;35m[Kcmd[m[K;
+[2.493s]       |                               [01;35m[K^~~[m[K
+[2.493s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:578:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktmp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.493s]   578 |     static int [01;35m[Ktmp[m[K = 0;
+[2.493s]       |                [01;35m[K^~~[m[K
+[2.494s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::getNeckPose(int&, int&, int&, int, int)[m[K’:
+[2.494s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:673:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmheight[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.494s]   673 |                 short int [01;35m[Kmheight[m[K = 0;
+[2.494s]       |                           [01;35m[K^~~~~~~[m[K
+[2.494s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:674:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmlimit[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.494s]   674 |                 short int [01;35m[Kmlimit[m[K = 0;
+[2.494s]       |                           [01;35m[K^~~~~~[m[K
+[2.495s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:675:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmdone[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.495s]   675 |                 short int [01;35m[Kmdone[m[K = 0;
+[2.495s]       |                           [01;35m[K^~~~~[m[K
+[2.671s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kint PLC::pubOdom(short int, short int, short int, short int, float, float, float, float)[m[K’:
+[2.671s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.671s]    56 | int PLC::pubOdom([01;35m[Kshort int vx[m[K, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+[2.672s]       |                  [01;35m[K~~~~~~~~~~^~[m[K
+[2.672s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvy[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.672s]    56 | int PLC::pubOdom(short int vx, [01;35m[Kshort int vy[m[K, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)
+[2.672s]       |                                [01;35m[K~~~~~~~~~~^~[m[K
+[2.672s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_v[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.672s]    56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, [01;35m[Kfloat angle_v[m[K, float angle, float n_vx, float n_vth)
+[2.672s]       |                                                                          [01;35m[K~~~~~~^~~~~~~[m[K
+[2.672s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.672s]    56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, [01;35m[Kfloat n_vx[m[K, float n_vth)
+[2.672s]       |                                                                                                      [01;35m[K~~~~~~^~~~[m[K
+[2.672s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:120:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn_vth[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.673s]    56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, [01;35m[Kfloat n_vth[m[K)
+[2.673s]       |                                                                                                                  [01;35m[K~~~~~~^~~~~[m[K
+[2.680s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::pubRobotPose(int, int, double, double)[m[K’:
+[2.680s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:165:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktrueth_angle[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.680s]   165 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+[2.680s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[2.680s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:169:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.680s]   169 |     double [01;35m[Kdt[m[K = (current_time - robot_pose_lasttime).seconds();
+[2.680s]       |            [01;35m[K^~[m[K
+[2.680s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:175:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksin_y[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.680s]   175 |     double [01;35m[Ksin_y[m[K = sin(my_robot_pose.robot_yaw + dt_th/2.0);
+[2.680s]       |            [01;35m[K^~~~~[m[K
+[2.681s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:162:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_l[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.681s]   162 | void PLC::pubRobotPose(int left_t, int right_t, double angle_t, [01;35m[Kdouble angle_l[m[K)
+[2.681s]       |                                                                 [01;35m[K~~~~~~~^~~~~~~[m[K
+[2.681s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::odomTimerDeal()[m[K’:
+[2.681s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:239:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kget_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.681s]   239 |   int [01;35m[Kget_odom[m[K = mRobotSerial->getOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth);
+[2.681s]       |       [01;35m[K^~~~~~~~[m[K
+[2.681s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K In member function ‘[01m[Kvoid PLC::getAutoSpeed()[m[K’:
+[2.681s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:248:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kautospeed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.681s]   248 |   int [01;35m[Kautospeed[m[K = mRobotSerial->getAutoSpeed();
+[2.681s]       |       [01;35m[K^~~~~~~~~[m[K
+[3.063s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K In member function ‘[01m[Kint8_t RobotSerial::robotSerialRead()[m[K’:
+[3.063s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:62:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[3.063s]    62 | [01;35m[K}[m[K
+[3.063s]       | [01;35m[K^[m[K
+[3.076s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:[m[K At global scope:
+[3.076s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:578:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktmp[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[3.077s]   578 |     static int [01;35m[Ktmp[m[K = 0;
+[3.077s]       |                [01;35m[K^~~[m[K
+[3.077s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/robotserial.cpp:315:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kangle_per[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[3.077s]   315 |     static float [01;35m[Kangle_per[m[K = 0;
+[3.077s]       |                  [01;35m[K^~~~~~~~~[m[K
+[3.576s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:[m[K At global scope:
+[3.577s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:165:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktrueth_angle[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[3.577s]   165 |     static float [01;35m[Ktrueth_angle[m[K = 0;
+[3.577s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[7.966s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:[m[K In member function ‘[01m[Kvoid Stm32_Connect::timerCallback()[m[K’:
+[7.966s] [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:133:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpitch_offset[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[7.966s]   133 |         [01;35m[KRobotSerial_->setAngleOffset(level_offset, pitch_offset)[m[K;
+[7.966s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.411s] [100%] [32m[1mLinking CXX executable stm32_connect[0m
+[15.190s] [100%] Built target stm32_connect
+[15.205s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '0': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/yzbot_stm32connect -- -j16 -l16
+[15.281s] Invoking command in '/home/kgh/ws2/build/yzbot_stm32connect': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/yzbot_stm32connect
+[15.288s] -- Install configuration: ""
+[15.288s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/libserial.a
+[15.288s] -- Installing: /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect
+[15.298s] -- Set runtime path of "/home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect" to ""
+[15.298s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/package_run_dependencies/yzbot_stm32connect
+[15.298s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/parent_prefix_path/yzbot_stm32connect
+[15.298s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.sh
+[15.298s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.dsv
+[15.298s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.sh
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/path.dsv
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.bash
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.sh
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.zsh
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/local_setup.dsv
+[15.299s] -- Installing: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.dsv
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/packages/yzbot_stm32connect
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig.cmake
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/cmake/yzbot_stm32connectConfig-version.cmake
+[15.299s] -- Up-to-date: /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/package.xml
+[15.300s] Invoked command in '/home/kgh/ws2/build/yzbot_stm32connect' returned '0': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/yzbot_stm32connect

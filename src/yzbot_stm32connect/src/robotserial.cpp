@@ -48,7 +48,6 @@ int8_t RobotSerial::robotSerialRead(void)
 			{
      			// 校验CRC
      	 		uint8_t crc = CRC8_Table(RecvBUF, 16);
-      		    //ROS_INFO("%02X", crc);
                 if(RecvBUF[16] == crc) return 0;  // 校验正确返回0
                 else
                 {
@@ -64,7 +63,7 @@ int8_t RobotSerial::robotSerialRead(void)
 
 int RobotSerial::autoCharge(int chargeFlag)
 {
-    RCLCPP_INFO(get_logger(), "Auto_Charging----%d", chargeFlag);
+    // RCLCPP_INFO(get_logger(), "autoCharge----%d", chargeFlag);
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);
     SendBUF[0] = 0x55;
@@ -93,8 +92,9 @@ int RobotSerial::autoCharge(int chargeFlag)
             else
             {
                 int gongneng = RecvBUF[6];
-                if(gongneng != 0x08) return -1;    
-                RCLCPP_INFO(get_logger(), "--------Autocharging--------");
+                if(gongneng != 0x08) return -1;
+                
+                RCLCPP_INFO(get_logger(), "下发自动充电控制");
                 return 0;
             }
         }
@@ -103,7 +103,7 @@ int RobotSerial::autoCharge(int chargeFlag)
 
 int RobotSerial::setSpeed(short int st1, short int st2, short int tag, double yaw, double d)   
 {
-    RCLCPP_INFO(get_logger(), "SetSpeed----");
+    // RCLCPP_INFO(get_logger(), "setSpeed----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -160,7 +160,7 @@ int RobotSerial::setSpeed(short int st1, short int st2, short int tag, double ya
 
 int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
 {
-    RCLCPP_INFO(get_logger(), "SetSpeed----");
+    // RCLCPP_INFO(get_logger(), "getPms----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);
     memset(SendBUF, 0, MAX_RX_LEN);
@@ -213,7 +213,7 @@ int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
                     // {
                     //     RCLCPP_INFO(get_logger(), "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@pms  %d",Charging_Flag);
                     // }
-                    RCLCPP_INFO(get_logger(), "PMS_______: %d, %d", Charging_Flag, Battary_Level);
+                    RCLCPP_INFO(get_logger(), "PMS 充电标志位: %d, 电量百分比: %d", Charging_Flag, Battary_Level);
                     return 0;
                 }
             }
@@ -223,7 +223,7 @@ int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
 
 int RobotSerial::sendNeckCtrl(int direction)
 { 
-    RCLCPP_INFO(get_logger(), "SendNeckCtrl----");
+    // RCLCPP_INFO(get_logger(), "sendNeckCtrl----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -240,7 +240,6 @@ int RobotSerial::sendNeckCtrl(int direction)
     SendBUF[16] = CRC8_Table(SendBUF, 16);
     SendBUF[17] = 0x0D;
     SendBUF[18] = 0x0A;
-    RCLCPP_INFO(get_logger(), "SendNeckCtrl %d", direction);
     mSerial->write(SendBUF, 19);    
 
     while(1)
@@ -255,7 +254,8 @@ int RobotSerial::sendNeckCtrl(int direction)
             {
                 int gongneng = RecvBUF[6];
                 if(gongneng != 0x81) return -1;
-                RCLCPP_INFO(get_logger(), "-----Send neck ctrl------");
+
+                RCLCPP_INFO(get_logger(), "下发升降杆方向: %d", direction);
                 return 0;
             }
         }
@@ -265,7 +265,7 @@ int RobotSerial::sendNeckCtrl(int direction)
 
 int RobotSerial::sendNeckHeight(int height)
 {
-    RCLCPP_INFO(get_logger(), "SendNeck_Height----");
+    // RCLCPP_INFO(get_logger(), "sendNeckHeight----");
     //height = height - 71;
     if(height <= 0) height = 0;
     if(height >= 120) height = 120;
@@ -285,7 +285,6 @@ int RobotSerial::sendNeckHeight(int height)
     SendBUF[16] = CRC8_Table(SendBUF, 16);
     SendBUF[17] = 0x0D;
     SendBUF[18] = 0x0A;
-    RCLCPP_INFO(get_logger(), "neck height-----> %d", height);
     mSerial->write(SendBUF, 19);   
 
     while(1)
@@ -300,8 +299,8 @@ int RobotSerial::sendNeckHeight(int height)
             {
                 int gongneng = RecvBUF[6];
                 if(gongneng != 0x71) return -1;
-                RCLCPP_INFO(get_logger(), "-----Send neck height-----");
 
+                RCLCPP_INFO(get_logger(), "下发升降杆高度: %d", height);
                 return 0;
             }
         }
@@ -312,7 +311,7 @@ int ttt1, ttt2;
 int8_t RobotSerial::getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
                            float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth)                       
 {
-    RCLCPP_INFO(get_logger(), "GetOdom----");
+    // RCLCPP_INFO(get_logger(), "getOdom----");
     static float angle_per = 0;
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
@@ -435,7 +434,7 @@ int8_t RobotSerial::getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
 // 获取自动充电时stm32给的速度
 int8_t RobotSerial::getAutoSpeed()
 {
-    RCLCPP_INFO(get_logger(), "GetOdom----");
+    // RCLCPP_INFO(get_logger(), "getAutoSpeed----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -489,7 +488,7 @@ int8_t RobotSerial::getAutoSpeed()
 
 int8_t RobotSerial::setSensorEn(int carLight, int turnLight)
 {
-  RCLCPP_INFO(get_logger(),"SetSensorEn---- carLight: %d  turnLight: %d", carLight, turnLight);
+//   RCLCPP_INFO(get_logger(),"setSensorEn---- carLight: %d  turnLight: %d", carLight, turnLight);
   uint8_t SendBUF[MAX_RX_LEN];
   memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
   memset(RecvBUF, 0, MAX_RX_LEN);
@@ -533,7 +532,7 @@ int8_t RobotSerial::setSensorEn(int carLight, int turnLight)
 // 获取按钮开关状态和噪声分贝值
 int8_t RobotSerial::getRobotButton(int &audio_button, int &power_button, int &zs)
 {
-    RCLCPP_INFO(get_logger(), "get_robot_button----");
+    // RCLCPP_INFO(get_logger(), "getRobotButton----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -575,7 +574,7 @@ int8_t RobotSerial::getRobotButton(int &audio_button, int &power_button, int &zs
 
 int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
 {
-    RCLCPP_INFO(get_logger(), "get_ultrasound_result----");
+    // RCLCPP_INFO(get_logger(), "getUltrasoundResult----");
     static int tmp = 0;
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
@@ -625,11 +624,10 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
                 cs_obs = 0, fz_obs = 0;
                 cs_obs = RecvBUF[8];
                 fz_obs = RecvBUF[9];
-                // RCLCPP_INFO(get_logger(), "cs %d", cs_obs);
-                // RCLCPP_INFO(get_logger(), "fz %d", fz_obs);
+                RCLCPP_INFO(get_logger(), "超声: %d, 防撞条: %d", cs_obs, fz_obs);
                 double moto_cur = (short)((RecvBUF[11]<<8) + RecvBUF[12]);
                 double bettery_vol = (short)((RecvBUF[14]<<8) + RecvBUF[15]);
-                RCLCPP_INFO(get_logger(), "moto_cur %f, bettery_vol %f", moto_cur, bettery_vol);
+                RCLCPP_INFO(get_logger(), "驱动器电流 %f, 电池电压 %f", moto_cur, bettery_vol);
                 return 0;
             }
         }
@@ -639,7 +637,7 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
 // 获取升降干状态
 int8_t RobotSerial::getNeckPose(int &height, int &limit, int &done, int light, int bebebe)
 {
-    RCLCPP_INFO(get_logger(), "GetNeckPose----");
+    // RCLCPP_INFO(get_logger(), "getNeckPose----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -687,9 +685,9 @@ int8_t RobotSerial::getNeckPose(int &height, int &limit, int &done, int light, i
     }
 }
 
-int8_t RobotSerial::getHeadPose(int &Level, int &Vertical, int &switch_flag)
+int8_t RobotSerial::getHeadPose(int &level, int &pitch, int &emergency_btn)
 {
-    RCLCPP_INFO(get_logger(), "GetHeadPose----");
+    // RCLCPP_INFO(get_logger(), "getHeadPose----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -719,9 +717,8 @@ int8_t RobotSerial::getHeadPose(int &Level, int &Vertical, int &switch_flag)
             else
             {
                 // 解析数据
-                short int mlevel = 0;
-                short int mpitch = 0;
-                short int mSwitch_flag = 0;
+                short int mlevel = 0, mpitch = 0;
+                // short int mSwitch_flag = 0;
                 int gongneng = RecvBUF[6];
                 
                 if(gongneng != 0x10) return -1;
@@ -730,10 +727,10 @@ int8_t RobotSerial::getHeadPose(int &Level, int &Vertical, int &switch_flag)
                 memcpy(&mpitch, &RecvBUF[10], sizeof(int16_t));
                 // memcpy(&mSwitch_flag, &RecvBUF[13], sizeof(int8_t));
                 // 急停按键
-                switch_flag = RecvBUF[13];
-                Level = ntohs(mlevel);
-                Vertical = ntohs(mpitch);
-                RCLCPP_INFO(get_logger(), "switch_flag: %d", switch_flag);
+                emergency_btn = RecvBUF[13];
+                level = ntohs(mlevel);
+                pitch = ntohs(mpitch);
+                RCLCPP_INFO(get_logger(), "急停按键: %d", emergency_btn);
                 return 0;
             }
         }
@@ -742,7 +739,7 @@ int8_t RobotSerial::getHeadPose(int &Level, int &Vertical, int &switch_flag)
 
 int RobotSerial::sendHeadAngle(int level, int pitch)
 {
-    RCLCPP_INFO(get_logger(), "SendHead_angle----");
+    // RCLCPP_INFO(get_logger(), "sendHeadAngle----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -775,7 +772,7 @@ int RobotSerial::sendHeadAngle(int level, int pitch)
             {
                 int gongneng = RecvBUF[6];
                 if(gongneng != 0x11) return -1;
-                RCLCPP_INFO(get_logger(), "-----Send Head Angle ----- ");
+                RCLCPP_INFO(get_logger(), "下发头部云台角度");
                 return 0;
             }
         }
@@ -784,7 +781,7 @@ int RobotSerial::sendHeadAngle(int level, int pitch)
 
 int RobotSerial::setAngleOffset(int8_t &level_offset, int8_t pitch_offset)
 {
-    RCLCPP_INFO(get_logger(), "set_angle_offset----");
+    // RCLCPP_INFO(get_logger(), "setAngleOffset----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     SendBUF[0] = 0x55;
@@ -820,7 +817,7 @@ int RobotSerial::setAngleOffset(int8_t &level_offset, int8_t pitch_offset)
                     pitch_offset = RecvBUF[9];
                     return -1;
                 }      
-                RCLCPP_INFO(get_logger(), "set angle offset----   level_offset: %d, pitch_offset: %d", level_offset, pitch_offset);
+                RCLCPP_INFO(get_logger(), "set angle offset   level_offset: %d, pitch_offset: %d", level_offset, pitch_offset);
                 return 0;
             }
         }
@@ -829,7 +826,7 @@ int RobotSerial::setAngleOffset(int8_t &level_offset, int8_t pitch_offset)
 
 int RobotSerial::sendHeadCtrl(int direction)
 { 
-    RCLCPP_INFO(get_logger(), "SendHeadCtrl----");
+    // RCLCPP_INFO(get_logger(), "sendHeadCtrl----");
     uint8_t SendBUF[MAX_RX_LEN];
     memset(SendBUF, 0, MAX_RX_LEN);    // 初始化
     memset(RecvBUF, 0, MAX_RX_LEN);
@@ -844,22 +841,23 @@ int RobotSerial::sendHeadCtrl(int direction)
     switch(direction)
     {
         case 5:
-        SendBUF[8]=0x05; 
-        break;
+            SendBUF[8]=0x05; 
+            break;
         case 6:
-        SendBUF[8]=0x06; 
-        break;
+            SendBUF[8]=0x06; 
+            break;
         case 7:
-        SendBUF[8]=0x07; 
-        break;
+            SendBUF[8]=0x07; 
+            break;
         case 8:
-        SendBUF[8]=0x08; 
+            SendBUF[8]=0x08; 
+            break;
         case 9:
-        SendBUF[8]=0x09; 
-        break;
+            SendBUF[8]=0x09; 
+            break;
         default:
-        SendBUF[8]=0x10; 
-        break;
+            SendBUF[8]=0x10; 
+            break;
     }
     SendBUF[8] = direction;
     memset(RecvBUF+9, 0, 7);
@@ -881,7 +879,7 @@ int RobotSerial::sendHeadCtrl(int direction)
                 int gongneng = RecvBUF[6];
                 if(gongneng != 0x06) return -1;
 
-                RCLCPP_INFO(get_logger(), "-----Send Head Ctrl-----");
+                RCLCPP_INFO(get_logger(), "下发头部云台控制");
                 return 0;
             }
         }

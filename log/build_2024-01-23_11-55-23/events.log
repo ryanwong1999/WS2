@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000741] (-) JobUnselected: {'identifier': 'bluesea2'}
+[0.000779] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000803] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000824] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000843] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000863] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000883] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000903] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000922] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000942] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000959] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000990] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001008] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001027] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001045] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001062] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.001081] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001099] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001118] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001137] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001155] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001174] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.001193] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001212] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001230] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001247] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.001265] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001283] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001302] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001320] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001338] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001357] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.001375] (-) JobUnselected: {'identifier': 'yzbot_cartographer'}
+[0.001393] (-) JobUnselected: {'identifier': 'yzbot_controller'}
+[0.001412] (-) JobUnselected: {'identifier': 'yzbot_description'}
+[0.001430] (-) JobUnselected: {'identifier': 'yzbot_msgs'}
+[0.001449] (-) JobUnselected: {'identifier': 'yzbot_nav2'}
+[0.001470] (yzbot_stm32connect) JobQueued: {'identifier': 'yzbot_stm32connect', 'dependencies': OrderedDict([('yzbot_msgs', '/home/kgh/ws2/install/yzbot_msgs')])}
+[0.001496] (yzbot_stm32connect) JobStarted: {'identifier': 'yzbot_stm32connect'}
+[0.100256] (-) TimerEvent: {}
+[0.125877] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'cmake'}
+[0.126291] (yzbot_stm32connect) JobProgress: {'identifier': 'yzbot_stm32connect', 'progress': 'build'}
+[0.126784] (yzbot_stm32connect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kgh/ws2/build/yzbot_stm32connect', '--', '-j16', '-l16'], 'cwd': '/home/kgh/ws2/build/yzbot_stm32connect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'kgh'), ('SSH_CLIENT', '192.168.0.113 50389 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/home/kgh/ws2/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/kgh'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-df33be4d-70c9-444e-b43d-e4ad45774296.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kgh/ws2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kgh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kgh/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-24b122ee6f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_gazebo_spawner:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kgh/ws2/build/yzbot_stm32connect'), ('SSH_CONNECTION', '192.168.0.113 50389 192.168.0.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.200426] (-) TimerEvent: {}
+[0.202910] (yzbot_stm32connect) StdoutLine: {'line': b'[ 40%] Built target serial\n'}
+[0.228525] (yzbot_stm32connect) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target stm32_connect\x1b[0m\n'}
+[0.273254] (yzbot_stm32connect) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o\x1b[0m\n'}
+[0.273470] (yzbot_stm32connect) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o\x1b[0m\n'}
+[0.273595] (yzbot_stm32connect) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o\x1b[0m\n'}
+[0.300546] (-) TimerEvent: {}
+[0.400876] (-) TimerEvent: {}
+[0.501189] (-) TimerEvent: {}
+[0.601635] (-) TimerEvent: {}
+[0.701994] (-) TimerEvent: {}
+[0.802353] (-) TimerEvent: {}
+[0.902718] (-) TimerEvent: {}
+[1.003093] (-) TimerEvent: {}
+[1.103458] (-) TimerEvent: {}
+[1.203836] (-) TimerEvent: {}
+[1.304211] (-) TimerEvent: {}
+[1.404580] (-) TimerEvent: {}
+[1.504948] (-) TimerEvent: {}
+[1.605309] (-) TimerEvent: {}
+[1.705674] (-) TimerEvent: {}
+[1.806018] (-) TimerEvent: {}
+[1.906351] (-) TimerEvent: {}
+[2.006706] (-) TimerEvent: {}
+[2.107064] (-) TimerEvent: {}
+[2.207418] (-) TimerEvent: {}
+[2.307763] (-) TimerEvent: {}
+[2.345221] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint PSC::queryNeckose()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.345504] (yzbot_stm32connect) StderrLine: {'line': b'   39 | int \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::queryNeckose(void)\n'}
+[2.345585] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.345656] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:39:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kint PSC::queryNeckose()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.345723] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.345786] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.345850] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.345912] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.350178] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint PSC::queryRobotButton()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.350309] (yzbot_stm32connect) StderrLine: {'line': b'   69 | int \x1b[01;31m\x1b[KPSC\x1b[m\x1b[K::queryRobotButton(void)\n'}
+[2.350386] (yzbot_stm32connect) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.350454] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:69:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kint PSC::queryRobotButton()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.350524] (yzbot_stm32connect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/psc.cpp:1\x1b[m\x1b[K:\n'}
+[2.350589] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/include/psc.hpp:60:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PSC\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.350653] (yzbot_stm32connect) StderrLine: {'line': b'   60 | class \x1b[01;36m\x1b[KPSC\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.350717] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.407887] (-) TimerEvent: {}
+[2.501558] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint PLC::pubOdom(short int, short int, short int, short int, float, float, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.501765] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.501846] (yzbot_stm32connect) StderrLine: {'line': b'   56 | int PLC::pubOdom(\x1b[01;35m\x1b[Kshort int vx\x1b[m\x1b[K, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)\n'}
+[2.501929] (yzbot_stm32connect) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.501997] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.502071] (yzbot_stm32connect) StderrLine: {'line': b'   56 | int PLC::pubOdom(short int vx, \x1b[01;35m\x1b[Kshort int vy\x1b[m\x1b[K, short int t1, short int t2, float angle_v, float angle, float n_vx, float n_vth)\n'}
+[2.502137] (yzbot_stm32connect) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.502201] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kangle_v\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.502272] (yzbot_stm32connect) StderrLine: {'line': b'   56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, \x1b[01;35m\x1b[Kfloat angle_v\x1b[m\x1b[K, float angle, float n_vx, float n_vth)\n'}
+[2.502334] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.502392] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_vx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.502463] (yzbot_stm32connect) StderrLine: {'line': b'   56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, \x1b[01;35m\x1b[Kfloat n_vx\x1b[m\x1b[K, float n_vth)\n'}
+[2.502524] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                      \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.502587] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:56:120:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn_vth\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.502648] (yzbot_stm32connect) StderrLine: {'line': b'   56 | int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float angle_v, float angle, float n_vx, \x1b[01;35m\x1b[Kfloat n_vth\x1b[m\x1b[K)\n'}
+[2.502711] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.507985] (-) TimerEvent: {}
+[2.509039] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PLC::pubRobotPose(int, int, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.509286] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:165:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktrueth_angle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.509382] (yzbot_stm32connect) StderrLine: {'line': b'  165 |     static float \x1b[01;35m\x1b[Ktrueth_angle\x1b[m\x1b[K = 0;\n'}
+[2.509461] (yzbot_stm32connect) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.509534] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:169:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.509605] (yzbot_stm32connect) StderrLine: {'line': b'  169 |     double \x1b[01;35m\x1b[Kdt\x1b[m\x1b[K = (current_time - robot_pose_lasttime).seconds();\n'}
+[2.509793] (yzbot_stm32connect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.509873] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:175:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksin_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.509957] (yzbot_stm32connect) StderrLine: {'line': b'  175 |     double \x1b[01;35m\x1b[Ksin_y\x1b[m\x1b[K = sin(my_robot_pose.robot_yaw + dt_th/2.0);\n'}
+[2.510040] (yzbot_stm32connect) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.510106] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:162:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kangle_l\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.510170] (yzbot_stm32connect) StderrLine: {'line': b'  162 | void PLC::pubRobotPose(int left_t, int right_t, double angle_t, \x1b[01;35m\x1b[Kdouble angle_l\x1b[m\x1b[K)\n'}
+[2.510239] (yzbot_stm32connect) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.510302] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PLC::odomTimerDeal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.510364] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:239:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kget_odom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.510440] (yzbot_stm32connect) StderrLine: {'line': b'  239 |   int \x1b[01;35m\x1b[Kget_odom\x1b[m\x1b[K = mRobotSerial->getOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth);\n'}
+[2.510502] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.510566] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PLC::getAutoSpeed()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.510639] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:248:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kautospeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[2.510705] (yzbot_stm32connect) StderrLine: {'line': b'  248 |   int \x1b[01;35m\x1b[Kautospeed\x1b[m\x1b[K = mRobotSerial->getAutoSpeed();\n'}
+[2.510770] (yzbot_stm32connect) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.608123] (-) TimerEvent: {}
+[2.708475] (-) TimerEvent: {}
+[2.808824] (-) TimerEvent: {}
+[2.909170] (-) TimerEvent: {}
+[3.009529] (-) TimerEvent: {}
+[3.109879] (-) TimerEvent: {}
+[3.210233] (-) TimerEvent: {}
+[3.310581] (-) TimerEvent: {}
+[3.352768] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.352983] (yzbot_stm32connect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kgh/ws2/src/yzbot_stm32connect/src/plc.cpp:165:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrueth_angle\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.353063] (yzbot_stm32connect) StderrLine: {'line': b'  165 |     static float \x1b[01;35m\x1b[Ktrueth_angle\x1b[m\x1b[K = 0;\n'}
+[3.353132] (yzbot_stm32connect) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.410711] (-) TimerEvent: {}
+[3.511091] (-) TimerEvent: {}
+[3.611433] (-) TimerEvent: {}
+[3.711770] (-) TimerEvent: {}
+[3.812152] (-) TimerEvent: {}
+[3.818824] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:115\xef\xbc\x9aCMakeFiles/stm32_connect.dir/src/psc.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.819044] (yzbot_stm32connect) StderrLine: {'line': b'make[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.912290] (-) TimerEvent: {}
+[4.013215] (-) TimerEvent: {}
+[4.113866] (-) TimerEvent: {}
+[4.214606] (-) TimerEvent: {}
+[4.314968] (-) TimerEvent: {}
+[4.415327] (-) TimerEvent: {}
+[4.515679] (-) TimerEvent: {}
+[4.616032] (-) TimerEvent: {}
+[4.716387] (-) TimerEvent: {}
+[4.816744] (-) TimerEvent: {}
+[4.917110] (-) TimerEvent: {}
+[5.017474] (-) TimerEvent: {}
+[5.117844] (-) TimerEvent: {}
+[5.218170] (-) TimerEvent: {}
+[5.318493] (-) TimerEvent: {}
+[5.418832] (-) TimerEvent: {}
+[5.519592] (-) TimerEvent: {}
+[5.619981] (-) TimerEvent: {}
+[5.720309] (-) TimerEvent: {}
+[5.820636] (-) TimerEvent: {}
+[5.920981] (-) TimerEvent: {}
+[6.021330] (-) TimerEvent: {}
+[6.121697] (-) TimerEvent: {}
+[6.222035] (-) TimerEvent: {}
+[6.322395] (-) TimerEvent: {}
+[6.422727] (-) TimerEvent: {}
+[6.523044] (-) TimerEvent: {}
+[6.623562] (-) TimerEvent: {}
+[6.723916] (-) TimerEvent: {}
+[6.824253] (-) TimerEvent: {}
+[6.924584] (-) TimerEvent: {}
+[7.024904] (-) TimerEvent: {}
+[7.125223] (-) TimerEvent: {}
+[7.225550] (-) TimerEvent: {}
+[7.325884] (-) TimerEvent: {}
+[7.426217] (-) TimerEvent: {}
+[7.526541] (-) TimerEvent: {}
+[7.626876] (-) TimerEvent: {}
+[7.727227] (-) TimerEvent: {}
+[7.827583] (-) TimerEvent: {}
+[7.927918] (-) TimerEvent: {}
+[8.028269] (-) TimerEvent: {}
+[8.128598] (-) TimerEvent: {}
+[8.228926] (-) TimerEvent: {}
+[8.329241] (-) TimerEvent: {}
+[8.429551] (-) TimerEvent: {}
+[8.529866] (-) TimerEvent: {}
+[8.630234] (-) TimerEvent: {}
+[8.730617] (-) TimerEvent: {}
+[8.831076] (-) TimerEvent: {}
+[8.931720] (-) TimerEvent: {}
+[9.049452] (-) TimerEvent: {}
+[9.149769] (-) TimerEvent: {}
+[9.250093] (-) TimerEvent: {}
+[9.350446] (-) TimerEvent: {}
+[9.450756] (-) TimerEvent: {}
+[9.551087] (-) TimerEvent: {}
+[9.651397] (-) TimerEvent: {}
+[9.751711] (-) TimerEvent: {}
+[9.852022] (-) TimerEvent: {}
+[9.952359] (-) TimerEvent: {}
+[10.052675] (-) TimerEvent: {}
+[10.153028] (-) TimerEvent: {}
+[10.253338] (-) TimerEvent: {}
+[10.353647] (-) TimerEvent: {}
+[10.454136] (-) TimerEvent: {}
+[10.554507] (-) TimerEvent: {}
+[10.654825] (-) TimerEvent: {}
+[10.755132] (-) TimerEvent: {}
+[10.855447] (-) TimerEvent: {}
+[10.955762] (-) TimerEvent: {}
+[11.056079] (-) TimerEvent: {}
+[11.156433] (-) TimerEvent: {}
+[11.256751] (-) TimerEvent: {}
+[11.357073] (-) TimerEvent: {}
+[11.457388] (-) TimerEvent: {}
+[11.557741] (-) TimerEvent: {}
+[11.658058] (-) TimerEvent: {}
+[11.758377] (-) TimerEvent: {}
+[11.858695] (-) TimerEvent: {}
+[11.959047] (-) TimerEvent: {}
+[12.059365] (-) TimerEvent: {}
+[12.159681] (-) TimerEvent: {}
+[12.259998] (-) TimerEvent: {}
+[12.360351] (-) TimerEvent: {}
+[12.460672] (-) TimerEvent: {}
+[12.560994] (-) TimerEvent: {}
+[12.661313] (-) TimerEvent: {}
+[12.761625] (-) TimerEvent: {}
+[12.861935] (-) TimerEvent: {}
+[12.962251] (-) TimerEvent: {}
+[13.062565] (-) TimerEvent: {}
+[13.162928] (-) TimerEvent: {}
+[13.263253] (-) TimerEvent: {}
+[13.363599] (-) TimerEvent: {}
+[13.463928] (-) TimerEvent: {}
+[13.564296] (-) TimerEvent: {}
+[13.664678] (-) TimerEvent: {}
+[13.765065] (-) TimerEvent: {}
+[13.865396] (-) TimerEvent: {}
+[13.965765] (-) TimerEvent: {}
+[14.051896] (yzbot_stm32connect) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80\xef\xbc\x9aCMakeFiles/stm32_connect.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.052157] (yzbot_stm32connect) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.053843] (yzbot_stm32connect) CommandEnded: {'returncode': 2}
+[14.065846] (-) TimerEvent: {}
+[14.166107] (-) TimerEvent: {}
+[14.220973] (yzbot_stm32connect) JobEnded: {'identifier': 'yzbot_stm32connect', 'rc': 2}
+[14.231611] (-) EventReactorShutdown: {}

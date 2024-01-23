@@ -34,7 +34,7 @@ public:
     int getPms(int &Charging_Flag, int &Battary_Level);
     int setSpeed(short int st1, short int st2, short int tag, double yaw, double d);
     int8_t getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2, float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth);
-    int8_t getHeadPose(int &Level, int &Vertical, int &switch_flag);
+    int8_t getHeadPose(int &level, int &pitch, int &switch_flag);
     int8_t getNeckPose(int &height, int &limit, int &done, int light, int bebebe);
     int8_t getRobotButton(int &audio_button, int &power_button, int &zs);
     int8_t setSensorEn(int carLight, int turnLight);

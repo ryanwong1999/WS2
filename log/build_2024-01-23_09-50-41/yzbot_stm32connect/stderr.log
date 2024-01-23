@@ -1,0 +1,12 @@
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:[m[K In constructor ‘[01m[KStm32_Connect::Stm32_Connect()[m[K’:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:24:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid PLC::get_fmq_callback(yzbot_msgs::msg::FmqSet_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+   24 |         "Fmq_set", 10, std::bind(&PLC::[01;31m[Kget_fmq_callback[m[K, PLC_, std::placeholders::_1));
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/stm32_connect.hpp:6[m[K,
+                 from [01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:1[m[K:
+[01m[K/home/kgh/ws2/src/yzbot_stm32connect/include/plc.hpp:72:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   72 |     void [01;36m[Kget_fmq_callback[m[K(const yzbot_msgs::msg::FmqSet::SharedPtr msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:63：CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

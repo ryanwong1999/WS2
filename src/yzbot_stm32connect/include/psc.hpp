@@ -77,19 +77,20 @@ public:
   int psc_height_neck_control_flag = 0;
   int psc_angle_head_control_flag = 0;
   int psc_key_neck_control_flag = 0;
+  int psc_key_head_control_flag = 0;
   int psc_key_neck_control_direction = 0;
   int psc_key_head_control_direction = 0;
   int psc_head_offset_en = 0;
   
-  int query_head_pose(void);
-  int query_neck_pose(void);
-  int query_obs_state(void); 
-  int query_robot_button(void);
-  void head_control_by_angle_callback(const yzbot_msgs::msg::PscHeadControl &msg);
-  void neck_control_by_height_callback(const yzbot_msgs::msg::PscNeckControl &msg);
-  void neck_Control_By_Key_callback(const yzbot_msgs::msg::PscKeyNeckControl &msg);
-  void head_control_by_key_callback(const yzbot_msgs::msg::PscKeyHeadControl &msg);
-  void set_head_offset_callback(const yzbot_msgs::msg::PscHeadOffset &msg);
+  int queryHeadPose(void);
+  int queryNeckPose(void);
+  int queryObsState(void); 
+  int queryRobotButton(void);
+  void headControlByAngleCallback(const yzbot_msgs::msg::PscHeadControl::SharedPtr msg);
+  void neckControlByHeightCallback(const yzbot_msgs::msg::PscNeckControl::SharedPtr msg);
+  void neckControlByKeyCallback(const yzbot_msgs::msg::PscKeyNeckControl::SharedPtr msg);
+  void headControlByKeyCallback(const yzbot_msgs::msg::PscKeyHeadControl::SharedPtr msg);
+  void setHeadOffsetCallback(const yzbot_msgs::msg::PscHeadOffset::SharedPtr msg);
 
 private:
   RobotSerial *mRobotSerial;
