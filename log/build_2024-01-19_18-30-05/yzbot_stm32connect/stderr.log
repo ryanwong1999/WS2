@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:69 (add_dependencies):
-  add_dependencies called with incorrect number of arguments
-
-
-make: *** [Makefile:430：cmake_check_build_system] 错误 1

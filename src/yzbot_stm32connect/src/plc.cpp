@@ -5,16 +5,26 @@
 **/
 PLC::PLC(RobotSerial *Robotserial_) : Node("plc")
 {
-    th_total_h = 0;  
+    mD = -1;
+    th_total_h = 0;
+    g_x = 0, g_y = 0;
+    g_vx = 0, g_vy = 0, g_vth = 0;  
+    mRobotPose_x = 0;
+    mRobotPose_y = 0;
+    mRobotPose_yaw = 0;
     my_robot_pose.robot_x = 0;
     my_robot_pose.robot_y = 0;
     my_robot_pose.robot_yaw = 0;
+    
+    pulse_sec = 0.00036351;
+    wheel_diameter = 0.162;
+    wheel_distance = 0.37;
     
     mRobotSerial = Robotserial_;
     // 初始化发布者
     odom_pub = this->create_publisher<nav_msgs::msg::Odometry>("odom", 50);
     robot_pose_pub = this->create_publisher<yzbot_msgs::msg::RobotPose>("robot_pose", 10);
-
+    tf_broadcaster = std::make_shared<tf2_ros::TransformBroadcaster>(this);
     // 初始化 last_time
     last_time = this->now();
 }
@@ -72,6 +82,7 @@ int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float a
     double dt_x = ((t1 + t2) * pulse_sec * cos(th_total_h - th_dt_h + th_dt_h/2.0))/2.0;
     double dt_y = ((t1 + t2) * pulse_sec * sin(th_total_h - th_dt_h + th_dt_h/2.0))/2.0;
     double my_angle = th_total_h*(180/PI);
+    // RCLCPP_INFO(this->get_logger(), "dt_x: %f dt_y: %f", dt_x, dt_y);
     
     int left_t = t1, right_t = t2;
     if(-90<my_angle && my_angle<90)
@@ -105,19 +116,34 @@ int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float a
     // 累计下  x  y  的坐标 
     g_x += dt_x;
     g_y += dt_y;
+    // RCLCPP_INFO(this->get_logger(), "g_x: %f g_y: %f", g_x, g_y);
     // 四元数转换
     tf2::Quaternion odom_quat;
     odom_quat.setRPY(0, 0, th_total_h);
-    // publish the odometry message over Ros
+
+    geometry_msgs::msg::TransformStamped odom_trans;
+    odom_trans.header.stamp = current_time;
+    odom_trans.header.frame_id = "odom";
+    odom_trans.child_frame_id = "base_footprint";
+    odom_trans.transform.translation.x = g_x;
+    odom_trans.transform.translation.y = g_y;
+    odom_trans.transform.translation.z = 0.0;
+    odom_trans.transform.rotation = tf2::toMsg(odom_quat);
+    // 发送变换
+    tf_broadcaster->sendTransform(odom_trans);
+
+    // 发布里程计消息
     nav_msgs::msg::Odometry odom;
     odom.header.stamp = current_time;
-    odom.header.frame_id = "odom_stm32";
+    // odom.header.frame_id = "odom_stm32";
+    odom.header.frame_id = "odom";
     odom.pose.pose.position.x = g_x;
     odom.pose.pose.position.y = g_y;
     odom.pose.pose.position.z = 0;
     odom.pose.pose.orientation = tf2::toMsg(odom_quat);
     // set velocity
-    odom.child_frame_id = "base_link_st32";
+    // odom.child_frame_id = "base_link_st32";
+    odom.child_frame_id = "base_footprint";
     odom.twist.twist.linear.x = (t1 + t2) * pulse_sec/dt/2.0;
     odom.twist.twist.linear.y = 0;
     odom.twist.twist.angular.z = vth;
@@ -231,19 +257,20 @@ void PLC::pubRobotPose(int left_t, int right_t, double angle_t, double angle_l)
 
 void PLC::odomTimerDeal()
 {
-  unsigned char frameIndex = 0;
-  int16_t t1 = 0, t2 = 0;
-  float dbTh = 0, dbVth = 0, dbTh_l = 0;
-  int16_t vx = 0, vth = 0;
+    unsigned char frameIndex = 0;
+    int16_t t1 = 0, t2 = 0;
+    float dbTh = 0, dbVth = 0, dbTh_l = 0;
+    int16_t vx = 0, vth = 0;
 
-  int get_odom = mRobotSerial->getOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth); 
-  pubOdom(g_vx, g_vy, t1, t2, (float)(dbVth/100.0), (float)(dbTh/100.0), (float)(vx/1000.0), (float)(vth/1000.0));  
-  pubRobotPose(t1, t2, (float)(dbTh/100.0), (float)(dbTh_l/100.0));
+    int get_odom = mRobotSerial->getOdom(frameIndex, t1, t2, dbTh, dbTh_l, dbVth, fmq_status_flag, vx, vth); 
+    pubOdom(g_vx, g_vy, t1, t2, (float)(dbVth/100.0), (float)(dbTh/100.0), (float)(vx/1000.0), (float)(vth/1000.0));  
+    pubRobotPose(t1, t2, (float)(dbTh/100.0), (float)(dbTh_l/100.0));
 
-  mRobotSerial->setSpeed(g_vx*1000, g_vth*1000, 0x15, mRobotPose_yaw, mD);
+    mRobotSerial->setSpeed(g_vx*1000, g_vth*1000, 0x15, mRobotPose_yaw, mD);
+    usleep(1000 * 10);
 }
 
 void PLC::getAutoSpeed()
 {
-  int autospeed = mRobotSerial->getAutoSpeed();
+    int autospeed = mRobotSerial->getAutoSpeed();
 }

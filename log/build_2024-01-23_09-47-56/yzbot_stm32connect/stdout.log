@@ -1,4 +1,0 @@
-[ 40%] Built target serial
-[35m[1mScanning dependencies of target stm32_connect[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/plc.cpp.o[0m

@@ -1,0 +1,194 @@
+[0.140s] Invoking command in '/home/kgh/ws2/build/nav2_util': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/kgh/ws2/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/kgh/ws2/install/nav2_util
+[0.194s] -- The C compiler identification is GNU 9.4.0
+[0.254s] -- The CXX compiler identification is GNU 9.4.0
+[0.260s] -- Check for working C compiler: /usr/bin/cc
+[0.342s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.343s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.424s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.504s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Detecting CXX compile features
+[0.603s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.639s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.835s] -- Found nav2_common: 0.4.7 (/home/kgh/ws2/install/nav2_common/share/nav2_common/cmake)
+[0.835s] -- Found nav2_msgs: 0.4.7 (/home/kgh/ws2/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.967s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.002s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.491s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.558s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.561s] -- Looking for pthread.h
+[1.644s] -- Looking for pthread.h - found
+[1.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.725s] -- Looking for pthread_create in pthreads
+[1.788s] -- Looking for pthread_create in pthreads - not found
+[1.788s] -- Looking for pthread_create in pthread
+[1.865s] -- Looking for pthread_create in pthread - found
+[1.867s] -- Found Threads: TRUE  
+[2.266s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.273s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.276s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.304s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[2.316s] -- Found test_msgs: 1.0.0 (/opt/ros/foxy/share/test_msgs/cmake)
+[2.370s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.385s] -- Setting build type to Release as none was specified.
+[2.403s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: program_options 
+[2.408s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.410s] -- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[2.413s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[2.415s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.440s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.449s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.449s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.449s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.449s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.472s] -- Found PythonExtra: .so  
+[2.600s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.603s] -- Check if compiler accepts -pthread
+[2.678s] -- Check if compiler accepts -pthread - yes
+[2.717s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.719s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.719s] -- Configured cppcheck include dirs: /home/kgh/ws2/src/navigation2/nav2_util/include
+[2.719s] -- Configured cppcheck exclude dirs and/or files: 
+[2.721s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.721s] -- Configured cpplint exclude dirs and/or files: 
+[2.722s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.723s] -- Added test 'lint_cmake' to check CMake code style
+[2.724s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.726s] -- Added test 'uncrustify' to check C / C++ code style
+[2.726s] -- Configured uncrustify additional arguments: 
+[2.727s] -- Added test 'xmllint' to check XML markup files
+[2.733s] -- Configuring done
+[2.825s] -- Generating done
+[2.828s] -- Build files have been written to: /home/kgh/ws2/build/nav2_util
+[2.848s] Invoked command in '/home/kgh/ws2/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/kgh/ws2/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/kgh/ws2/install/nav2_util
+[2.850s] Invoking command in '/home/kgh/ws2/build/nav2_util': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/kgh/ws2/build/nav2_util -- -j16 -l16
+[2.899s] [35m[1mScanning dependencies of target nav2_util_core[0m
+[2.900s] [35m[1mScanning dependencies of target gtest[0m
+[2.900s] [35m[1mScanning dependencies of target gtest_main[0m
+[2.901s] [35m[1mScanning dependencies of target dump_params[0m
+[2.920s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.920s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.944s] [  7%] [32mBuilding CXX object src/CMakeFiles/dump_params.dir/dump_params.cpp.o[0m
+[3.027s] [ 12%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[3.027s] [ 12%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[3.027s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[3.027s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[3.028s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[3.030s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[3.030s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[3.033s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[3.042s] [ 30%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[4.157s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.213s] [ 32%] Built target gtest_main
+[10.860s] [ 35%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[11.039s] [ 35%] Built target nav2_util_core
+[11.049s] [35m[1mScanning dependencies of target lifecycle_bringup[0m
+[11.092s] [ 37%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[11.486s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.536s] [ 40%] Built target gtest
+[11.552s] [35m[1mScanning dependencies of target test_geometry_utils[0m
+[11.552s] [35m[1mScanning dependencies of target test_execution_timer[0m
+[11.552s] [35m[1mScanning dependencies of target test_lifecycle_node[0m
+[11.553s] [35m[1mScanning dependencies of target test_string_utils[0m
+[11.553s] [35m[1mScanning dependencies of target test_lifecycle_cli_node[0m
+[11.567s] [35m[1mScanning dependencies of target test_node_utils[0m
+[11.567s] [35m[1mScanning dependencies of target test_robot_utils[0m
+[11.567s] [35m[1mScanning dependencies of target test_lifecycle_utils[0m
+[11.567s] [35m[1mScanning dependencies of target test_service_client[0m
+[11.568s] [35m[1mScanning dependencies of target test_actions[0m
+[11.586s] [35m[1mScanning dependencies of target test_odometry_utils[0m
+[11.586s] [ 42%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[11.598s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[11.635s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[11.636s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[11.643s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[11.651s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[11.654s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[11.654s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[11.654s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[11.664s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[11.672s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[11.805s] [ 70%] [32m[1mLinking CXX executable dump_params[0m
+[12.099s] [ 70%] Built target dump_params
+[13.758s] [ 72%] [32m[1mLinking CXX executable test_execution_timer[0m
+[13.949s] [ 75%] [32m[1mLinking CXX executable test_string_utils[0m
+[13.963s] [ 75%] Built target test_execution_timer
+[14.290s] [ 75%] Built target test_string_utils
+[14.312s] [ 77%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[14.571s] [ 77%] Built target lifecycle_bringup
+[15.973s] [ 80%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[16.196s] [ 80%] Built target test_geometry_utils
+[16.410s] [ 82%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[16.439s] [ 85%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[16.497s] [ 87%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[16.674s] [ 87%] Built target test_lifecycle_cli_node
+[16.692s] [ 87%] Built target test_lifecycle_utils
+[16.719s] [ 87%] Built target test_lifecycle_node
+[17.007s] [ 90%] [32m[1mLinking CXX executable test_robot_utils[0m
+[17.228s] [ 90%] Built target test_robot_utils
+[17.290s] [ 92%] [32m[1mLinking CXX executable test_node_utils[0m
+[17.367s] [ 95%] [32m[1mLinking CXX executable test_service_client[0m
+[17.493s] [ 95%] Built target test_node_utils
+[17.602s] [ 95%] Built target test_service_client
+[18.550s] [ 97%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[18.726s] [ 97%] Built target test_odometry_utils
+[26.542s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[26.742s] [100%] Built target test_actions
+[26.755s] Invoked command in '/home/kgh/ws2/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/kgh/ws2/build/nav2_util -- -j16 -l16
+[26.793s] Invoking command in '/home/kgh/ws2/build/nav2_util': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/kgh/ws2/build/nav2_util
+[26.800s] -- Install configuration: "Release"
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include/
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/node_thread.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/robot_utils.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/service_client.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/node_utils.hpp
+[26.800s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/line_iterator.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/costmap.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/string_utils.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/execution_timer.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/library_path.sh
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[26.801s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/path.sh
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/environment/path.dsv
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/local_setup.bash
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/local_setup.sh
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/local_setup.zsh
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/local_setup.dsv
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/package.dsv
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[26.802s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.803s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[26.803s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[26.803s] -- Installing: /home/kgh/ws2/install/nav2_util/share/nav2_util/package.xml
+[26.803s] -- Installing: /home/kgh/ws2/install/nav2_util/lib/libnav2_util_core.so
+[26.804s] -- Set runtime path of "/home/kgh/ws2/install/nav2_util/lib/libnav2_util_core.so" to ""
+[26.804s] -- Installing: /home/kgh/ws2/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[26.804s] -- Set runtime path of "/home/kgh/ws2/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+[26.804s] -- Installing: /home/kgh/ws2/install/nav2_util/lib/nav2_util/dump_params
+[26.805s] -- Set runtime path of "/home/kgh/ws2/install/nav2_util/lib/nav2_util/dump_params" to ""
+[26.807s] Invoked command in '/home/kgh/ws2/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/home/kgh/ws2/install/nav2_msgs:/home/kgh/ws2/install/nav2_common:/home/kgh/ws2/install/yzbot_stm32connect:/home/kgh/ws2/install/yzbot_nav2:/home/kgh/ws2/install/yzbot_msgs:/home/kgh/ws2/install/yzbot_cartographer:/home/kgh/ws2/install/nav2_system_tests:/home/kgh/ws2/install/nav2_bringup:/home/kgh/ws2/install/navigation2:/home/kgh/ws2/install/smac_planner:/home/kgh/ws2/install/nav2_dwb_controller:/home/kgh/ws2/install/nav2_controller:/home/kgh/ws2/install/dwb_plugins:/home/kgh/ws2/install/dwb_critics:/home/kgh/ws2/install/dwb_core:/home/kgh/ws2/install/nav_2d_utils:/home/kgh/ws2/install/dwb_msgs:/home/kgh/ws2/install/nav_2d_msgs:/home/kgh/ws2/install/nav2_waypoint_follower:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller:/home/kgh/ws2/install/nav2_recoveries:/home/kgh/ws2/install/nav2_planner:/home/kgh/ws2/install/nav2_navfn_planner:/home/kgh/ws2/install/nav2_core:/home/kgh/ws2/install/costmap_queue:/home/kgh/ws2/install/nav2_costmap_2d:/home/kgh/ws2/install/nav2_voxel_grid:/home/kgh/ws2/install/nav2_rviz_plugins:/home/kgh/ws2/install/nav2_map_server:/home/kgh/ws2/install/nav2_lifecycle_manager:/home/kgh/ws2/install/nav2_bt_navigator:/home/kgh/ws2/install/nav2_behavior_tree:/home/kgh/ws2/install/nav2_amcl:/home/kgh/ws2/install/nav2_util:/home/kgh/ws2/install/bluesea2:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy LD_LIBRARY_PATH=/home/kgh/ws2/install/nav2_msgs/lib:/home/kgh/ws2/install/yzbot_msgs/lib:/home/kgh/ws2/install/smac_planner/lib:/home/kgh/ws2/install/nav2_controller/lib:/home/kgh/ws2/install/dwb_plugins/lib:/home/kgh/ws2/install/dwb_critics/lib:/home/kgh/ws2/install/dwb_core/lib:/home/kgh/ws2/install/nav_2d_utils/lib:/home/kgh/ws2/install/dwb_msgs/lib:/home/kgh/ws2/install/nav_2d_msgs/lib:/home/kgh/ws2/install/nav2_waypoint_follower/lib:/home/kgh/ws2/install/nav2_regulated_pure_pursuit_controller/lib:/home/kgh/ws2/install/nav2_recoveries/lib:/home/kgh/ws2/install/nav2_planner/lib:/home/kgh/ws2/install/nav2_navfn_planner/lib:/home/kgh/ws2/install/costmap_queue/lib:/home/kgh/ws2/install/nav2_costmap_2d/lib:/home/kgh/ws2/install/nav2_voxel_grid/lib:/home/kgh/ws2/install/nav2_rviz_plugins/lib:/home/kgh/ws2/install/nav2_map_server/lib:/home/kgh/ws2/install/nav2_lifecycle_manager/lib:/home/kgh/ws2/install/nav2_bt_navigator/lib:/home/kgh/ws2/install/nav2_behavior_tree/lib:/home/kgh/ws2/install/nav2_amcl/lib:/home/kgh/ws2/install/nav2_util/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/kgh/ws2/install/nav2_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_common/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_description/lib/python3.8/site-packages:/home/kgh/ws2/install/yzbot_controller/lib/python3.8/site-packages:/home/kgh/ws2/install/dwb_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/kgh/ws2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/kgh/ws2/build/nav2_util

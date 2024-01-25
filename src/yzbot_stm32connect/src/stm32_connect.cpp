@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define SERIAL_NAME     "/dev/ttyUSB1"
+#define SERIAL_NAME     "/dev/mcuusb"
 #define BAUDRATE        9600
 
 Stm32_Connect::Stm32_Connect() : Node("stm32_connect")
@@ -66,11 +66,6 @@ bool Stm32_Connect::initSerial()
 // 定时器
 void Stm32_Connect::timerCallback()
 {
-    // if(serial_->available())
-    // {
-    //     std::string read_data = serial_->read(serial_->available());
-    //     // RCLCPP_INFO(get_logger(), "Received: %s", read_data.c_str());
-    // }
     static int cnt = 0;
     cnt++;
     

@@ -1,4 +1,0 @@
-[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:[m[K In member function ‘[01m[Kvoid Stm32_Connect::timerCallback()[m[K’:
-[01m[K/home/kgh/ws2/src/yzbot_stm32connect/src/stm32_connect.cpp:139:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpitch_offset[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
-  139 |         [01;35m[KRobotSerial_->setAngleOffset(level_offset, pitch_offset)[m[K;
-      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

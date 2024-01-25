@@ -5,6 +5,7 @@
 /home/kgh/ws2/install/yzbot_description/share/ament_index/resource_index/packages/yzbot_description
 /home/kgh/ws2/install/yzbot_description/share/yzbot_description/package.xml
 /home/kgh/ws2/install/yzbot_description/share/yzbot_description/launch/display_rviz2.launch.py
+/home/kgh/ws2/install/yzbot_description/share/yzbot_description/launch/robot_description.launch.py
 /home/kgh/ws2/install/yzbot_description/share/yzbot_description/launch/test.launch.py
 /home/kgh/ws2/install/yzbot_description/share/yzbot_description/launch/gazebo.launch.py
 /home/kgh/ws2/install/yzbot_description/share/yzbot_description/urdf/yzbot_gazebo（复件）.urdf

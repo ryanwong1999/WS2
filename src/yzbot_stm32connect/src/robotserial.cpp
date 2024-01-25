@@ -20,6 +20,10 @@ RobotSerial::RobotSerial(std::shared_ptr<serial::Serial> serial_) : Node("robot_
     index = 0;  
     memset(RecvBUF, 0, MAX_RX_LEN);  // 初始化接收缓冲 
 
+    pulse_sec = 0.00036351;
+    wheel_diameter = 0.162;
+    wheel_distance = 0.37;
+
     pthread_t pid;
     pthread_attr_t attr;
     pthread_attr_init(&attr);
@@ -34,11 +38,12 @@ RobotSerial::~RobotSerial()
 
 int8_t RobotSerial::robotSerialRead(void)
 {
-	static unsigned char dat = 0;
+	static unsigned char dat=0;
   
     RecvBUF[0] = dat;
 	mSerial->read(RecvBUF+1, 1);
 	dat = RecvBUF[1];
+
 	if(RecvBUF[1] == 0xAA)
 	{
 		if(RecvBUF[0] == 0x55)
@@ -128,10 +133,9 @@ int RobotSerial::setSpeed(short int st1, short int st2, short int tag, double ya
     memcpy(&SendBUF[12], &mYaw, sizeof(short int));
     memcpy(&SendBUF[14], &mDD, sizeof(short int));
 
-    int temp1 = 0;
-    int temp2 = 0;
-    memcpy(&temp1, &SendBUF[8], sizeof(short int));
-    memcpy(&temp2, &SendBUF[10], sizeof(short int));
+    // int temp1 = 0, temp2 = 0;
+    // memcpy(&temp1, &SendBUF[8], sizeof(short int));
+    // memcpy(&temp2, &SendBUF[10], sizeof(short int));
 
     SendBUF[16] = CRC8_Table(SendBUF, 16);
     SendBUF[17] = 0x0D;
@@ -158,7 +162,7 @@ int RobotSerial::setSpeed(short int st1, short int st2, short int tag, double ya
     } 
 }
 
-int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
+int RobotSerial::getPms(int &charging_flag, int &battary_level)
 {
     // RCLCPP_INFO(get_logger(), "getPms----");
     uint8_t SendBUF[MAX_RX_LEN];
@@ -194,26 +198,17 @@ int RobotSerial::getPms(int &Charging_Flag, int &Battary_Level)
                         RCLCPP_INFO(get_logger(), "pms %x", RecvBUF[k]);
                     }
                     **/
-                    unsigned char recvFrameIndex=0;
-                    unsigned char length;
-                    unsigned char s_devid;
-                    unsigned char p_devid;
-                    unsigned char cmd;
-                    int charging_flag = 0;
-                    int battary_level = 0;
+                    unsigned char recvFrameIndex = 0;
+                    // int charging_flag = 0, battary_level = 0;
+
                     int gongneng = RecvBUF[6];
-                    if(gongneng != 0x09)
-                    {
-                        return -1;
-                    }
-                    recvFrameIndex =  RecvBUF[2];
-                    Charging_Flag = RecvBUF[11];
-                    Battary_Level = RecvBUF[15];
-                    // for(int t = 0; t < 19; t++)
-                    // {
-                    //     RCLCPP_INFO(get_logger(), "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@pms  %d",Charging_Flag);
-                    // }
-                    RCLCPP_INFO(get_logger(), "PMS 充电标志位: %d, 电量百分比: %d", Charging_Flag, Battary_Level);
+                    if(gongneng != 0x09) return -1;
+                    
+                    recvFrameIndex = RecvBUF[2];
+                    charging_flag = RecvBUF[11];
+                    battary_level = RecvBUF[15];
+
+                    RCLCPP_INFO(get_logger(), "PMS 充电标志位: %d  电量百分比: %d", charging_flag, battary_level);
                     return 0;
                 }
             }
@@ -359,10 +354,6 @@ int8_t RobotSerial::getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
                 static float per_Angle_l = 0;
                 static float per_get_Angle = 0; 
                 unsigned char recvFrameIndex = 0;
-                unsigned char length;
-                unsigned char s_devid;
-                unsigned char p_devid;
-                unsigned char cmd;
                 int16_t mTick1 = 0;
                 int16_t mTick2 = 0;
                 int16_t mYaw = 0;  // 航向角
@@ -406,21 +397,21 @@ int8_t RobotSerial::getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2,
                 // RCLCPP_INFO(get_logger(), "@@@@@mAngular_Rate:%d vth:%d RecvBUF[14]:%d RecvBUF[15]:%d", mAngular_Rate, vth, RecvBUF[14], RecvBUF[15]);
                 // RCLCPP_INFO(get_logger(), "%s %x %d @ %x %d--odom ma %x %d", szTime, t1, t1, t2, t2, RecvBUF[6], RecvBUF[6]);
                 
-                int16_t maichong = 0;  // 航向角
-                memcpy(&maichong, &RecvBUF[8], 8);
+                int16_t maichong = 0;   // 航向角
                 int16_t maichong2 = 0;  // 航向角
+                memcpy(&maichong, &RecvBUF[8], 8);
                 memcpy(&maichong2, &RecvBUF[9], 8);
                 // RCLCPP_INFO(get_logger(), "@@@@@@@@@@@@@  %d @@@@@ %d", maichong, maichong2);
 
                 dbTh = mAngular_Rate;
                 // RCLCPP_INFO(get_logger(), "############## %f  %f",mYaw/100.0, mAngular_Rate/100.0);
 
-                dbVth =per_Angle + ((t2 - t1) * pulse_sec/( wheel_distance * PRE_RATE)) * 100;
-                dbVth_l = per_Angle_l + ((t2 - t1) * pulse_sec/( wheel_distance * PRE_RATE)) * 100;
+                dbVth = per_Angle+((t2-t1)*pulse_sec/(wheel_distance*PRE_RATE))*100;
+                dbVth_l = per_Angle_l+((t2-t1)*pulse_sec/(wheel_distance*PRE_RATE))*100;
 
-                if(dbVth > (180 * 100)) dbVth -= 360 * 100;
-                else if(dbVth < (-180 * 100)) dbVth += 360 * 100;
-                // RCLCPP_INFO(get_logger(), "@@@@@@@@@@@@@ t1:%d t2%d %f", t1, t2, dbVth/100.0);
+                if(dbVth>(180*100)) dbVth -= 360*100;
+                else if(dbVth<(-180*100)) dbVth += 360*100;
+                // RCLCPP_INFO(get_logger(), "左轮脉冲t1: %d  右轮脉冲t2: %d  dbVth: %f", t1, t2, dbVth/100.0);
                 per_get_Angle = mYaw;
                 per_Angle = dbVth;
                 per_Angle_l = dbVth_l;
@@ -587,6 +578,7 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
     SendBUF[5] = 0x01;  // 目的地址
     SendBUF[6] = 0x07;  // 命令
     SendBUF[7] = 0x08;  //数据长度
+    memset(SendBUF+8, 0, 8);
     SendBUF[16] = CRC8_Table(SendBUF, 16);
     SendBUF[17] = 0x0D;
     SendBUF[18] = 0x0A;
@@ -606,9 +598,6 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
                 // 返回0,表示接收到有效数据
                 // 解析数据
                 unsigned char recvFrameIndex = 0;
-                unsigned char length;
-                unsigned char s_devid;
-                unsigned char p_devid;
                 unsigned char cmd;
                 short int font_t = 0, left_t = 0, right_t = 0, back_t = 0;
                 memcpy(&right_t, &RecvBUF[8], sizeof(int16_t));
@@ -624,10 +613,11 @@ int RobotSerial::getUltrasoundResult(int &cs_obs, int &fz_obs)
                 cs_obs = 0, fz_obs = 0;
                 cs_obs = RecvBUF[8];
                 fz_obs = RecvBUF[9];
-                RCLCPP_INFO(get_logger(), "超声: %d, 防撞条: %d", cs_obs, fz_obs);
-                double moto_cur = (short)((RecvBUF[11]<<8) + RecvBUF[12]);
-                double bettery_vol = (short)((RecvBUF[14]<<8) + RecvBUF[15]);
-                RCLCPP_INFO(get_logger(), "驱动器电流 %f, 电池电压 %f", moto_cur, bettery_vol);
+
+                if(cs_obs != 0 || fz_obs != 0) RCLCPP_INFO(get_logger(), "超声: %d  防撞条: %d", cs_obs, fz_obs);
+                int moto_cur = (short)((RecvBUF[11]<<8) + RecvBUF[12]);
+                int bettery_vol = (short)((RecvBUF[14]<<8) + RecvBUF[15]);
+                RCLCPP_INFO(get_logger(), "驱动器电流: %d  电池电压: %d", moto_cur, bettery_vol);
                 return 0;
             }
         }
@@ -668,11 +658,6 @@ int8_t RobotSerial::getNeckPose(int &height, int &limit, int &done, int light, i
             if(tmp) return 1; // error
             else
             {
-                // 解析数据
-                short int mheight = 0;
-                short int mlimit = 0;
-                short int mdone = 0;
-
                 height = (int)RecvBUF[8]<<8 | RecvBUF[9];
 
                 limit = RecvBUF[10];
@@ -699,7 +684,7 @@ int8_t RobotSerial::getHeadPose(int &level, int &pitch, int &emergency_btn)
     SendBUF[5] = 0x01;
     SendBUF[6] = 0x10;   //功能吗
     SendBUF[7] = 0x08;   //长度
-    memset(SendBUF+8,0,8);
+    memset(SendBUF+8, 0, 8);
     SendBUF[16] = CRC8_Table(SendBUF, 16);
     SendBUF[17] = 0x0D;
     SendBUF[18] = 0x0A;
@@ -730,7 +715,7 @@ int8_t RobotSerial::getHeadPose(int &level, int &pitch, int &emergency_btn)
                 emergency_btn = RecvBUF[13];
                 level = ntohs(mlevel);
                 pitch = ntohs(mpitch);
-                RCLCPP_INFO(get_logger(), "急停按键: %d", emergency_btn);
+                // RCLCPP_INFO(get_logger(), "急停按键: %d", emergency_btn);
                 return 0;
             }
         }

@@ -27,6 +27,7 @@ void PMS::getAutoChargeCallback(const yzbot_msgs::msg::ChargeCtrl::SharedPtr msg
   {
     int get_pms = mRobotSerial->getPms(charging_flag, battery_level);
     if(get_pms != 0) return -1;
+    // RCLCPP_INFO(this->get_logger(), "charging_flag: %d, battery_level: %d", charging_flag, battery_level);
 
     yzbot_msgs::msg::PmsStatus pms_msg;
     pms_msg.pms_charging_flag = charging_flag;

@@ -1,3 +1,0 @@
-[ 40%] Built target serial
-[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/stm32_connect.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/psc.cpp.o[0m

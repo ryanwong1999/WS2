@@ -1,5 +1,6 @@
 /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/libserial.a
 /home/kgh/ws2/install/yzbot_stm32connect/lib/yzbot_stm32connect/stm32_connect
+/home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/launch/stm32_connect.launch.py
 /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/package_run_dependencies/yzbot_stm32connect
 /home/kgh/ws2/install/yzbot_stm32connect/share/ament_index/resource_index/parent_prefix_path/yzbot_stm32connect
 /home/kgh/ws2/install/yzbot_stm32connect/share/yzbot_stm32connect/environment/ament_prefix_path.sh

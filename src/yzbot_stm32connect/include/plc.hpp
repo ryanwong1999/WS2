@@ -8,6 +8,7 @@
 #include "tf2_geometry_msgs/tf2_geometry_msgs.h"
 #include <tf2/LinearMath/Quaternion.h>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <tf2_ros/transform_broadcaster.h>
 // #include "geometry_msgs/msg/twist.hpp"
 #include "yzbot_msgs/msg/robot_pose.hpp"
 #include "yzbot_msgs/msg/fmq_set.hpp"
@@ -67,6 +68,6 @@ private:
 
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_pub;
     rclcpp::Publisher<yzbot_msgs::msg::RobotPose>::SharedPtr robot_pose_pub;
-
+    std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster;
 };
 #endif

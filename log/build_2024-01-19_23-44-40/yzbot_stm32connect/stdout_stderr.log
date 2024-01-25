@@ -1,7 +1,0 @@
-[ 44%] Built target serial
-[ 55%] [32m[1mLinking CXX executable stm32_connect[0m
-/usr/bin/ld: CMakeFiles/stm32_connect.dir/src/pms.cpp.o:(.bss+0x0): multiple definition of `mRobotSerial'; CMakeFiles/stm32_connect.dir/src/plc.cpp.o:(.bss+0x0): first defined here
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/stm32_connect.dir/build.make:222：stm32_connect] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/stm32_connect.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2

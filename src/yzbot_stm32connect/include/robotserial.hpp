@@ -26,12 +26,13 @@ public:
 
     int neck_height = 0;
     float pulse_sec = 0;
+    float wheel_diameter = 0;
     float wheel_distance = 0;
 
     unsigned char CRC8_Table(unsigned char *p, char counter);
 
     int autoCharge(int chargeFlag);
-    int getPms(int &Charging_Flag, int &Battary_Level);
+    int getPms(int &charging_flag, int &battary_level);
     int setSpeed(short int st1, short int st2, short int tag, double yaw, double d);
     int8_t getOdom(unsigned char &frameIndex, int16_t &t1, int16_t &t2, float &dbVth, float &dbVth_l, float &dbTh, int fmq, int16_t &vx, int16_t &vth);
     int8_t getHeadPose(int &level, int &pitch, int &switch_flag);

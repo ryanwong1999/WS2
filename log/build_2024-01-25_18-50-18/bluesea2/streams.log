@@ -1,0 +1,36 @@
+[0.125s] Invoking command in '/home/kgh/ws2/build/bluesea2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/bluesea2 -- -j16 -l16
+[0.194s] [ 50%] Built target bluesea_node_client
+[0.194s] [100%] Built target bluesea_node
+[0.208s] Invoked command in '/home/kgh/ws2/build/bluesea2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/kgh/ws2/build/bluesea2 -- -j16 -l16
+[0.274s] Invoking command in '/home/kgh/ws2/build/bluesea2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/bluesea2
+[0.288s] -- Install configuration: ""
+[0.288s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/lib/bluesea2/bluesea_node
+[0.288s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/lib/bluesea2/bluesea_node_client
+[0.288s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/VPC.launch
+[0.289s] -- Installing: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/blue_laser.launch.py
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/LDS-50C-2.launch
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/bluesea.py
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/test.launch
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/launch/dual_lidar.launch
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/params
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/params/blue_laser.yaml
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/params/VPC.yaml
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/params/LDS-50C-2.yaml
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/params/dual_lidar.yaml
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/ament_index/resource_index/package_run_dependencies/bluesea2
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/ament_index/resource_index/parent_prefix_path/bluesea2
+[0.289s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/environment/ament_prefix_path.dsv
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/environment/path.sh
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/environment/path.dsv
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/local_setup.bash
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/local_setup.sh
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/local_setup.zsh
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/local_setup.dsv
+[0.290s] -- Installing: /home/kgh/ws2/install/bluesea2/share/bluesea2/package.dsv
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/ament_index/resource_index/packages/bluesea2
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/cmake/bluesea2Config.cmake
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/cmake/bluesea2Config-version.cmake
+[0.290s] -- Up-to-date: /home/kgh/ws2/install/bluesea2/share/bluesea2/package.xml
+[0.291s] Invoked command in '/home/kgh/ws2/build/bluesea2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kgh/ws2/install/yzbot_description:/home/kgh/ws2/install/yzbot_controller:/home/kgh/ws2/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/kgh/ws2/build/bluesea2

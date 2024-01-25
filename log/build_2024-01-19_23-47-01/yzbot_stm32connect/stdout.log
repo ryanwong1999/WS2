@@ -1,4 +1,0 @@
-[ 44%] Built target serial
-[35m[1mScanning dependencies of target stm32_connect[0m
-[ 55%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/pms.cpp.o[0m
-[ 66%] [32m[1mLinking CXX executable stm32_connect[0m

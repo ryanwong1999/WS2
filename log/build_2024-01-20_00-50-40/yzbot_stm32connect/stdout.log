@@ -1,3 +1,0 @@
-[ 44%] Built target serial
-[ 66%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/robotserial.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/stm32_connect.dir/src/pms.cpp.o[0m

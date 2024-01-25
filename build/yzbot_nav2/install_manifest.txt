@@ -2,6 +2,7 @@
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/navigation_launch.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/nav2_startup.launch.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/slam_launch.py
+/home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/nav2_simu.launch.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/bringup_launch.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/launch/odom_ekf.launch.py
 /home/kgh/ws2/install/yzbot_nav2/share/yzbot_nav2/config/ekf.yaml

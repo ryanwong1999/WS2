@@ -11,7 +11,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_button.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__functions.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__struct.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__functions.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__functions.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__functions.c
@@ -22,9 +21,7 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__struct.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__functions.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__struct.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__struct.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__functions.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__functions.c
@@ -43,7 +40,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__struct.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__functions.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__functions.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__functions.c
@@ -71,7 +67,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__functions.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_offset.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_head_status.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/ultrasound_result.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_key_neck_control.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/emergency_button.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/charge_ctrl.h
@@ -84,7 +79,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_fastrtps_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__rosidl_typesupport_fastrtps_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__rosidl_typesupport_fastrtps_c.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_fastrtps_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__rosidl_typesupport_fastrtps_c.h
@@ -109,7 +103,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__rosidl_typesupport_fastrtps_cpp.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__rosidl_typesupport_fastrtps_cpp.hpp
 /home/kgh/ws2/install/yzbot_msgs/lib/libyzbot_msgs__rosidl_typesupport_fastrtps_cpp.so
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
@@ -137,9 +130,7 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__type_support.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.c
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__rosidl_typesupport_introspection_c.h
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_introspection_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__type_support.c
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__rosidl_typesupport_introspection_c.h
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.c
@@ -149,7 +140,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_get_neck_status.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/psc_head_control.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/ultrasound_result.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/emergency_button.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/robot_pose.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/obs_result.hpp
@@ -160,7 +150,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__builder.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__traits.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/fmq_set__builder.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__traits.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__builder.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__builder.hpp
@@ -169,7 +158,6 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_control__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__traits.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__type_support.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__builder.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/obs_result__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__traits.hpp
@@ -191,9 +179,7 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__builder.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__traits.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__traits.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_head_offset__struct.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_neck_control__type_support.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/pms_status__traits.hpp
@@ -233,11 +219,9 @@
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_button__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_neck_status__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__rosidl_typesupport_introspection_cpp.hpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_head_control__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/charge_ctrl__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_get_head_status__type_support.cpp
-/home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/ultrasound_result__rosidl_typesupport_introspection_cpp.hpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/robot_pose__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/emergency_button__type_support.cpp
 /home/kgh/ws2/install/yzbot_msgs/include/yzbot_msgs/msg/detail/psc_key_neck_control__type_support.cpp
@@ -268,7 +252,6 @@
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_pms_status.py
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_neck_control_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_charge_ctrl.py
-/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_ultrasound_result.py
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_robot_button_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_head_status.py
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_head_control_s.c
@@ -283,7 +266,6 @@
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_get_head_status_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_psc_neck_control.py
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_emergency_button.py
-/home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_ultrasound_result_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_pms_status_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_obs_result_s.c
 /home/kgh/ws2/install/yzbot_msgs/lib/python3.8/site-packages/yzbot_msgs/msg/_charge_ctrl_s.c
