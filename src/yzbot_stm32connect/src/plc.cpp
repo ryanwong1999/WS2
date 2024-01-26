@@ -16,9 +16,9 @@ PLC::PLC(RobotSerial *Robotserial_) : Node("plc")
     my_robot_pose.robot_y = 0;
     my_robot_pose.robot_yaw = 0;
     
-    pulse_sec = 0.00036351;
-    wheel_diameter = 0.162;
-    wheel_distance = 0.37;
+    pulse_sec = 0.0003792;
+    wheel_diameter = 0.175;
+    wheel_distance = 0.38;
     
     mRobotSerial = Robotserial_;
     // 初始化发布者
@@ -116,6 +116,7 @@ int PLC::pubOdom(short int vx, short int vy, short int t1, short int t2, float a
     // 累计下  x  y  的坐标 
     g_x += dt_x;
     g_y += dt_y;
+    per_angle = angle;
     // RCLCPP_INFO(this->get_logger(), "g_x: %f g_y: %f", g_x, g_y);
     // 四元数转换
     tf2::Quaternion odom_quat;
@@ -249,6 +250,7 @@ void PLC::pubRobotPose(int left_t, int right_t, double angle_t, double angle_l)
     robot_pose.robot_x = my_robot_pose.robot_x;
     robot_pose.robot_y = my_robot_pose.robot_y;
     robot_pose.robot_yaw = my_robot_pose.robot_yaw;
+    RCLCPP_INFO(this->get_logger(), "robot_x: %f  robot_y: %f  robot_yaw: %f", robot_pose.robot_x, robot_pose.robot_y, robot_pose.robot_yaw);
 
     robot_pose_pub->publish(robot_pose);
     per_angle = angle_t;

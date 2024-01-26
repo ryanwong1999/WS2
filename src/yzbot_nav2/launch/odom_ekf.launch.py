@@ -18,7 +18,7 @@ def generate_launch_description():
     )
 
     
-    ld.add_action(launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
+    ld.add_action(launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='false',
                                                 description='Flag to enable use_sim_time'))
     ld.add_action(robot_localization_node)                                           
     return ld

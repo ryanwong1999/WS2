@@ -4,44 +4,61 @@ ekf_filter_node:
 # The frequency, in Hz, at which the filter will output a position estimate. Note that the filter will not begin
 # computation until it receives at least one message from one of theinputs. It will then run continuously at the
 # frequency specified here, regardless of whether it receives more measurements. Defaults to 30 if unspecified.
+# 滤波器输出位置估计的频率，单位为Hz。请注意，过滤器在从其中一个输入接收到至少一条消息之前不会开始计算。
+# 然后，无论是否接收到更多的测量值，它都将以此处指定的频率连续运行。如果未指定，则默认为30。          
         frequency: 30.0
 
 # ekf_localization_node and ukf_localization_node both use a 3D omnidirectional motion model. If this parameter is
 # set to true, no 3D information will be used in your state estimate. Use this if you are operating in a planar
 # environment and want to ignore the effect of small variations in the ground plane that might otherwise be detected
 # by, for example, an IMU. Defaults to false if unspecified.
+# ekf_localization_node and ukf_localization_node都使用3D全向运动模型。
+# 如果此参数设置为true，则不会在状态估计中使用任何三维信息。
+# 如果您在平面环境中操作，并且希望忽略地平面中可能检测到的微小变化的影响，请使用此选项
+# 例如通过IMU。如果未指定，则默认为false。 
         two_d_mode: false
 
 # Whether to publish the acceleration state. Defaults to false if unspecified.
+#是否发布加速状态。如果未指定，则默认为false。
         publish_acceleration: true
 
 # Whether to broadcast the transformation over the /tf topic. Defaultsto true if unspecified.
+#是否在/tf主题上广播转换。如果未指定，则默认为true。       
         publish_tf: true
 
-# 1. Set the map_frame, odom_frame, and base_link frames to the appropriate frame names for your system.
-#     1a. If your system does not have a map_frame, just remove it, and make sure "world_frame" is set to the value of odom_frame.
-# 2. If you are fusing continuous position data such as wheel encoder odometry, visual odometry, or IMU data, set "world_frame"
-#    to your odom_frame value. This is the default behavior for robot_localization's state estimation nodes.
-# 3. If you are fusing global absolute position data that is subject to discrete jumps (e.g., GPS or position updates from landmark
-#    observations) then:
-#     3a. Set your "world_frame" to your map_frame value
-#     3b. MAKE SURE something else is generating the odom->base_link transform. Note that this can even be another state estimation node
+#以下是如何使用以下设置：
+# 1.将map_frame、odom_frame和base_link帧设置为系统的适当帧名称。
+#     1a. 如果您的系统没有map_frame，只需将其删除，并确保“world_frame”设置为odom_frame的值。
+# 2. 如果要融合连续位置数据，如车轮编码器里程计、视觉里程计或IMU数据，请将“world_frame”设置为odom_frame值。这是robot_location的状态估计节点的默认行为。
+# 3. 如果您正在融合受离散跳跃影响的全球绝对位置数据（例如，GPS或地标的位置更新观察），然后：    
+#     3a. 将“world_frame”设置为map_frame值
+#     3b. 确保其他东西正在生成odom->base_link变换。请注意，这甚至可以是robot_location的另一个状态估计节点！但是，该实例不应该融合全局数据。
 #         from robot_localization! However, that instance should *not* fuse the global data.
-        map_frame: map              # Defaults to "map" if unspecified
-        odom_frame: odom            # Defaults to "odom" if unspecified
-        base_link_frame: base_link  # Defaults to "base_link" ifunspecified
-        world_frame: odom           # Defaults to the value ofodom_frame if unspecified
+        map_frame: map              # 如果未指定，则默认为“map”
+        odom_frame: odom            # 如果未指定，则默认为"odom"
+        base_link_frame: base_footprint  # 如果未指定，则默认为"base_link"
+        world_frame: odom           # 如果未指定，则默认为"odom
 
-        odom0: yzbot/odom
-        odom0_config: [true,  true,  true,
-                       false, false, false,
-                       false, false, false,
-                       false, false, true,
-                       false, false, false]
 
-        imu0: yzbot/imu
-        imu0_config: [false, false, false,
-                      true,  true,  true,
-                      false, false, false,
-                      false, false, false,
-                      false, false, false]
+# 过滤器接受来自每个输入消息类型的任意数量的输入（nav_msgs/Odometry、geometry_msgs/PoseWithCovarianceStamped、
+# geometry_msgs/TwistWithCovariance Stamped,sensor_msgs/Imu）。
+#要添加输入，只需将序列中的下一个数字附加到其“base”名称，例如odom0、odom1、twist0、twist1、imu0、imu1、imu2等。
+#该值应为topic名称。这些参数显然没有默认值，必须指定。
+        odom0: odom
+# 每个传感器读数都会更新过滤器的部分或全部状态。这些选项使您能够更好地控制将每个测量值输入到过滤器的值。
+# 例如，如果您有里程计消息作为输入，但只想使用其Z位置值，则将整个矢量设置为false，第三个条目除外。
+# 值的顺序为x、y、z、roll、pitch、yaw、vx、vy、vz、vroll、vpitch、vyaw、ax、ay、az。
+# 请注意，并非某些消息类型不提供过滤器估计的某些状态变量。例如，TwistWithCovarianceStamped消息没有姿势信息，
+# 因此在这种情况下，前六个值将毫无意义。如果未指定，则每个向量默认为全假，从而有效地使每个传感器都需要此参数。
+        odom0_config: [true,  true,  true,      #x-y-z坐标系的坐标（机器人位置）
+                       false, false, false,     #绕x/y/z轴的角度（机器人方向）、
+                       false, false, false,     #沿x/y/z轴的线速度、
+                       false, false, true,      #绕x/y/z轴的角速度、
+                       false, false, false]     #沿x/y/z轴的加速度。
+
+        imu0: imu
+        imu0_config: [false, false, false,      #x-y-z坐标系的坐标（机器人位置）
+                      true,  true,  true,       #绕x/y/z轴的角度（机器人方向）、
+                      false, false, false,      #沿x/y/z轴的线速度、
+                      false, false, false,      #绕x/y/z轴的角速度、
+                      false, false, false]      #沿x/y/z轴的加速度。

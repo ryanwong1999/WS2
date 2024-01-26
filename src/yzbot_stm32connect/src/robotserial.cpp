@@ -20,9 +20,9 @@ RobotSerial::RobotSerial(std::shared_ptr<serial::Serial> serial_) : Node("robot_
     index = 0;  
     memset(RecvBUF, 0, MAX_RX_LEN);  // 初始化接收缓冲 
 
-    pulse_sec = 0.00036351;
-    wheel_diameter = 0.162;
-    wheel_distance = 0.37;
+    pulse_sec = 0.0003792;
+    wheel_diameter = 0.175;
+    wheel_distance = 0.38;
 
     pthread_t pid;
     pthread_attr_t attr;

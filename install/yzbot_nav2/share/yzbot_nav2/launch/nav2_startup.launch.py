@@ -54,13 +54,6 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
                 'params_file': nav2_param_path}.items(),
         ),
-        # # urdf
-        # Node(
-        #     package='robot_state_publisher',
-        #     executable='robot_state_publisher',
-        #     arguments=[urdf_model_path],
-        #     # output='screen'
-        # ),
         # rviz
         Node(
             package='rviz2',
